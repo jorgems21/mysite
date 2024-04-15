@@ -1,11 +1,27 @@
 ---
-title: "mysite"
+title: "Jorge Montoya"
+image:  media/min_headshot.png # great spot for your professional headshot :) 
+toc: false # remove "On this page" table of contents
+about: 
+  template: trestles # see other templates at https://quarto.org/docs/websites/website-about.html#templates
+  image-shape: round
+  image-width: 20em
+  links:
+    - icon: linkedin # you'll need to the fontawesome extension to include icons: https://github.com/quarto-ext/fontawesome
+      text: LinkedIn
+      href: www.linkedin.com/in/jorge-montoya8454a8127
+    - icon: github
+      text: GitHub
+      href: https://github.com/jorgems21
+    - icon: envelope
+      text: Email
+      href: mailto:montoya.j@northeastern.edu
 ---
 
-This is a Quarto website.
+# Hello There!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+As a first-generation Peruvian immigrant, I'm driven by a passion for uplifting communities and improving lives. Starting my career in private wealth management, I helped individuals achieve their investing goals before transitioning to Data and Analytics. Fascinated by the power of data-driven insights, particularly in combating COVID-19 and health disparities, I've honed my skills in formulating innovative solutions that drive meaningful change.
 
-```{r}
-1 + 1
-```
+With expertise in R for data manipulation and advanced analytics modeling, RShiny for web application development, Python, Teradata SQL, Tableau, HTML, and CSS, I've contributed to various applications and dashboards. My work spans product design, development, and proof of concept building, translating prototypes into impactful, production-ready solutions.
+
+Beyond technical proficiency, I thrive in fostering collaboration and community engagement. Whether discussing exciting projects, offering advice, sharing recipes, or exploring life's deeper questions, I'm always eager to connect. Let's spark some meaningful conversations!
