@@ -4,13 +4,41 @@
     "href": "index.html",
     "title": "Jorge Montoya",
     "section": "",
-    "text": "Hello There!\nAs a first-generation Peruvian immigrant, I’m driven by a passion for uplifting communities and improving lives. Starting my career in private wealth management, I helped individuals achieve their investing goals before transitioning to Data and Analytics. Fascinated by the power of data-driven insights, particularly in combating COVID-19 and health disparities, I’ve honed my skills in formulating innovative solutions that drive meaningful change.\nWith expertise in R for data manipulation and advanced analytics modeling, RShiny for web application development, Python, Teradata SQL, Tableau, HTML, and CSS, I’ve contributed to various applications and dashboards. My work spans product design, development, and proof of concept building, translating prototypes into impactful, production-ready solutions.\nBeyond technical proficiency, I thrive in fostering collaboration and community engagement. Whether discussing exciting projects, offering advice, sharing recipes, or exploring life’s deeper questions, I’m always eager to connect. Let’s spark some meaningful conversations!"
+    "text": "Hello There!\nAs a first-generation Peruvian immigrant, I’m driven by a passion for uplifting communities and improving lives. Starting my career in private wealth management, I helped individuals achieve their investing goals before transitioning to Data and Analytics. Fascinated by the power of data-driven insights, particularly in combating COVID-19 and health disparities, I’ve honed my skills in formulating innovative solutions that drive meaningful change.\nMy work spans from product design, development, and proof of concept building to translating prototypes into impactful, production-ready solutions.\nBeyond technical proficiency, I thrive in fostering collaboration and community engagement. Whether discussing exciting projects, offering advice, sharing recipes, or exploring life’s deeper questions, I’m always eager to connect. Let’s spark some meaningful conversations!"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Projects",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects.html#ai-machine-learning",
+    "href": "projects.html#ai-machine-learning",
+    "title": "Projects",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects.html#web-applications",
+    "href": "projects.html#web-applications",
+    "title": "Projects",
+    "section": "Web Applications",
+    "text": "Web Applications"
+  },
+  {
+    "objectID": "projects.html#dashboards",
+    "href": "projects.html#dashboards",
+    "title": "Projects",
+    "section": "Dashboards",
+    "text": "Dashboards"
   }
 ]
