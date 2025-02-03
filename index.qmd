@@ -16,12 +16,112 @@ about:
     - icon: envelope
       text: Email
       href: mailto:montoya.j@northeastern.edu
+execute: 
+  freeze: auto
 ---
 
-# Hello There!
+# **Hey, I am Jorge** 👋
 
-As a first-generation Peruvian immigrant, I'm driven by a passion for uplifting communities and improving lives. Starting my career in private wealth management, I helped individuals achieve their investing goals before transitioning to Data and Analytics. Fascinated by the power of data-driven insights, particularly in combating COVID-19 and health disparities, I've honed my skills in formulating innovative solutions that drive meaningful change.
+::: animate.fadeIn
+🔍 Bridging technology and business strategy to drive success
+:::
 
-My work spans from product design, development, and proof of concept building to translating prototypes into impactful, production-ready solutions.
+Welcome! I’m an **Analytics & Innovation Leader** specializing in **data-driven strategy, automation, and AI-powered analytics** in healthcare and finance. I thrive on **turning complex data into strategic insights**.
 
-Beyond technical proficiency, I thrive in fostering collaboration and community engagement. Whether discussing exciting projects, offering advice, sharing recipes, or exploring life's deeper questions, I'm always eager to connect. Let's spark some meaningful conversations!
+------------------------------------------------------------------------
+
+## **📌 My Key Expertise**
+
+::::::: {.grid .cards}
+::: {.card title="📊 Data Science & AI"}
+💡 Developing **predictive models**, NLP solutions, and AI-powered automation.
+:::
+
+::: {.card title="🚀 Business Strategy"}
+📈 Aligning **data insights** with executive decision-making.
+:::
+
+::: {.card title="⚙️ Process Automation"}
+🤖 Creating **workflow automation** solutions that save time & costs.
+:::
+
+::: {.card title="📊 Data Visualization"}
+📊 Designing **interactive dashboards** for self-serve insights.
+:::
+:::::::
+
+------------------------------------------------------------------------
+
+## **🌍 My Innovation Focus Areas**
+
+::: panel-tabset
+### 🚀 AI for Business
+
+-   Developing **AI-driven assistants** for decision-making\
+-   Exploring **LLMs & RAG models** for **enterprise automation**
+
+### 📊 Interactive Analytics
+
+-   Creating **real-time dashboards**\
+-   Enabling **self-serve analytics** for stakeholders
+
+### 💡 Future of Work
+
+-   Exploring **automation's impact on jobs**\
+-   How AI can **enhance productivity**
+
+### 🌍 Social Impact Analytics
+
+-   Using **data-driven insights** to optimize healthcare outcomes\
+-   Improving **nonprofit analytics & funding strategies**
+:::
+
+------------------------------------------------------------------------
+
+## **🚀 Featured Work**
+
+::: {.card title="📌 AI-Powered Grant Assistant"}
+💡 **A tool that helps nonprofits craft stronger grant applications.**\
+🛠️ **Tech:** NLP, AI-driven summarization\
+🔗 [See More](projects.qmd#grant-assistant)
+:::
+
+::: {.card title="📌 Healthcare Insights Dashboard"}
+📊 **A dynamic analytics tool for healthcare providers.**\
+🛠️ **Tech:** Python, SQL, Tableau\
+🔗 [Explore](projects.qmd#health-dashboard)
+:::
+
+::: {.card title="📌 Predictive Risk Model"}
+📈 **AI-driven financial risk prediction reducing loan defaults.**\
+🛠️ **Tech:** R, Python, Databricks\
+🔗 [Read More](projects.qmd#risk-model)
+:::
+
+📩 **Let’s Connect:** [LinkedIn](#) \| [Contact Me](contact.qmd)
+
+I'm passionate about solving complex problems by combining data-driven insights, technical/business acumen, and a collaborative spirit. Whether it's building scalable solutions or empowering teams to achieve their best, I thrive at the intersection of strategy, technology, and teamwork.
+
+\## \*\*🔹 What Defines My Work?\*\* \| \*\*Expertise\*\* \| \*\*How I Apply It\*\* \| \|-------------------------\|------------------\| \| \*\*Data Science & AI\*\* \| Building predictive models, automation solutions, and AI-powered tools. \| \| \*\*Business Strategy\*\* \| Aligning analytics with executive decision-making to drive innovation. \| \| \*\*Product Innovation\*\* \| Designing and launching data-driven products that enhance efficiency. \| \| \*\*Process Automation\*\* \| Developing solutions that reduce manual effort and optimize workflows. \| \| \*\*Data Visualization\*\* \| Crafting interactive dashboards that drive insight-driven decisions. \|
+
+------------------------------------------------------------------------
+
+## \*\*🌟 My Interests: Thinking Beyond the Data\*\*
+
+I am passionate about \*\*blending analytics with innovation\*\*, always exploring new ways to \*\*push the boundaries of AI, automation, and strategic decision-making\*\*.
+
+🎯 \*\*What I’m Currently Exploring:\*\* [-]{.underline} \*\*🚀 AI for Business:\*\* How \*\*LLMs and RAG models\*\* can enhance decision-making. [-]{.underline} \*\*📊 Interactive Analytics:\*\* Developing \*\*real-time, self-serve analytics tools\*\*. [-]{.underline} \*\*💡 Future of Work:\*\* How \*\*data, AI, and automation\*\* will shape the next-gen workforce. [-]{.underline} \*\*🌍 Social Impact Analytics:\*\* Using data-driven insights to improve \*\*nonprofit and healthcare outcomes\*\*.
+
+------------------------------------------------------------------------
+
+## \*\*🚀 Explore My Work\*\*
+
+🔹 \[\*\*Projects\*\*\](projects.qmd) → See how I apply innovation to real-world problems. 🔹 \[\*\*Insights\*\*\](blog.qmd) → Read my thoughts on AI, analytics, and business strategy. 🔹 \[\*\*About Me\*\*\](about.qmd) → Learn about my background and leadership philosophy.
+
+## Skills
+
+## Interests
+
+## Let's Connect
+
+📩 If you would like to collaborate on a project together or chat more, contact me here [LinkedIn](www.linkedin.com/in/jorge-montoya8454a8127) or reach out via my [Contact Me](contact_me.qmd) page.! 🚀

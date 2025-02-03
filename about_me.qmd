@@ -1,0 +1,46 @@
+---
+title: "About Me"
+description: "Learn about my background, expertise in analytics and innovation, and my professional journey."
+---
+
+# About Me 💡
+
+I am a **healthcare and finance analytics leader** with **4+ years** of experience in **data analysis, AI, product innovation, and business strategy**.
+
+## **What I Do**
+
+✔ **Lead Innovation** – Driving analytics-driven product development & business solutions.\
+✔ **Build AI Solutions** – Developing automation, predictive models, and data-driven decision tools.\
+✔ **Strategic Thinking** – Bridging technology, analytics, and executive decision-making.
+
+## **My Journey**
+
+Started as a data analyst → Built an **innovations team** → Now shaping **future-focused analytics strategies**.
+
+🔗 [View My Projects](projects.qmd)
+
+## **💡 My Journey in Innovation**
+
+::: panel-tabset
+### **🚀 Leading Innovation**
+
+-   Built a **data-driven innovations team** within a major company
+-   Developed AI-powered tools to **streamline analytics workflows**
+
+### **📊 Expertise in Analytics**
+
+-   Skilled in **SQL, Python, R, Databricks, and Tableau**
+-   Designed **data-driven solutions** for healthcare & finance
+
+### **⚙️ Automation & AI**
+
+-   Created **AI-driven decision support tools**
+-   Focused on **automation for process optimization**
+
+### **🏆 Achievements**
+
+-   Successfully **reduced processing time** for key business reports by **40%**
+-   Developed **predictive analytics models** with **20%+ improvement in accuracy**
+:::
+
+🔗 [**View My Projects**](projects.qmd) \| 🔗 [**Read My Insights**](blog.qmd)

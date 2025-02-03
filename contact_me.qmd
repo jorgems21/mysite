@@ -1,3 +1,11 @@
 ---
 title: "Contact Me"
 ---
+
+---
+🔗 Connect with Me
+🔹 \*\*LinkedIn:\*\* \[Profile Link\](#)
+🔹 \*\*GitHub:\*\* \[GitHub Link\](#)
+🔹 \*\*Email:\*\* \[youremail\@domain.com\](mailto:youremail\@domain.com)
+
+📌 Looking forward to collaborating! 🚀

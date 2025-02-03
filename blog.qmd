@@ -1,0 +1,52 @@
+---
+title: "Blog"
+description: "Sharing thoughts, case studies, and industry trends on AI, analytics, and business innovation."
+---
+
+# Insights & Thought Leadership 🧠📖
+
+## **Latest Posts**
+
+📌 [**How AI is Reshaping Healthcare Analytics**](#) – Exploring the impact of AI-driven automation.\
+📌 [**The Future of Predictive Analytics in Finance**](#) – How businesses are leveraging data for better risk management.\
+📌 [**Building a Culture of Innovation**](#) – Strategies for fostering innovation in analytics teams.
+
+🔹 Subscribe for future insights! 🚀
+
+🔗 [Explore My Projects](projects.qmd)
+
+# **📝 My Insights on Innovation & Analytics**
+
+::: animate.fadeIn
+Sharing thoughts, **case studies**, and industry trends on **AI, analytics, and business innovation**.
+:::
+
+------------------------------------------------------------------------
+
+## **📌 Recent Articles**
+
+::: panel-tabset
+### **🔹 AI in Healthcare Analytics**
+
+📌 **How AI is transforming decision-making in healthcare.**\
+📆 **Published:** January 2025\
+🔗 [**Read More**](#)
+
+### **🔹 Future of Predictive Analytics**
+
+📌 **How businesses are leveraging data for better risk management.**\
+📆 **Published:** December 2024\
+🔗 [**Explore**](#)
+
+### **🔹 Building a Culture of Innovation**
+
+📌 **How to drive innovation within analytics teams.**\
+📆 **Published:** November 2024\
+🔗 [**Discover**](#)
+:::
+
+------------------------------------------------------------------------
+
+## **🚀 Ready to Innovate?**
+
+📩 **Let’s Connect:** [LinkedIn](#) \| [Contact Me](contact_me.qmd)

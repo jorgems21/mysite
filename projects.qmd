@@ -1,13 +1,60 @@
 ---
 title: "Projects"
+execute: 
+  freeze: auto
 ---
 
-## AI / Machine Learning
+🚀 My Innovative Projects Transforming data into insights, and insights into action.
 
-```{r}
-1 + 1
-```
+::::: panel-tabset
+::: panel-tabset
+### **📌 AI-Powered Grant Assistant**
 
-## Web Applications
+💡 Developed an **AI-powered NLP tool** that helps **nonprofits craft compelling grant applications.**\
+**🔗 Tech:** Python, NLP, AI Summarization\
+**🔗 [View Project](#grant-assistant)**
+:::
 
-## Dashboards
+------------------------------------------------------------------------
+
+::: panel-tabset
+### **📌 Healthcare Insights Dashboard**
+
+📊 Created an **automated insights dashboard** for **healthcare providers** to track patient outcomes.\
+**🔗 Tech:** SQL, Python, Tableau\
+**🔗 [Explore](#health-dashboard)**
+:::
+
+------------------------------------------------------------------------
+
+### **📌 Predictive Risk Model**
+
+📈 Built an **AI-driven risk assessment tool** that **reduced loan default rates by 20%**.\
+**🔗 Tech:** Python, R, Databricks\
+**🔗 [Read More](#risk-model)**
+:::::
+
+🔗 \*\*\[See All Insights\](blog.qmd)\*\*
+
+## My Projects 📊🚀
+
+## \*\*Featured Innovations\*\*
+
+### 🔹 \*\*Automated Healthcare Insights Dashboard\*\*
+
+\*\*Tech:\*\* Python, SQL, Tableau\
+A dynamic dashboard for healthcare providers that \*\*automates patient insights\*\* and \*\*reduces manual reporting time by 50%\*\*.
+
+### 🔹 \*\*Predictive Financial Risk Model\*\*
+
+\*\*Tech:\*\* R, Python, Databricks\
+Developed an \*\*AI-driven risk model\*\* for financial decision-making, leading to a \*\*20% reduction in loan defaults\*\*.
+
+### 🔹 \*\*AI-Powered Grant Application Assistant\*\*
+
+\*\*Tech:\*\* NLP, RAG models, AI-assisted processing\
+Building an \*\*AI assistant\*\* that helps nonprofits \*\*craft stronger grant applications\*\*.
+
+📌 More projects coming soon! Stay tuned.
+
+🔗 \[Read My Insights\](blog.qmd)

@@ -7,8 +7,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
-      - contact_me.qmd
+      - href: about_me.qmd
+        text: About Me
+      - href: projects.qmd
+        text: Projects
+      - href: blog.qmd
+        text: Blog
+      - href: contact_me.qmd
+        text: Contact Me
 
 format:
   html:
