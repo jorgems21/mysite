@@ -32,11 +32,15 @@ Sharing thoughts, **case studies**, and industry trends on **AI, analytics, and 
 📆 **Published:** January 2025\
 🔗 [**Read More**](#)
 
+------------------------------------------------------------------------
+
 ### **🔹 Future of Predictive Analytics**
 
 📌 **How businesses are leveraging data for better risk management.**\
 📆 **Published:** December 2024\
 🔗 [**Explore**](#)
+
+------------------------------------------------------------------------
 
 ### **🔹 Building a Culture of Innovation**
 
@@ -47,6 +51,4 @@ Sharing thoughts, **case studies**, and industry trends on **AI, analytics, and 
 
 ------------------------------------------------------------------------
 
-## **🚀 Ready to Innovate?**
-
-📩 **Let’s Connect:** [LinkedIn](#) \| [Contact Me](contact_me.qmd)
+## **Ready to Collaborate?** 📩 **Let’s Connect:** [LinkedIn](#) \| [Contact Me](contact_me.qmd)

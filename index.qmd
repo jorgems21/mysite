@@ -1,7 +1,7 @@
 ---
 title: "Jorge Montoya"
 image:  media/min_headshot.png # great spot for your professional headshot :) 
-toc: false # remove "On this page" table of contents
+toc: false
 about: 
   template: trestles # see other templates at https://quarto.org/docs/websites/website-about.html#templates
   image-shape: round
@@ -23,104 +23,76 @@ execute:
 # **Hey, I am Jorge** 👋
 
 ::: animate.fadeIn
-🔍 Bridging technology and business strategy to drive success
+Bridging technology and business strategy to drive success
 :::
 
-Welcome! I’m an **Analytics & Innovation Leader** specializing in **data-driven strategy, automation, and AI-powered analytics** in healthcare and finance. I thrive on **turning complex data into strategic insights**.
+I'm passionate about solving complex problems by combining data-driven strategy, technical/business acumen, and a collaborative spirit. Whether it's building scalable solutions or empowering teams to achieve their best, I thrive at the intersection of strategy, technology, and teamwork.
+
+Learn more about me here: [About Me](about_me.qmd)
 
 ------------------------------------------------------------------------
 
-## **📌 My Key Expertise**
+## **My Key Expertise**
 
-::::::: {.grid .cards}
-::: {.card title="📊 Data Science & AI"}
+::: {.grid .cards}
 💡 Developing **predictive models**, NLP solutions, and AI-powered automation.
-:::
 
-::: {.card title="🚀 Business Strategy"}
 📈 Aligning **data insights** with executive decision-making.
-:::
 
-::: {.card title="⚙️ Process Automation"}
 🤖 Creating **workflow automation** solutions that save time & costs.
-:::
 
-::: {.card title="📊 Data Visualization"}
 📊 Designing **interactive dashboards** for self-serve insights.
 :::
-:::::::
 
 ------------------------------------------------------------------------
 
-## **🌍 My Innovation Focus Areas**
-
-::: panel-tabset
-### 🚀 AI for Business
-
--   Developing **AI-driven assistants** for decision-making\
--   Exploring **LLMs & RAG models** for **enterprise automation**
-
-### 📊 Interactive Analytics
-
--   Creating **real-time dashboards**\
--   Enabling **self-serve analytics** for stakeholders
-
-### 💡 Future of Work
-
--   Exploring **automation's impact on jobs**\
--   How AI can **enhance productivity**
-
-### 🌍 Social Impact Analytics
-
--   Using **data-driven insights** to optimize healthcare outcomes\
--   Improving **nonprofit analytics & funding strategies**
-:::
-
-------------------------------------------------------------------------
-
-## **🚀 Featured Work**
+## **Featured Work**
 
 ::: {.card title="📌 AI-Powered Grant Assistant"}
-💡 **A tool that helps nonprofits craft stronger grant applications.**\
-🛠️ **Tech:** NLP, AI-driven summarization\
+**A tool that helps nonprofits craft stronger grant applications.**\
+🛠️ **Tech:** LLM, RAG, Streamlit\
 🔗 [See More](projects.qmd#grant-assistant)
 :::
 
 ::: {.card title="📌 Healthcare Insights Dashboard"}
-📊 **A dynamic analytics tool for healthcare providers.**\
+**A dynamic analytics tool for healthcare providers.**\
 🛠️ **Tech:** Python, SQL, Tableau\
 🔗 [Explore](projects.qmd#health-dashboard)
 :::
 
 ::: {.card title="📌 Predictive Risk Model"}
-📈 **AI-driven financial risk prediction reducing loan defaults.**\
+**AI-driven financial risk prediction reducing loan defaults.**\
 🛠️ **Tech:** R, Python, Databricks\
 🔗 [Read More](projects.qmd#risk-model)
 :::
 
-📩 **Let’s Connect:** [LinkedIn](#) \| [Contact Me](contact.qmd)
+## Explore more of my work
 
-I'm passionate about solving complex problems by combining data-driven insights, technical/business acumen, and a collaborative spirit. Whether it's building scalable solutions or empowering teams to achieve their best, I thrive at the intersection of strategy, technology, and teamwork.
+🔹 [Projects](projects.qmd) → See how I apply my skills to solve real-world problems.
 
-\## \*\*🔹 What Defines My Work?\*\* \| \*\*Expertise\*\* \| \*\*How I Apply It\*\* \| \|-------------------------\|------------------\| \| \*\*Data Science & AI\*\* \| Building predictive models, automation solutions, and AI-powered tools. \| \| \*\*Business Strategy\*\* \| Aligning analytics with executive decision-making to drive innovation. \| \| \*\*Product Innovation\*\* \| Designing and launching data-driven products that enhance efficiency. \| \| \*\*Process Automation\*\* \| Developing solutions that reduce manual effort and optimize workflows. \| \| \*\*Data Visualization\*\* \| Crafting interactive dashboards that drive insight-driven decisions. \|
-
-------------------------------------------------------------------------
-
-## \*\*🌟 My Interests: Thinking Beyond the Data\*\*
-
-I am passionate about \*\*blending analytics with innovation\*\*, always exploring new ways to \*\*push the boundaries of AI, automation, and strategic decision-making\*\*.
-
-🎯 \*\*What I’m Currently Exploring:\*\* [-]{.underline} \*\*🚀 AI for Business:\*\* How \*\*LLMs and RAG models\*\* can enhance decision-making. [-]{.underline} \*\*📊 Interactive Analytics:\*\* Developing \*\*real-time, self-serve analytics tools\*\*. [-]{.underline} \*\*💡 Future of Work:\*\* How \*\*data, AI, and automation\*\* will shape the next-gen workforce. [-]{.underline} \*\*🌍 Social Impact Analytics:\*\* Using data-driven insights to improve \*\*nonprofit and healthcare outcomes\*\*.
+🔹 [Blog](blog.qmd)→ Read about my experience in analytics, innovation and business strategy.
 
 ------------------------------------------------------------------------
 
-## \*\*🚀 Explore My Work\*\*
+## Interests that I am exploring
 
-🔹 \[\*\*Projects\*\*\](projects.qmd) → See how I apply innovation to real-world problems. 🔹 \[\*\*Insights\*\*\](blog.qmd) → Read my thoughts on AI, analytics, and business strategy. 🔹 \[\*\*About Me\*\*\](about.qmd) → Learn about my background and leadership philosophy.
+-   AI for Business:
 
-## Skills
+    -   How LLM's and **RAG** models can enhance decision-making.
 
-## Interests
+-   Advanced Analytics:
+
+    -   Developing real-time, **self-serve** analytics tools.
+
+-   Future of Work:
+
+    -   How **data**, **analytics**, and **automation** will shape the next-gen workforce.
+
+-   Social Impact:
+
+    -   Using **data-driven** insights to improve nonprofit and healthcare outcomes.
+
+------------------------------------------------------------------------
 
 ## Let's Connect
 

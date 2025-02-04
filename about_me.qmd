@@ -1,46 +1,63 @@
 ---
 title: "About Me"
 description: "Learn about my background, expertise in analytics and innovation, and my professional journey."
+lang: es
 ---
 
-# About Me 💡
+## Who I am 
 
-I am a **healthcare and finance analytics leader** with **4+ years** of experience in **data analysis, AI, product innovation, and business strategy**.
-
-## **What I Do**
-
-✔ **Lead Innovation** – Driving analytics-driven product development & business solutions.\
-✔ **Build AI Solutions** – Developing automation, predictive models, and data-driven decision tools.\
-✔ **Strategic Thinking** – Bridging technology, analytics, and executive decision-making.
+An **analytics professional** with **5+ years** of experience in **analytics, product design/development, and business strategy**
 
 ## **My Journey**
 
-Started as a data analyst → Built an **innovations team** → Now shaping **future-focused analytics strategies**.
+I am a first generation Peruvian immigrant who is passionate for improving the lives of people and bringing communities together. In the beginning of my career, I started working in the private wealth industry to help others achieve their investing goals by managing their investment data and presenting insights that would help them make informed decisions for their portfolios and finances. This interest in storytelling through data with purpose led me to pursue a Master's degree in Data and Analytics from Northeastern. This educational experience broadened my horizons in how storytelling with data and the use of analytics can drive meaningful impact and organizational growth.
 
-🔗 [View My Projects](projects.qmd)
-
-## **💡 My Journey in Innovation**
-
-::: panel-tabset
-### **🚀 Leading Innovation**
-
--   Built a **data-driven innovations team** within a major company
--   Developed AI-powered tools to **streamline analytics workflows**
-
-### **📊 Expertise in Analytics**
-
--   Skilled in **SQL, Python, R, Databricks, and Tableau**
--   Designed **data-driven solutions** for healthcare & finance
-
-### **⚙️ Automation & AI**
-
--   Created **AI-driven decision support tools**
--   Focused on **automation for process optimization**
-
-### **🏆 Achievements**
-
--   Successfully **reduced processing time** for key business reports by **40%**
--   Developed **predictive analytics models** with **20%+ improvement in accuracy**
-:::
+With this new perspective, I moved onto the healthcare industry in order to continue my pursuit of applying data, analytics and storytelling to drive and improve the lives of people. I started working at Premier where I am focused in formulating, designing and developing scalable solutions that aim to drive meaningful change and positive impact to business and communities that are most affected. I have led and contributed on multiple solutions  (i.e. application, dashboards, process improvements) through efforts in product design, product development, proof of concept building, evidence of business value generation and translating prototypes into production-ready solutions.
 
 🔗 [**View My Projects**](projects.qmd) \| 🔗 [**Read My Insights**](blog.qmd)
+
+------------------------------------------------------------------------
+
+## Values  
+
+-   inclusion and diversity of thought
+
+-   impact driven, aligned with mission and vision
+
+-   Accountability
+
+-   passion for wanting to do things better and more efficiently and increase performance
+
+-   there is a solution to everything
+
+-   share the wealth and knowledge with others
+
+-   Creativity - thinking outside of the box
+
+-   Think globally and act locally, community driven
+
+------------------------------------------------------------------------
+
+## Interests
+
+-   Analytics, data science, business intelligence, healthcare, fintech, personal finance, productivity, creativity, collaboration, artificial intelligence, community work
+
+## Funner interests:
+
+-   Cooking
+
+-   Outdoors
+
+-   Sports
+
+-   Volunteering
+
+-   Books
+
+    -   El secreto del bambu
+
+    -   Crucial conversations
+
+    ------------------------------------------------------------------------
+
+    ## Skills

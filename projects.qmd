@@ -2,43 +2,38 @@
 title: "Projects"
 execute: 
   freeze: auto
+language: 
+  title-block-author-single: "Writer"
+  title-block-published: "Updated"
 ---
 
-🚀 My Innovative Projects Transforming data into insights, and insights into action.
-
-::::: panel-tabset
 ::: panel-tabset
 ### **📌 AI-Powered Grant Assistant**
 
-💡 Developed an **AI-powered NLP tool** that helps **nonprofits craft compelling grant applications.**\
+Developed an **AI-powered NLP tool** that helps **nonprofits craft compelling grant applications.**\
 **🔗 Tech:** Python, NLP, AI Summarization\
 **🔗 [View Project](#grant-assistant)**
-:::
 
 ------------------------------------------------------------------------
 
-::: panel-tabset
 ### **📌 Healthcare Insights Dashboard**
 
-📊 Created an **automated insights dashboard** for **healthcare providers** to track patient outcomes.\
+Created an **automated insights dashboard** for **healthcare providers** to track patient outcomes.\
 **🔗 Tech:** SQL, Python, Tableau\
 **🔗 [Explore](#health-dashboard)**
-:::
 
 ------------------------------------------------------------------------
 
 ### **📌 Predictive Risk Model**
 
-📈 Built an **AI-driven risk assessment tool** that **reduced loan default rates by 20%**.\
+Built an **AI-driven risk assessment tool** that **reduced loan default rates by 20%**.\
 **🔗 Tech:** Python, R, Databricks\
 **🔗 [Read More](#risk-model)**
-:::::
+:::
 
 🔗 \*\*\[See All Insights\](blog.qmd)\*\*
 
 ## My Projects 📊🚀
-
-## \*\*Featured Innovations\*\*
 
 ### 🔹 \*\*Automated Healthcare Insights Dashboard\*\*
 
