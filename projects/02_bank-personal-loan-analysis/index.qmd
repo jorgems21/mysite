@@ -1,0 +1,69 @@
+---
+title: "Cancer Mortality Analysis"
+date: "December 2023"
+categories: [python,machine learning]
+image: healthcare.jpg
+image-alt: "Illustration of two penguins, one blue and one orange, taking a selfie with a selfie stick. The moon in the background looks like the Quarto logo."
+---
+
+## Background context
+
+o   Over 3,000 rows and 34 columns/ variables
+
+o   Roughly from 2015
+
+o   School project
+
+o   Picked it as one of the datasets to study for class because of family ties with cancer
+
+## The problem or challenge or key questions to answer
+
+o   What are the causes for cancer mortality?
+
+o   Identify what are the risk factors for cancer mortality based on county level data from US
+
+## Objectives
+
+§  Apply descriptive analysis to understand and explore the data
+
+§  Apply advance analytics to understand the causes for cancer mortality in the US
+
+## Solution Approach
+
+o   Tools/techniques (R, python, tableau) and methodology (regression)
+
+§  Python
+
+o   Planning execution
+
+§  Explore data
+
+§  Clean data
+
+§  Prepare data for analytic functions
+
+§  Create analytic functions
+
+§  Post-process the data
+
+§  Interpret information
+
+## Analysis / Results 
+
+The analysis conducted to evaluate various machine learning models for predicting cancer mortality rates has demonstrated that the **boosting method**, specifically the XGBoost algorithm, is the most effective approach. The model achieved a **training accuracy of 91.80%**, indicating its strong ability to learn from the training data. Furthermore, the model attained a **testing accuracy of 67.44%**, reflecting its capability to generalize to unseen data with a reasonable level of performance.
+
+## Learnings and challenges
+
+o   Cross validation
+
+o   Hyperparameter tuning
+
+o   Stacking takes long time
+
+o   Xgboost is really good
+
+-    Data quality is important
+
+## Learn more
+
+-   Repo for slides:

@@ -1,10 +1,9 @@
 ---
 title: "About Me"
-description: "Learn about my background, expertise in analytics and innovation, and my professional journey."
 lang: es
 ---
 
-## Who I am 
+## Who I am
 
 An **analytics professional** with **5+ years** of experience in **analytics, product design/development, and business strategy**
 
@@ -14,11 +13,11 @@ I am a first generation Peruvian immigrant who is passionate for improving the l
 
 With this new perspective, I moved onto the healthcare industry in order to continue my pursuit of applying data, analytics and storytelling to drive and improve the lives of people. I started working at Premier where I am focused in formulating, designing and developing scalable solutions that aim to drive meaningful change and positive impact to business and communities that are most affected. I have led and contributed on multiple solutions  (i.e. application, dashboards, process improvements) through efforts in product design, product development, proof of concept building, evidence of business value generation and translating prototypes into production-ready solutions.
 
-🔗 [**View My Projects**](projects.qmd) \| 🔗 [**Read My Insights**](blog.qmd)
+🔗 [**View My Projects**](projects.qmd) \| 🔗 [**Read about my experience**](blog.qmd)
 
 ------------------------------------------------------------------------
 
-## Values  
+## Values
 
 -   inclusion and diversity of thought
 
@@ -37,10 +36,6 @@ With this new perspective, I moved onto the healthcare industry in order to cont
 -   Think globally and act locally, community driven
 
 ------------------------------------------------------------------------
-
-## Interests
-
--   Analytics, data science, business intelligence, healthcare, fintech, personal finance, productivity, creativity, collaboration, artificial intelligence, community work
 
 ## Funner interests:
 

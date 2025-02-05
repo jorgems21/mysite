@@ -4,14 +4,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "🔗 **[See All Insights](blog.qmd)**"
+    "text": "📌 More projects coming soon! Stay tuned.\n🔗 Read some of my projects reflections and overall work here: Blog\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCancer Mortality Analysis\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html#my-projects",
     "href": "projects.html#my-projects",
     "title": "Projects",
-    "section": "My Projects 📊🚀",
-    "text": "My Projects 📊🚀\n\n🔹 **Automated Healthcare Insights Dashboard**\n**Tech:** Python, SQL, Tableau\nA dynamic dashboard for healthcare providers that **automates patient insights** and **reduces manual reporting time by 50%**.\n\n\n🔹 **Predictive Financial Risk Model**\n**Tech:** R, Python, Databricks\nDeveloped an **AI-driven risk model** for financial decision-making, leading to a **20% reduction in loan defaults**.\n\n\n🔹 **AI-Powered Grant Application Assistant**\n**Tech:** NLP, RAG models, AI-assisted processing\nBuilding an **AI assistant** that helps nonprofits **craft stronger grant applications**.\n📌 More projects coming soon! Stay tuned.\n🔗 [Read My Insights](blog.qmd)"
+    "section": "",
+    "text": "📌 More projects coming soon! Stay tuned.\n🔗 [Read My Insights](blog.qmd)"
   },
   {
     "objectID": "projects.html#featured-innovations",
@@ -25,14 +25,14 @@
     "href": "index.html",
     "title": "Jorge Montoya",
     "section": "",
-    "text": "Bridging technology and business strategy to drive success\n\nI’m passionate about solving complex problems by combining data-driven strategy, technical/business acumen, and a collaborative spirit. Whether it’s building scalable solutions or empowering teams to achieve their best, I thrive at the intersection of strategy, technology, and teamwork.\nLearn more about me here: About Me\n\n\n\n\n💡 Developing predictive models, NLP solutions, and AI-powered automation.\n📈 Aligning data insights with executive decision-making.\n🤖 Creating workflow automation solutions that save time & costs.\n📊 Designing interactive dashboards for self-serve insights.\n\n\n\n\n\n\nA tool that helps nonprofits craft stronger grant applications.\n🛠️ Tech: LLM, RAG, Streamlit\n🔗 See More\n\n\nA dynamic analytics tool for healthcare providers.\n🛠️ Tech: Python, SQL, Tableau\n🔗 Explore\n\n\nAI-driven financial risk prediction reducing loan defaults.\n🛠️ Tech: R, Python, Databricks\n🔗 Read More\n\n\n\n\n🔹 Projects → See how I apply my skills to solve real-world problems.\n🔹 Blog→ Read about my experience in analytics, innovation and business strategy.\n\n\n\n\n\nAI for Business:\n\nHow LLM’s and RAG models can enhance decision-making.\n\nAdvanced Analytics:\n\nDeveloping real-time, self-serve analytics tools.\n\nFuture of Work:\n\nHow data, analytics, and automation will shape the next-gen workforce.\n\nSocial Impact:\n\nUsing data-driven insights to improve nonprofit and healthcare outcomes.\n\n\n\n\n\n\n📩 If you would like to collaborate on a project together or chat more, contact me here LinkedIn or reach out via my Contact Me page.! 🚀"
+    "text": "Bridging technology and business strategy to drive success\n\nI’m passionate about solving complex problems by combining data-driven strategy, technical/business acumen, and a collaborative spirit. Whether it’s building scalable solutions or empowering teams to achieve their best, I thrive at the intersection of strategy, technology, and teamwork.\n\n\n\n\nHealthcare & Investment Analytics Experience\nData Science & Machine Learning Applications\nProduct & Data Analytics Innovation\nData Visualization & Storytelling for Impact\nCross-Functional Leadership & Strategic Collaboration\n\n\n\n\n\nA tool that helps future home-buyers make the right decision for them\n🛠️ Tech: R Shiny, Machine Learning\n🔗 See More\nCancer mortality prediction and risk factor analysis\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Explore\nData-driven bank loan risk prediction reducing loan defaults\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Read More\nAside from project work, I also like to document my career experience, check out my posts here: Blog ✏️\n\n\n\n\n\nAI for Growth: How LLM’s and RAG models can be used in applications that drive positive outcomes in multiple industries\nAdvanced Analytics: Design and develop self-serve analytics tools for real world problems that any person can use\nSocial Impact: Using technology (i.e. data, analytics, AI, etc.) to contribute to public benefit\nCreativity and Collaboration: A key approach to work, which helps welcome different viewpoints for complex problem-solving.\n\nLearn more about me here: About Me\n\n\n\n\n📩 If you would like to collaborate on a project together or chat more, contact me here LinkedIn or reach out via my Contact Me page! 🚀"
   },
   {
     "objectID": "index.html#my-key-expertise",
     "href": "index.html#my-key-expertise",
     "title": "Jorge Montoya",
     "section": "",
-    "text": "💡 Developing predictive models, NLP solutions, and AI-powered automation.\n📈 Aligning data insights with executive decision-making.\n🤖 Creating workflow automation solutions that save time & costs.\n📊 Designing interactive dashboards for self-serve insights."
+    "text": "Healthcare & Investment Analytics Experience\nData Science & Machine Learning Applications\nProduct & Data Analytics Innovation\nData Visualization & Storytelling for Impact\nCross-Functional Leadership & Strategic Collaboration"
   },
   {
     "objectID": "index.html#my-innovation-focus-areas",
@@ -67,7 +67,7 @@
     "href": "index.html#lets-connect",
     "title": "Jorge Montoya",
     "section": "",
-    "text": "📩 If you would like to collaborate on a project together or chat more, contact me here LinkedIn or reach out via my Contact Me page.! 🚀"
+    "text": "📩 If you would like to collaborate on a project together or chat more, contact me here LinkedIn or reach out via my Contact Me page! 🚀"
   },
   {
     "objectID": "about_me.html",
@@ -180,5 +180,82 @@
     "title": "Blog",
     "section": "Ready to Collaborate? 📩 Let’s Connect: LinkedIn | Contact Me",
     "text": "Ready to Collaborate? 📩 Let’s Connect: LinkedIn | Contact Me"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html",
+    "title": "Cancer Mortality Analysis",
+    "section": "",
+    "text": "o   Over 3,000 rows and 34 columns/ variables\no   Roughly from 2015\no   School project\no   Picked it as one of the datasets to study for class because of family ties with cancer"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
+    "title": "Cancer Mortality Analysis",
+    "section": "",
+    "text": "o   Over 3,000 rows and 34 columns/ variables\no   Roughly from 2015\no   School project\no   Picked it as one of the datasets to study for class because of family ties with cancer"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#the-problem-or-challenge-or-key-questions-to-answer",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#the-problem-or-challenge-or-key-questions-to-answer",
+    "title": "Cancer Mortality Analysis",
+    "section": "The problem or challenge or key questions to answer",
+    "text": "The problem or challenge or key questions to answer\no   What are the causes for cancer mortality?\no   Identify what are the risk factors for cancer mortality based on county level data from US"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#objectives",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#objectives",
+    "title": "Cancer Mortality Analysis",
+    "section": "Objectives",
+    "text": "Objectives\n§  Apply descriptive analysis to understand and explore the data\n§  Apply advance analytics to understand the causes for cancer mortality in the US"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#solution-approach",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#solution-approach",
+    "title": "Cancer Mortality Analysis",
+    "section": "Solution Approach",
+    "text": "Solution Approach\no   Tools/techniques (R, python, tableau) and methodology (regression)\n§  Python\no   Planning execution\n§  Explore data\n§  Clean data\n§  Prepare data for analytic functions\n§  Create analytic functions\n§  Post-process the data\n§  Interpret information"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#analysis-results",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#analysis-results",
+    "title": "Cancer Mortality Analysis",
+    "section": "Analysis / Results",
+    "text": "Analysis / Results\nThe analysis conducted to evaluate various machine learning models for predicting cancer mortality rates has demonstrated that the boosting method, specifically the XGBoost algorithm, is the most effective approach. The model achieved a training accuracy of 91.80%, indicating its strong ability to learn from the training data. Furthermore, the model attained a testing accuracy of 67.44%, reflecting its capability to generalize to unseen data with a reasonable level of performance."
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#learnings-and-challenges",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#learnings-and-challenges",
+    "title": "Cancer Mortality Analysis",
+    "section": "Learnings and challenges",
+    "text": "Learnings and challenges\no   Cross validation\no   Hyperparameter tuning\no   Stacking takes long time\no   Xgboost is really good\n\nData quality is important"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#learn-more",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#learn-more",
+    "title": "Cancer Mortality Analysis",
+    "section": "Learn more",
+    "text": "Learn more\n\nRepo for slides:"
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Jorge Montoya",
+    "section": "",
+    "text": "A tool that helps future home-buyers make the right decision for them\n🛠️ Tech: R Shiny, Machine Learning\n🔗 See More\nCancer mortality prediction and risk factor analysis\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Explore\nData-driven bank loan risk prediction reducing loan defaults\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Read More\nAside from project work, I also like to document my career experience, check out my posts here: Blog ✏️"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Jorge Montoya",
+    "section": "",
+    "text": "AI for Growth: How LLM’s and RAG models can be used in applications that drive positive outcomes in multiple industries\nAdvanced Analytics: Design and develop self-serve analytics tools for real world problems that any person can use\nSocial Impact: Using technology (i.e. data, analytics, AI, etc.) to contribute to public benefit\nCreativity and Collaboration: A key approach to work, which helps welcome different viewpoints for complex problem-solving.\n\nLearn more about me here: About Me"
+  },
+  {
+    "objectID": "index.html#my-key-focus-areas",
+    "href": "index.html#my-key-focus-areas",
+    "title": "Jorge Montoya",
+    "section": "",
+    "text": "Healthcare & Investment Analytics Experience\nData Science & Machine Learning Applications\nProduct & Data Analytics Innovation\nData Visualization & Storytelling for Impact\nCross-Functional Leadership & Strategic Collaboration"
   }
 ]

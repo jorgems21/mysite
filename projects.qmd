@@ -1,55 +1,18 @@
 ---
 title: "Projects"
+listing:
+  contents: "projects/*/index.qmd"
+  feed: true
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [image, date, title, description]
 execute: 
   freeze: auto
-language: 
-  title-block-author-single: "Writer"
-  title-block-published: "Updated"
 ---
-
-::: panel-tabset
-### **📌 AI-Powered Grant Assistant**
-
-Developed an **AI-powered NLP tool** that helps **nonprofits craft compelling grant applications.**\
-**🔗 Tech:** Python, NLP, AI Summarization\
-**🔗 [View Project](#grant-assistant)**
-
-------------------------------------------------------------------------
-
-### **📌 Healthcare Insights Dashboard**
-
-Created an **automated insights dashboard** for **healthcare providers** to track patient outcomes.\
-**🔗 Tech:** SQL, Python, Tableau\
-**🔗 [Explore](#health-dashboard)**
-
-------------------------------------------------------------------------
-
-### **📌 Predictive Risk Model**
-
-Built an **AI-driven risk assessment tool** that **reduced loan default rates by 20%**.\
-**🔗 Tech:** Python, R, Databricks\
-**🔗 [Read More](#risk-model)**
-:::
-
-🔗 \*\*\[See All Insights\](blog.qmd)\*\*
-
-## My Projects 📊🚀
-
-### 🔹 \*\*Automated Healthcare Insights Dashboard\*\*
-
-\*\*Tech:\*\* Python, SQL, Tableau\
-A dynamic dashboard for healthcare providers that \*\*automates patient insights\*\* and \*\*reduces manual reporting time by 50%\*\*.
-
-### 🔹 \*\*Predictive Financial Risk Model\*\*
-
-\*\*Tech:\*\* R, Python, Databricks\
-Developed an \*\*AI-driven risk model\*\* for financial decision-making, leading to a \*\*20% reduction in loan defaults\*\*.
-
-### 🔹 \*\*AI-Powered Grant Application Assistant\*\*
-
-\*\*Tech:\*\* NLP, RAG models, AI-assisted processing\
-Building an \*\*AI assistant\*\* that helps nonprofits \*\*craft stronger grant applications\*\*.
 
 📌 More projects coming soon! Stay tuned.
 
-🔗 \[Read My Insights\](blog.qmd)
+🔗 Read some of my projects reflections and overall work here: [Blog](blog.qmd)
