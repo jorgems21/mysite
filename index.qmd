@@ -31,8 +31,6 @@ Bridging technology and business strategy to drive success
 
 I'm passionate about solving complex problems by combining data-driven strategy, technical/business acumen, and a collaborative spirit. Whether it's building scalable solutions or empowering teams to achieve their best, I thrive at the intersection of strategy, technology, and teamwork.
 
-------------------------------------------------------------------------
-
 ## **My Key Focus Areas**
 
 -   Healthcare & Investment Analytics Experience
@@ -45,7 +43,7 @@ I'm passionate about solving complex problems by combining data-driven strategy,
 
 -   Cross-Functional Leadership & Strategic Collaboration
 
-------------------------------------------------------------------------
+    Download a copy of my resume [here](my_resume.pdf)
 
 ## **Featured Projects**
 
@@ -62,8 +60,6 @@ I'm passionate about solving complex problems by combining data-driven strategy,
 🔗 [Read More](projects.qmd#risk-model)
 
 Aside from project work, I also like to document my career experience, check out my posts here: [Blog](blog.qmd) ✏️
-
-------------------------------------------------------------------------
 
 ## Interests
 

@@ -2,10 +2,8 @@
 title: "Contact Me"
 ---
 
----
-🔗 Connect with Me
-🔹 \*\*LinkedIn:\*\* \[Profile Link\](#)
-🔹 \*\*GitHub:\*\* \[GitHub Link\](#)
-🔹 \*\*Email:\*\* \[youremail\@domain.com\](mailto:youremail\@domain.com)
+#### 📩 Connect with me here:
 
-📌 Looking forward to collaborating! 🚀
+#### 🔹[LinkedIn](www.linkedin.com/in/jorge-montoya8454a8127)  
+
+#### 🔹 Email: montoya.j\@northeastern.edu

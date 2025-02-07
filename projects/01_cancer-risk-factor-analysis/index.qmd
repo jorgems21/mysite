@@ -1,7 +1,7 @@
 ---
 title: "Cancer Mortality Analysis"
 date: "December 2023"
-categories: [python,machine learning]
+categories: [python,statistical testing, machine learning]
 image: healthcare.jpg
 image-alt: "Illustration of two penguins, one blue and one orange, taking a selfie with a selfie stick. The moon in the background looks like the Quarto logo."
 ---
@@ -48,7 +48,7 @@ o   Planning execution
 
 §  Interpret information
 
-## Analysis / Results 
+## Analysis / Results
 
 The analysis conducted to evaluate various machine learning models for predicting cancer mortality rates has demonstrated that the **boosting method**, specifically the XGBoost algorithm, is the most effective approach. The model achieved a **training accuracy of 91.80%**, indicating its strong ability to learn from the training data. Furthermore, the model attained a **testing accuracy of 67.44%**, reflecting its capability to generalize to unseen data with a reasonable level of performance.
 
@@ -62,7 +62,7 @@ o   Stacking takes long time
 
 o   Xgboost is really good
 
--    Data quality is important
+-   Data quality is important
 
 ## Learn more
 

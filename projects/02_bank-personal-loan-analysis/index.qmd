@@ -1,32 +1,27 @@
 ---
-title: "Cancer Mortality Analysis"
+title: "Bank personal loan analysis"
 date: "December 2023"
-categories: [python,machine learning]
-image: healthcare.jpg
-image-alt: "Illustration of two penguins, one blue and one orange, taking a selfie with a selfie stick. The moon in the background looks like the Quarto logo."
+categories: [python,statistical testing, machine learning]
+image: bank_loan.jpg
 ---
 
 ## Background context
 
-o   Over 3,000 rows and 34 columns/ variables
-
-o   Roughly from 2015
-
-o   School project
-
-o   Picked it as one of the datasets to study for class because of family ties with cancer
+o   Source of data: School project
 
 ## The problem or challenge or key questions to answer
 
-o   What are the causes for cancer mortality?
-
-o   Identify what are the risk factors for cancer mortality based on county level data from US
+o   Help bank decide whether they should approve or reject loans based on the customer data provided by profiling the customers that are most likely to accept a loan approval based on last campaign’s result
 
 ## Objectives
 
-§  Apply descriptive analysis to understand and explore the data
+o   What are the goals
 
-§  Apply advance analytics to understand the causes for cancer mortality in the US
+§  Apply data exploration techniques to the data
+
+§  Apply descriptive analytics to understand any relationship between variables
+
+§  Apply advance analytics to understand the customer profile for loan approvals
 
 ## Solution Approach
 
@@ -34,7 +29,9 @@ o   Tools/techniques (R, python, tableau) and methodology (regression)
 
 §  Python
 
-o   Planning execution
+§  Log regression
+
+o   Flow diagram
 
 §  Explore data
 
@@ -48,21 +45,25 @@ o   Planning execution
 
 §  Interpret information
 
-## Analysis / Results 
+§   
 
-The analysis conducted to evaluate various machine learning models for predicting cancer mortality rates has demonstrated that the **boosting method**, specifically the XGBoost algorithm, is the most effective approach. The model achieved a **training accuracy of 91.80%**, indicating its strong ability to learn from the training data. Furthermore, the model attained a **testing accuracy of 67.44%**, reflecting its capability to generalize to unseen data with a reasonable level of performance.
+## Analysis / Results
+
+o   Key outcomes
+
+o   Before and after comparisons
+
+o   Quantify impact
 
 ## Learnings and challenges
 
-o   Cross validation
+o   Xgboost is great
 
-o   Hyperparameter tuning
+o   Logistic regression is great for binary problems
 
-o   Stacking takes long time
+o   Can create nice visuals for comparing model performances
 
-o   Xgboost is really good
-
--    Data quality is important
+-   AB testing is good experimentation
 
 ## Learn more
 
