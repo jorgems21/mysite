@@ -158,7 +158,7 @@
     "href": "about_me.html#values",
     "title": "About Me",
     "section": "Values",
-    "text": "Values\n\ninclusion and diversity of thought\nimpact driven, aligned with mission and vision\nAccountability\npassion for wanting to do things better and more efficiently and increase performance\nthere is a solution to everything\nshare the wealth and knowledge with others\nCreativity - thinking outside of the box\nThink globally and act locally, community driven"
+    "text": "Values\n\n🌍 Inclusion & Diversity of Thought🎯 Impact-Driven & Mission-Aligned\n\n\n💡 Embracing diverse perspectives to **foster innovation** and drive **collaboration**.\n\n\n📈 Passionate about **creating meaningful solutions** that align with **vision & long-term goals**.\n\n\n\n\ninclusion and diversity of thought\nimpact driven, aligned with mission and vision\nAccountability\npassion for wanting to do things better and more efficiently and increase performance\nthere is a solution to everything\nshare the wealth and knowledge with others\nCreativity - thinking outside of the box\nThink globally and act locally, community driven"
   },
   {
     "objectID": "about_me.html#interests",
@@ -186,14 +186,14 @@
     "href": "projects/01_cancer-risk-factor-analysis/index.html",
     "title": "Cancer Mortality Analysis",
     "section": "",
-    "text": "o   Over 3,000 rows and 34 columns/ variables\no   Roughly from 2015\no   School project\no   Picked it as one of the datasets to study for class because of family ties with cancer"
+    "text": "Dataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015\nSchool Project: Selected for analysis due to personal family ties to cancer"
   },
   {
     "objectID": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
     "href": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
     "title": "Cancer Mortality Analysis",
     "section": "",
-    "text": "o   Over 3,000 rows and 34 columns/ variables\no   Roughly from 2015\no   School project\no   Picked it as one of the datasets to study for class because of family ties with cancer"
+    "text": "Dataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015\nSchool Project: Selected for analysis due to personal family ties to cancer"
   },
   {
     "objectID": "projects/01_cancer-risk-factor-analysis/index.html#the-problem-or-challenge-or-key-questions-to-answer",
@@ -207,28 +207,28 @@
     "href": "projects/01_cancer-risk-factor-analysis/index.html#objectives",
     "title": "Cancer Mortality Analysis",
     "section": "Objectives",
-    "text": "Objectives\n§  Apply descriptive analysis to understand and explore the data\n§  Apply advance analytics to understand the causes for cancer mortality in the US"
+    "text": "Objectives\n\nDescriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.\nAdvanced Analytics** – Use predictive modeling to identify factors associated with cancer mortality."
   },
   {
     "objectID": "projects/01_cancer-risk-factor-analysis/index.html#solution-approach",
     "href": "projects/01_cancer-risk-factor-analysis/index.html#solution-approach",
     "title": "Cancer Mortality Analysis",
     "section": "Solution Approach",
-    "text": "Solution Approach\no   Tools/techniques (R, python, tableau) and methodology (regression)\n§  Python\no   Planning execution\n§  Explore data\n§  Clean data\n§  Prepare data for analytic functions\n§  Create analytic functions\n§  Post-process the data\n§  Interpret information"
+    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: Python\nModeling Approach: Regression & Machine Learning\n\n\n\nAnalytical Workflow\n\nStep 1: Explore & clean the data\nStep 2: Prepare data for machine learning models\nStep 3: Apply regression analysis & ML techniques\nStep 4: Evaluate & interpret results\nStep 5: Summarize findings & quantify impact"
   },
   {
     "objectID": "projects/01_cancer-risk-factor-analysis/index.html#analysis-results",
     "href": "projects/01_cancer-risk-factor-analysis/index.html#analysis-results",
     "title": "Cancer Mortality Analysis",
     "section": "Analysis / Results",
-    "text": "Analysis / Results\nThe analysis conducted to evaluate various machine learning models for predicting cancer mortality rates has demonstrated that the boosting method, specifically the XGBoost algorithm, is the most effective approach. The model achieved a training accuracy of 91.80%, indicating its strong ability to learn from the training data. Furthermore, the model attained a testing accuracy of 67.44%, reflecting its capability to generalize to unseen data with a reasonable level of performance."
+    "text": "Analysis / Results\n\nBefore vs. After Comparison: Impact of different models on prediction accuracy.\nQuantified Risk Factors: Which factors have the strongest correlation with mortality rates?\nFull details in the repo: Github - Cancer Analysis"
   },
   {
     "objectID": "projects/01_cancer-risk-factor-analysis/index.html#learnings-and-challenges",
     "href": "projects/01_cancer-risk-factor-analysis/index.html#learnings-and-challenges",
     "title": "Cancer Mortality Analysis",
     "section": "Learnings and challenges",
-    "text": "Learnings and challenges\no   Cross validation\no   Hyperparameter tuning\no   Stacking takes long time\no   Xgboost is really good\n\nData quality is important"
+    "text": "Learnings and challenges\n\nCross-validation is crucial for model reliability and is part of the next iteration\nHyperparameter tuning** improved accuracy but was time-intensive.\nStacking models** significantly increased compute time.\nXGBoost outperformed other models** in predictive accuracy.\nData quality & preprocessing** played a major role in improving results."
   },
   {
     "objectID": "projects/01_cancer-risk-factor-analysis/index.html#learn-more",
@@ -263,14 +263,14 @@
     "href": "projects/02_bank-personal-loan-analysis/index.html",
     "title": "Bank personal loan analysis",
     "section": "",
-    "text": "o   Source of data: School project"
+    "text": "Source: School project\nObjective: Help banks identify customers who are **most likely to accept a loan approval** based on past campaign results."
   },
   {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#background-context",
     "href": "projects/02_bank-personal-loan-analysis/index.html#background-context",
     "title": "Bank personal loan analysis",
     "section": "",
-    "text": "o   Source of data: School project"
+    "text": "Source: School project\nObjective: Help banks identify customers who are **most likely to accept a loan approval** based on past campaign results."
   },
   {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#the-problem-or-challenge-or-key-questions-to-answer",
@@ -284,28 +284,28 @@
     "href": "projects/02_bank-personal-loan-analysis/index.html#objectives",
     "title": "Bank personal loan analysis",
     "section": "Objectives",
-    "text": "Objectives\no   What are the goals\n§  Apply data exploration techniques to the data\n§  Apply descriptive analytics to understand any relationship between variables\n§  Apply advance analytics to understand the customer profile for loan approvals"
+    "text": "Objectives\n\nData Exploration – Apply **EDA techniques** to uncover patterns in customer behavior.\nDescriptive Analytics – Analyze **relationships between variables** and loan approvals.\nAdvanced Analytics – Build predictive models to **profile ideal loan applicants**."
   },
   {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#solution-approach",
     "href": "projects/02_bank-personal-loan-analysis/index.html#solution-approach",
     "title": "Bank personal loan analysis",
     "section": "Solution Approach",
-    "text": "Solution Approach\no   Tools/techniques (R, python, tableau) and methodology (regression)\n§  Python\n§  Log regression\no   Flow diagram\n§  Explore data\n§  Clean data\n§  Prepare data for analytic functions\n§  Create analytic functions\n§  Post-process the data\n§  Interpret information\n§"
+    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages:** Python\nModeling Approach:** Logistic Regression, XGBoost\n\n\n\nAnalytical Workflow\n\nStep 1: Explore & clean the data\nStep 2: Prepare data for analytics & machine learning models\nStep 3: Conduct A/B testing for experimentation\nStep 4: Apply logistic regression & XGBoost\nStep 5: Compare model performances using visualizations\nStep 6: Interpret results & quantify impact"
   },
   {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#analysis-results",
     "href": "projects/02_bank-personal-loan-analysis/index.html#analysis-results",
     "title": "Bank personal loan analysis",
     "section": "Analysis / Results",
-    "text": "Analysis / Results\no   Key outcomes\no   Before and after comparisons\no   Quantify impact"
+    "text": "Analysis / Results\n\nIdentified key factors influencing loan acceptance rates.\nBefore vs. After Comparison: Improved model predictions through feature engineering.\nFull details in the repo: Github - Bank Loan Analysis"
   },
   {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#learnings-and-challenges",
     "href": "projects/02_bank-personal-loan-analysis/index.html#learnings-and-challenges",
     "title": "Bank personal loan analysis",
     "section": "Learnings and challenges",
-    "text": "Learnings and challenges\no   Xgboost is great\no   Logistic regression is great for binary problems\no   Can create nice visuals for comparing model performances\n\nAB testing is good experimentation"
+    "text": "Learnings and challenges\n\nXGBoost outperformed traditional models in predictive accuracy.\nLogistic regression worked well for binary classification problems.\nData visualization helped compare model performance effectively.\nA/B Testing was a useful experimentation method."
   },
   {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#learn-more",
@@ -319,7 +319,7 @@
     "href": "about_me.html#fun-interests",
     "title": "About Me",
     "section": "Fun interests:",
-    "text": "Fun interests:\n\nCooking\nHiking utdoors\nSports (big Liverpool FC fan and all Miami-based teams)\nVolunteering\nBooks\n\nEl secreto del bambu\nCrucial conversations"
+    "text": "Fun interests:\n\nCooking\nHiking outdoors\nSports (big Liverpool FC fan and all Miami-based teams)\nVolunteering\nBooks\n\nEl secreto del bambu\nCrucial conversations"
   },
   {
     "objectID": "about_me.html#skills",
@@ -383,5 +383,40 @@
     "title": "Nashville Housing Purchasing Application",
     "section": "Learn more",
     "text": "Learn more\n\nRepo for slides:"
+  },
+  {
+    "objectID": "about_me.html#values-and-how-they-impact-my-work",
+    "href": "about_me.html#values-and-how-they-impact-my-work",
+    "title": "About Me",
+    "section": "Values and How They Impact My Work",
+    "text": "Values and How They Impact My Work\n\nInclusion & Diversity of Thought\nEmbracing diverse perspectives to **foster innovation** and drive **collaboration**.\nImpact-Driven & Mission-Aligned\nPassionate about **creating meaningful solutions** that align with **vision & long-term goals**.\nAccountability & Ownership\nTaking responsibility for **outcomes** and delivering **results with integrity**.\nPerformance & Efficiency\nContinuously **optimizing processes** and driving **operational excellence**.\nSolution-Oriented Mindset\nEvery challenge has a **solution**—I believe in **problem-solving through innovation**.\nKnowledge Sharing & Collaboration\nEmpowering others by **sharing insights** and fostering a **culture of learning**.\nCreative & Strategic Thinking\nChallenging the **status quo** to develop **innovative solutions**.\nCommunity-Driven & Global Perspective\nThinking **globally** while making a **local impact** through meaningful contributions."
+  },
+  {
+    "objectID": "about_me.html#key-expertise-areas",
+    "href": "about_me.html#key-expertise-areas",
+    "title": "About Me",
+    "section": "Key Expertise Areas",
+    "text": "Key Expertise Areas\n\nProject management\nDesign-thinking\nMarket research and analysis\nPrototyping\nBusiness case generation\nData analysis\nMachine learning modelling\nSystems design\nProcess improvement"
+  },
+  {
+    "objectID": "about_me.html#technical-skills",
+    "href": "about_me.html#technical-skills",
+    "title": "About Me",
+    "section": "Technical Skills",
+    "text": "Technical Skills"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#the-challenge-key-questions-to-answer",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#the-challenge-key-questions-to-answer",
+    "title": "Cancer Mortality Analysis",
+    "section": "The Challenge: Key Questions to Answer",
+    "text": "The Challenge: Key Questions to Answer\n\nWhat are the primary causes of cancer mortality?\nWhich risk factors contribute to higher cancer mortality rates at the county level?\nBy answering these, we aim to **empower public health initiatives** with data-driven insights."
+  },
+  {
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#the-challenge-key-questions-to-answer",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#the-challenge-key-questions-to-answer",
+    "title": "Bank personal loan analysis",
+    "section": "The Challenge: Key Questions To Answer",
+    "text": "The Challenge: Key Questions To Answer\n\nHow can banks improve loan approval decisions?**\nWhat factors influence a customer’s likelihood to accept a loan offer?**\nHow can we optimize customer targeting to increase loan acceptance rates?**"
   }
 ]

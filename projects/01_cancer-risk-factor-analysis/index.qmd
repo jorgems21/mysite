@@ -8,62 +8,64 @@ image-alt: "Illustration of two penguins, one blue and one orange, taking a self
 
 ## Background context
 
-o   Over 3,000 rows and 34 columns/ variables
+-   Dataset: \~3,000 rows, 34 variables
 
-o   Roughly from 2015
+-   Data Period: Roughly from 2015
 
-o   School project
+-   School Project: Selected for analysis due to personal family ties to cancer
 
-o   Picked it as one of the datasets to study for class because of family ties with cancer
+## The Challenge: Key Questions to Answer
 
-## The problem or challenge or key questions to answer
+-   What are the primary causes of cancer mortality?
 
-o   What are the causes for cancer mortality?
+-   Which risk factors contribute to higher cancer mortality rates at the county level?
 
-o   Identify what are the risk factors for cancer mortality based on county level data from US
+    By answering these, we aim to \*\*empower public health initiatives\*\* with data-driven insights.
 
 ## Objectives
 
-§  Apply descriptive analysis to understand and explore the data
+-   Descriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.
 
-§  Apply advance analytics to understand the causes for cancer mortality in the US
+-   Advanced Analytics\*\* – Use predictive modeling to identify factors associated with cancer mortality.
 
 ## Solution Approach
 
-o   Tools/techniques (R, python, tableau) and methodology (regression)
+### Tools & Techniques
 
-§  Python
+-   Languages: Python
 
-o   Planning execution
+-   Modeling Approach: Regression & Machine Learning
 
-§  Explore data
+### Analytical Workflow
 
-§  Clean data
+-   Step 1: Explore & clean the data
 
-§  Prepare data for analytic functions
+-   Step 2: Prepare data for machine learning models
 
-§  Create analytic functions
+-   Step 3: Apply regression analysis & ML techniques
 
-§  Post-process the data
+-   Step 4: Evaluate & interpret results
 
-§  Interpret information
+-   Step 5: Summarize findings & quantify impact
 
 ## Analysis / Results
 
-The analysis conducted to evaluate various machine learning models for predicting cancer mortality rates has demonstrated that the **boosting method**, specifically the XGBoost algorithm, is the most effective approach. The model achieved a **training accuracy of 91.80%**, indicating its strong ability to learn from the training data. Furthermore, the model attained a **testing accuracy of 67.44%**, reflecting its capability to generalize to unseen data with a reasonable level of performance.
+-   Before vs. After Comparison: Impact of different models on prediction accuracy.
+
+-   Quantified Risk Factors: Which factors have the strongest correlation with mortality rates?
+
+    Full details in the repo: [Github - Cancer Analysis](https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Cancer%20Risk%20Factor%20Analysis)
 
 ## Learnings and challenges
 
-o   Cross validation
+-   Cross-validation is crucial for model reliability and is part of the next iteration
 
-o   Hyperparameter tuning
+-   Hyperparameter tuning\*\* improved accuracy but was time-intensive.
 
-o   Stacking takes long time
+-   Stacking models\*\* significantly increased compute time.
 
-o   Xgboost is really good
+-   XGBoost outperformed other models\*\* in predictive accuracy.
 
--   Data quality is important
+-   Data quality & preprocessing\*\* played a major role in improving results.
 
-## Learn more
-
--   Repo for slides:
+## 

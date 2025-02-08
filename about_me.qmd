@@ -15,29 +15,71 @@ With this new perspective, I moved onto the healthcare industry in order to cont
 
 🔗 [**View My Projects**](projects.qmd) \| 🔗 [**Read about my experience**](blog.qmd)
 
-## Values
+## Values and How They Impact My Work
 
--   inclusion and diversity of thought
+-   Inclusion & Diversity of Thought
 
--   impact driven, aligned with mission and vision
+    Embracing diverse perspectives to \*\*foster innovation\*\* and drive \*\*collaboration\*\*.
 
--   Accountability
+-   Impact-Driven & Mission-Aligned
 
--   passion for wanting to do things better and more efficiently and increase performance
+    Passionate about \*\*creating meaningful solutions\*\* that align with \*\*vision & long-term goals\*\*.
 
--   there is a solution to everything
+-   Accountability & Ownership
 
--   share the wealth and knowledge with others
+    Taking responsibility for \*\*outcomes\*\* and delivering \*\*results with integrity\*\*.
 
--   Creativity - thinking outside of the box
+-   Performance & Efficiency
 
--   Think globally and act locally, community driven
+    Continuously \*\*optimizing processes\*\* and driving \*\*operational excellence\*\*.
+
+-   Solution-Oriented Mindset
+
+    Every challenge has a \*\*solution\*\*—I believe in \*\*problem-solving through innovation\*\*.
+
+-   Knowledge Sharing & Collaboration
+
+    Empowering others by \*\*sharing insights\*\* and fostering a \*\*culture of learning\*\*.
+
+-   Creative & Strategic Thinking
+
+    Challenging the \*\*status quo\*\* to develop \*\*innovative solutions\*\*.
+
+-   Community-Driven & Global Perspective
+
+    Thinking \*\*globally\*\* while making a \*\*local impact\*\* through meaningful contributions.
+
+## Key Expertise Areas
+
+-   Project management
+
+-   Design-thinking
+
+-   Market research and analysis
+
+-   Prototyping
+
+-   Business case generation
+
+-   Data analysis
+
+-   Machine learning modelling
+
+-   Systems design
+
+-   Process improvement
+
+## Skills
+
+```{=html}
+<iframe src="figures/interactive_skills_chart.html" width="100%" height="600px"></iframe>
+```
 
 ## Fun interests:
 
 -   Cooking
 
--   Hiking utdoors
+-   Hiking outdoors
 
 -   Sports (big Liverpool FC fan and all Miami-based teams)
 
@@ -48,5 +90,3 @@ With this new perspective, I moved onto the healthcare industry in order to cont
     -   El secreto del bambu
 
     -   Crucial conversations
-
-## Skills

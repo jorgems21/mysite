@@ -163,12 +163,16 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#background-context" id="toc-background-context" class="nav-link active" data-scroll-target="#background-context">Background context</a></li>
-  <li><a href="#the-problem-or-challenge-or-key-questions-to-answer" id="toc-the-problem-or-challenge-or-key-questions-to-answer" class="nav-link" data-scroll-target="#the-problem-or-challenge-or-key-questions-to-answer">The problem or challenge or key questions to answer</a></li>
+  <li><a href="#the-challenge-key-questions-to-answer" id="toc-the-challenge-key-questions-to-answer" class="nav-link" data-scroll-target="#the-challenge-key-questions-to-answer">The Challenge: Key Questions to Answer</a></li>
   <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#solution-approach" id="toc-solution-approach" class="nav-link" data-scroll-target="#solution-approach">Solution Approach</a></li>
+  <li><a href="#solution-approach" id="toc-solution-approach" class="nav-link" data-scroll-target="#solution-approach">Solution Approach</a>
+  <ul class="collapse">
+  <li><a href="#tools-techniques" id="toc-tools-techniques" class="nav-link" data-scroll-target="#tools-techniques">Tools &amp; Techniques</a></li>
+  <li><a href="#analytical-workflow" id="toc-analytical-workflow" class="nav-link" data-scroll-target="#analytical-workflow">Analytical Workflow</a></li>
+  </ul></li>
   <li><a href="#analysis-results" id="toc-analysis-results" class="nav-link" data-scroll-target="#analysis-results">Analysis / Results</a></li>
   <li><a href="#learnings-and-challenges" id="toc-learnings-and-challenges" class="nav-link" data-scroll-target="#learnings-and-challenges">Learnings and challenges</a></li>
-  <li><a href="#learn-more" id="toc-learn-more" class="nav-link" data-scroll-target="#learn-more">Learn more</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -181,52 +185,67 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="background-context" class="level2">
 <h2 class="anchored" data-anchor-id="background-context">Background context</h2>
-<p>o&nbsp;&nbsp; Over 3,000 rows and 34 columns/ variables</p>
-<p>o&nbsp;&nbsp; Roughly from 2015</p>
-<p>o&nbsp;&nbsp; School project</p>
-<p>o&nbsp;&nbsp; Picked it as one of the datasets to study for class because of family ties with cancer</p>
+<ul>
+<li><p>Dataset: ~3,000 rows, 34 variables</p></li>
+<li><p>Data Period: Roughly from 2015</p></li>
+<li><p>School Project: Selected for analysis due to personal family ties to cancer</p></li>
+</ul>
 </section>
-<section id="the-problem-or-challenge-or-key-questions-to-answer" class="level2">
-<h2 class="anchored" data-anchor-id="the-problem-or-challenge-or-key-questions-to-answer">The problem or challenge or key questions to answer</h2>
-<p>o&nbsp;&nbsp; What are the causes for cancer mortality?</p>
-<p>o&nbsp;&nbsp; Identify what are the risk factors for cancer mortality based on county level data from US</p>
+<section id="the-challenge-key-questions-to-answer" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions to Answer</h2>
+<ul>
+<li><p>What are the primary causes of cancer mortality?</p></li>
+<li><p>Which risk factors contribute to higher cancer mortality rates at the county level?</p>
+<p>By answering these, we aim to **empower public health initiatives** with data-driven insights.</p></li>
+</ul>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
-<p>§&nbsp; Apply descriptive analysis to understand and explore the data</p>
-<p>§&nbsp; Apply advance analytics to understand the causes for cancer mortality in the US</p>
+<ul>
+<li><p>Descriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.</p></li>
+<li><p>Advanced Analytics** – Use predictive modeling to identify factors associated with cancer mortality.</p></li>
+</ul>
 </section>
 <section id="solution-approach" class="level2">
 <h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
-<p>o&nbsp;&nbsp; Tools/techniques (R, python, tableau) and methodology (regression)</p>
-<p>§&nbsp; Python</p>
-<p>o&nbsp;&nbsp; Planning execution</p>
-<p>§&nbsp; Explore data</p>
-<p>§&nbsp; Clean data</p>
-<p>§&nbsp; Prepare data for analytic functions</p>
-<p>§&nbsp; Create analytic functions</p>
-<p>§&nbsp; Post-process the data</p>
-<p>§&nbsp; Interpret information</p>
+<section id="tools-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
+<ul>
+<li><p>Languages: Python</p></li>
+<li><p>Modeling Approach: Regression &amp; Machine Learning</p></li>
+</ul>
+</section>
+<section id="analytical-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-workflow">Analytical Workflow</h3>
+<ul>
+<li><p>Step 1: Explore &amp; clean the data</p></li>
+<li><p>Step 2: Prepare data for machine learning models</p></li>
+<li><p>Step 3: Apply regression analysis &amp; ML techniques</p></li>
+<li><p>Step 4: Evaluate &amp; interpret results</p></li>
+<li><p>Step 5: Summarize findings &amp; quantify impact</p></li>
+</ul>
+</section>
 </section>
 <section id="analysis-results" class="level2">
 <h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
-<p>The analysis conducted to evaluate various machine learning models for predicting cancer mortality rates has demonstrated that the <strong>boosting method</strong>, specifically the XGBoost algorithm, is the most effective approach. The model achieved a <strong>training accuracy of 91.80%</strong>, indicating its strong ability to learn from the training data. Furthermore, the model attained a <strong>testing accuracy of 67.44%</strong>, reflecting its capability to generalize to unseen data with a reasonable level of performance.</p>
+<ul>
+<li><p>Before vs.&nbsp;After Comparison: Impact of different models on prediction accuracy.</p></li>
+<li><p>Quantified Risk Factors: Which factors have the strongest correlation with mortality rates?</p>
+<p>Full details in the repo: <a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Cancer%20Risk%20Factor%20Analysis">Github - Cancer Analysis</a></p></li>
+</ul>
 </section>
 <section id="learnings-and-challenges" class="level2">
 <h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
-<p>o&nbsp;&nbsp; Cross validation</p>
-<p>o&nbsp;&nbsp; Hyperparameter tuning</p>
-<p>o&nbsp;&nbsp; Stacking takes long time</p>
-<p>o&nbsp;&nbsp; Xgboost is really good</p>
 <ul>
-<li>Data quality is important</li>
+<li><p>Cross-validation is crucial for model reliability and is part of the next iteration</p></li>
+<li><p>Hyperparameter tuning** improved accuracy but was time-intensive.</p></li>
+<li><p>Stacking models** significantly increased compute time.</p></li>
+<li><p>XGBoost outperformed other models** in predictive accuracy.</p></li>
+<li><p>Data quality &amp; preprocessing** played a major role in improving results.</p></li>
 </ul>
 </section>
-<section id="learn-more" class="level2">
-<h2 class="anchored" data-anchor-id="learn-more">Learn more</h2>
-<ul>
-<li>Repo for slides:</li>
-</ul>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 
 
 </section>

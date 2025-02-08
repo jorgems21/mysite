@@ -7,64 +7,62 @@ image: bank_loan.jpg
 
 ## Background context
 
-o   Source of data: School project
+-   Source: School project
 
-## The problem or challenge or key questions to answer
+-   Objective: Help banks identify customers who are \*\*most likely to accept a loan approval\*\* based on past campaign results.
 
-o   Help bank decide whether they should approve or reject loans based on the customer data provided by profiling the customers that are most likely to accept a loan approval based on last campaign’s result
+## The Challenge: Key Questions To Answer
+
+-   How can banks improve loan approval decisions?\*\*
+
+-   What factors influence a customer’s likelihood to accept a loan offer?\*\*
+
+-   How can we optimize customer targeting to increase loan acceptance rates?\*\*
 
 ## Objectives
 
-o   What are the goals
+-   Data Exploration – Apply \*\*EDA techniques\*\* to uncover patterns in customer behavior.
 
-§  Apply data exploration techniques to the data
+-   Descriptive Analytics – Analyze \*\*relationships between variables\*\* and loan approvals.
 
-§  Apply descriptive analytics to understand any relationship between variables
-
-§  Apply advance analytics to understand the customer profile for loan approvals
+-   Advanced Analytics – Build predictive models to \*\*profile ideal loan applicants\*\*.
 
 ## Solution Approach
 
-o   Tools/techniques (R, python, tableau) and methodology (regression)
+### Tools & Techniques
 
-§  Python
+-   Languages:\*\* Python
 
-§  Log regression
+-   Modeling Approach:\*\* Logistic Regression, XGBoost
 
-o   Flow diagram
+### Analytical Workflow
 
-§  Explore data
+-   Step 1: Explore & clean the data
 
-§  Clean data
+-   Step 2: Prepare data for analytics & machine learning models
 
-§  Prepare data for analytic functions
+-   Step 3: Conduct A/B testing for experimentation
 
-§  Create analytic functions
+-   Step 4: Apply logistic regression & XGBoost
 
-§  Post-process the data
+-   Step 5: Compare model performances using visualizations
 
-§  Interpret information
-
-§   
+-   Step 6: Interpret results & quantify impact
 
 ## Analysis / Results
 
-o   Key outcomes
+-   Identified key factors influencing loan acceptance rates.
 
-o   Before and after comparisons
+-   Before vs. After Comparison: Improved model predictions through feature engineering.
 
-o   Quantify impact
+    Full details in the repo: [Github - Bank Loan Analysis](https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Bank%20Personal%20Loan%20Analysis)
 
 ## Learnings and challenges
 
-o   Xgboost is great
+-   XGBoost outperformed traditional models in predictive accuracy.
 
-o   Logistic regression is great for binary problems
+-   Logistic regression worked well for binary classification problems.
 
-o   Can create nice visuals for comparing model performances
+-   Data visualization helped compare model performance effectively.
 
--   AB testing is good experimentation
-
-## Learn more
-
--   Repo for slides:
+-   A/B Testing was a useful experimentation method.
