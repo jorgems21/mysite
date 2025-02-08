@@ -162,12 +162,15 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#background-context" id="toc-background-context" class="nav-link active" data-scroll-target="#background-context">Background context</a></li>
-  <li><a href="#the-problem-or-challenge-or-key-questions-to-answer" id="toc-the-problem-or-challenge-or-key-questions-to-answer" class="nav-link" data-scroll-target="#the-problem-or-challenge-or-key-questions-to-answer">The problem or challenge or key questions to answer</a></li>
+  <li><a href="#the-challenge-key-questions-to-answer" id="toc-the-challenge-key-questions-to-answer" class="nav-link" data-scroll-target="#the-challenge-key-questions-to-answer">The Challenge: Key Questions To Answer</a></li>
   <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#solution-approach" id="toc-solution-approach" class="nav-link" data-scroll-target="#solution-approach">Solution Approach</a></li>
+  <li><a href="#solution-approach" id="toc-solution-approach" class="nav-link" data-scroll-target="#solution-approach">Solution Approach</a>
+  <ul class="collapse">
+  <li><a href="#tools-techniques" id="toc-tools-techniques" class="nav-link" data-scroll-target="#tools-techniques">Tools &amp; Techniques</a></li>
+  <li><a href="#user-experience-flow" id="toc-user-experience-flow" class="nav-link" data-scroll-target="#user-experience-flow">User Experience Flow</a></li>
+  </ul></li>
   <li><a href="#analysis-results" id="toc-analysis-results" class="nav-link" data-scroll-target="#analysis-results">Analysis / Results</a></li>
   <li><a href="#learnings-and-challenges" id="toc-learnings-and-challenges" class="nav-link" data-scroll-target="#learnings-and-challenges">Learnings and challenges</a></li>
-  <li><a href="#learn-more" id="toc-learn-more" class="nav-link" data-scroll-target="#learn-more">Learn more</a></li>
   </ul>
 </nav>
     </div>
@@ -180,46 +183,71 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="background-context" class="level2">
 <h2 class="anchored" data-anchor-id="background-context">Background context</h2>
-<p>o&nbsp;&nbsp; School project</p>
-<p>o&nbsp;&nbsp; Interest because Nashville ended up becoming a possibility</p>
-<p>o&nbsp;&nbsp; Interest in home ownership for living and investing</p>
+<ul>
+<li><p>Interest in home ownership for living and real estate investing</p></li>
+<li><p>Moved to Nashville around 2022</p></li>
+<li><p>Started as school project and are currently evolving it.</p></li>
+<li><p>Data source: <a href="https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data">Kaggle</a></p></li>
+</ul>
 </section>
-<section id="the-problem-or-challenge-or-key-questions-to-answer" class="level2">
-<h2 class="anchored" data-anchor-id="the-problem-or-challenge-or-key-questions-to-answer">The problem or challenge or key questions to answer</h2>
-<p>o&nbsp;&nbsp; Find best value deals for a real estate company</p>
+<section id="the-challenge-key-questions-to-answer" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions To Answer</h2>
+<ul>
+<li>Find good deals for purchase during home buying journey in a tough market</li>
+</ul>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
-<p>o&nbsp;&nbsp; What are the goals</p>
-<p>§&nbsp; Apply descriptive analysis to understand relationships between the variables</p>
-<p>§&nbsp; Provide data-driven analysis of the real estate market in Nashville and help identify which areas seem promising</p>
+<ul>
+<li>Provide data-driven analysis of the real estate market in Nashville (and beyond) to help prospective home buyers identify the best deal for them.</li>
+</ul>
 </section>
 <section id="solution-approach" class="level2">
 <h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
-<p>o&nbsp;&nbsp; Tools/techniques (R, python, tableau) and methodology (regression)</p>
-<p>§&nbsp; Will redo in R</p>
-<p>§&nbsp; Perhaps do a shiny app or a quarto doc/R markdown</p>
-<p>o&nbsp;&nbsp; Flow diagram</p>
-<p>§&nbsp; Explore data</p>
-<p>§&nbsp; Clean data</p>
-<p>§&nbsp; Prepare data for analytic functions</p>
-<p>§&nbsp; Create analytic functions</p>
-<p>§&nbsp; Post-process the data</p>
-<p>§&nbsp; Interpret information</p>
+<section id="tools-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
+<ul>
+<li><p>Languages: R</p></li>
+<li><p>Modeling Approach: Random Forest</p></li>
+<li><p>App Development</p>
+<ul>
+<li><p>Front-end/back-end: R Shiny (UI/Server) and reactivity</p></li>
+<li><p>Visualizations: ggplot package in R</p></li>
+<li><p>Report generation: R Markdown</p></li>
+</ul></li>
+<li><p>Design</p>
+<ul>
+<li><a href="housing_analysis_app_design.pdf">Figma</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="user-experience-flow" class="level3">
+<h3 class="anchored" data-anchor-id="user-experience-flow">User Experience Flow</h3>
+<ul>
+<li><p>Step 1: Read home page description</p></li>
+<li><p>Step 2: Check out the descriptive information for visualizations about housing in Nashville</p></li>
+<li><p>Step 3: Go to the deal prediction tab to identify which housing profile would be considered a good deal based on your inputs being applied to a ML model.</p>
+<ul>
+<li><p>Step 3.1: Your inputs will update the model dynamically in the back end</p></li>
+<li><p>Step 3.2: The model is going to product a prediction based on your inputs and the source data</p></li>
+</ul></li>
+<li><p>Step 4: Go to report generation which will dynamically produce a HTML/PDF report that includes all the visualizations from the application + the deal prediction insights.</p></li>
+</ul>
+</section>
 </section>
 <section id="analysis-results" class="level2">
 <h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
-<p>o&nbsp;&nbsp; Key outcomes</p>
-<p>o&nbsp;&nbsp; Before and after comparisons</p>
-<p>o&nbsp;&nbsp; Quantify impact</p>
+<ul>
+<li><p>This tool is meant to provide data driven insights that will assist users in their journey to home-buying. This tool is in prototype phase and is not currently maintained.</p></li>
+<li><p>The results for the deal prediction will be partially based on the user’s inputs.</p>
+<p>Full details in the Github: <a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Nashville%20Housing%20Analysis/nashville_housing">Github - Nashville Housing Analysis</a></p></li>
+</ul>
 </section>
 <section id="learnings-and-challenges" class="level2">
 <h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
-</section>
-<section id="learn-more" class="level2">
-<h2 class="anchored" data-anchor-id="learn-more">Learn more</h2>
 <ul>
-<li>Repo for slides:</li>
+<li><p>R Shiny is a great framework for rapid app prototyping that includes statistics and ML models</p></li>
+<li><p>The predictions in the deal prediction tool are partly limited to the quantity and quality of the data, which comes from Kaggle.</p></li>
 </ul>
 
 

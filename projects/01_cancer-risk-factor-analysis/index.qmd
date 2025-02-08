@@ -3,16 +3,15 @@ title: "Cancer Mortality Analysis"
 date: "December 2023"
 categories: [python,statistical testing, machine learning]
 image: healthcare.jpg
-image-alt: "Illustration of two penguins, one blue and one orange, taking a selfie with a selfie stick. The moon in the background looks like the Quarto logo."
 ---
 
 ## Background context
 
+-   Selected for analysis due to personal family ties to cancer, part of a school project
+
 -   Dataset: \~3,000 rows, 34 variables
 
 -   Data Period: Roughly from 2015
-
--   School Project: Selected for analysis due to personal family ties to cancer
 
 ## The Challenge: Key Questions to Answer
 
@@ -20,13 +19,13 @@ image-alt: "Illustration of two penguins, one blue and one orange, taking a self
 
 -   Which risk factors contribute to higher cancer mortality rates at the county level?
 
-    By answering these, we aim to \*\*empower public health initiatives\*\* with data-driven insights.
+    By answering these, we aim to empower public health initiatives with data-driven insights.
 
 ## Objectives
 
 -   Descriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.
 
--   Advanced Analytics\*\* – Use predictive modeling to identify factors associated with cancer mortality.
+-   Advanced Analytics – Use predictive modeling to identify factors associated with cancer mortality.
 
 ## Solution Approach
 

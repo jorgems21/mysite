@@ -3,60 +3,71 @@ title: "Nashville Housing Purchasing Application"
 date: "December 2024"
 categories: [r shiny,machine learning]
 image: home_buy.jpg
+href: housing_analysis_app_design.pdf
 ---
 
 ## Background context
 
-o   School project
+-   Interest in home ownership for living and real estate investing
 
-o   Interest because Nashville ended up becoming a possibility
+-   Moved to Nashville around 2022
 
-o   Interest in home ownership for living and investing
+-   Started as school project and are currently evolving it.
 
-## The problem or challenge or key questions to answer
+-   Data source: [Kaggle](https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data)
 
-o   Find best value deals for a real estate company
+## The Challenge: Key Questions To Answer
+
+-   Find good deals for purchase during home buying journey in a tough market
 
 ## Objectives
 
-o   What are the goals
-
-§  Apply descriptive analysis to understand relationships between the variables
-
-§  Provide data-driven analysis of the real estate market in Nashville and help identify which areas seem promising
+-   Provide data-driven analysis of the real estate market in Nashville (and beyond) to help prospective home buyers identify the best deal for them.
 
 ## Solution Approach
 
-o   Tools/techniques (R, python, tableau) and methodology (regression)
+### Tools & Techniques
 
-§  Will redo in R
+-   Languages: R
 
-§  Perhaps do a shiny app or a quarto doc/R markdown
+-   Modeling Approach: Random Forest
 
-o   Flow diagram
+-   App Development
 
-§  Explore data
+    -   Front-end/back-end: R Shiny (UI/Server) and reactivity
 
-§  Clean data
+    -   Visualizations: ggplot package in R
 
-§  Prepare data for analytic functions
+    -   Report generation: R Markdown
 
-§  Create analytic functions
+-   Design
 
-§  Post-process the data
+    -   [Figma](housing_analysis_app_design.pdf)
 
-§  Interpret information
+### User Experience Flow
+
+-   Step 1: Read home page description
+
+-   Step 2: Check out the descriptive information for visualizations about housing in Nashville
+
+-   Step 3: Go to the deal prediction tab to identify which housing profile would be considered a good deal based on your inputs being applied to a ML model.
+
+    -   Step 3.1: Your inputs will update the model dynamically in the back end
+
+    -   Step 3.2: The model is going to product a prediction based on your inputs and the source data
+
+-   Step 4: Go to report generation which will dynamically produce a HTML/PDF report that includes all the visualizations from the application + the deal prediction insights.
 
 ## Analysis / Results
 
-o   Key outcomes
+-   This tool is meant to provide data driven insights that will assist users in their journey to home-buying. This tool is in prototype phase and is not currently maintained.
 
-o   Before and after comparisons
+-   The results for the deal prediction will be partially based on the user's inputs.
 
-o   Quantify impact
+    Full details in the Github: [Github - Nashville Housing Analysis](https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Nashville%20Housing%20Analysis/nashville_housing)
 
 ## Learnings and challenges
 
-## Learn more
+-   R Shiny is a great framework for rapid app prototyping that includes statistics and ML models
 
--   Repo for slides:
+-   The predictions in the deal prediction tool are partly limited to the quantity and quality of the data, which comes from Kaggle.

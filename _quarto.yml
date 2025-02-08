@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+profile:
+  default: english
+  group: [english,spanish]
 website:
   title: "Jorge Montoya"
   navbar:

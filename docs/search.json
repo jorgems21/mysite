@@ -186,14 +186,14 @@
     "href": "projects/01_cancer-risk-factor-analysis/index.html",
     "title": "Cancer Mortality Analysis",
     "section": "",
-    "text": "Dataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015\nSchool Project: Selected for analysis due to personal family ties to cancer"
+    "text": "Selected for analysis due to personal family ties to cancer, part of a school project\nDataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015"
   },
   {
     "objectID": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
     "href": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
     "title": "Cancer Mortality Analysis",
     "section": "",
-    "text": "Dataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015\nSchool Project: Selected for analysis due to personal family ties to cancer"
+    "text": "Selected for analysis due to personal family ties to cancer, part of a school project\nDataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015"
   },
   {
     "objectID": "projects/01_cancer-risk-factor-analysis/index.html#the-problem-or-challenge-or-key-questions-to-answer",
@@ -207,7 +207,7 @@
     "href": "projects/01_cancer-risk-factor-analysis/index.html#objectives",
     "title": "Cancer Mortality Analysis",
     "section": "Objectives",
-    "text": "Objectives\n\nDescriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.\nAdvanced Analytics** – Use predictive modeling to identify factors associated with cancer mortality."
+    "text": "Objectives\n\nDescriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.\nAdvanced Analytics – Use predictive modeling to identify factors associated with cancer mortality."
   },
   {
     "objectID": "projects/01_cancer-risk-factor-analysis/index.html#solution-approach",
@@ -263,14 +263,14 @@
     "href": "projects/02_bank-personal-loan-analysis/index.html",
     "title": "Bank personal loan analysis",
     "section": "",
-    "text": "Source: School project\nObjective: Help banks identify customers who are **most likely to accept a loan approval** based on past campaign results."
+    "text": "Help banks identify customers who are most likely to accept a loan approval based on past campaign results.\nStarted as part of school project"
   },
   {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#background-context",
     "href": "projects/02_bank-personal-loan-analysis/index.html#background-context",
     "title": "Bank personal loan analysis",
     "section": "",
-    "text": "Source: School project\nObjective: Help banks identify customers who are **most likely to accept a loan approval** based on past campaign results."
+    "text": "Help banks identify customers who are most likely to accept a loan approval based on past campaign results.\nStarted as part of school project"
   },
   {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#the-problem-or-challenge-or-key-questions-to-answer",
@@ -284,14 +284,14 @@
     "href": "projects/02_bank-personal-loan-analysis/index.html#objectives",
     "title": "Bank personal loan analysis",
     "section": "Objectives",
-    "text": "Objectives\n\nData Exploration – Apply **EDA techniques** to uncover patterns in customer behavior.\nDescriptive Analytics – Analyze **relationships between variables** and loan approvals.\nAdvanced Analytics – Build predictive models to **profile ideal loan applicants**."
+    "text": "Objectives\n\nData Exploration – Apply EDA techniques to uncover patterns in customer behavior.\nDescriptive Analytics – Analyze relationships between variables and loan approvals.\nAdvanced Analytics – Build predictive models to profile ideal loan applicants."
   },
   {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#solution-approach",
     "href": "projects/02_bank-personal-loan-analysis/index.html#solution-approach",
     "title": "Bank personal loan analysis",
     "section": "Solution Approach",
-    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages:** Python\nModeling Approach:** Logistic Regression, XGBoost\n\n\n\nAnalytical Workflow\n\nStep 1: Explore & clean the data\nStep 2: Prepare data for analytics & machine learning models\nStep 3: Conduct A/B testing for experimentation\nStep 4: Apply logistic regression & XGBoost\nStep 5: Compare model performances using visualizations\nStep 6: Interpret results & quantify impact"
+    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: Python\nModeling Approach: Logistic Regression, XGBoost\n\n\n\nAnalytical Workflow\n\nStep 1: Explore & clean the data\nStep 2: Prepare data for analytics & machine learning models\nStep 3: Conduct A/B testing for experimentation\nStep 4: Apply logistic regression & XGBoost\nStep 5: Compare model performances using visualizations\nStep 6: Interpret results & quantify impact"
   },
   {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#analysis-results",
@@ -318,8 +318,8 @@
     "objectID": "about_me.html#fun-interests",
     "href": "about_me.html#fun-interests",
     "title": "About Me",
-    "section": "Fun interests:",
-    "text": "Fun interests:\n\nCooking\nHiking outdoors\nSports (big Liverpool FC fan and all Miami-based teams)\nVolunteering\nBooks\n\nEl secreto del bambu\nCrucial conversations"
+    "section": "Fun interests",
+    "text": "Fun interests\n\nCooking\nHiking outdoors\nSports (big Liverpool FC fan and all Miami-based teams)\nVolunteering\nRecent books read:\n\nEl secreto del bambu\nCrucial conversations"
   },
   {
     "objectID": "about_me.html#skills",
@@ -333,14 +333,14 @@
     "href": "projects/03_nashville-house-purchasing-app/index.html",
     "title": "Nashville Housing Purchasing Application",
     "section": "",
-    "text": "o   School project\no   Interest because Nashville ended up becoming a possibility\no   Interest in home ownership for living and investing"
+    "text": "Interest in home ownership for living and real estate investing\nMoved to Nashville around 2022\nStarted as school project and are currently evolving it.\nData source: Kaggle"
   },
   {
     "objectID": "projects/03_nashville-house-purchasing-app/index.html#background-context",
     "href": "projects/03_nashville-house-purchasing-app/index.html#background-context",
     "title": "Nashville Housing Purchasing Application",
     "section": "",
-    "text": "o   School project\no   Interest because Nashville ended up becoming a possibility\no   Interest in home ownership for living and investing"
+    "text": "Interest in home ownership for living and real estate investing\nMoved to Nashville around 2022\nStarted as school project and are currently evolving it.\nData source: Kaggle"
   },
   {
     "objectID": "projects/03_nashville-house-purchasing-app/index.html#the-problem-or-challenge-or-key-questions-to-answer",
@@ -354,28 +354,28 @@
     "href": "projects/03_nashville-house-purchasing-app/index.html#objectives",
     "title": "Nashville Housing Purchasing Application",
     "section": "Objectives",
-    "text": "Objectives\no   What are the goals\n§  Apply descriptive analysis to understand relationships between the variables\n§  Provide data-driven analysis of the real estate market in Nashville and help identify which areas seem promising"
+    "text": "Objectives\n\nProvide data-driven analysis of the real estate market in Nashville (and beyond) to help prospective home buyers identify the best deal for them."
   },
   {
     "objectID": "projects/03_nashville-house-purchasing-app/index.html#solution-approach",
     "href": "projects/03_nashville-house-purchasing-app/index.html#solution-approach",
     "title": "Nashville Housing Purchasing Application",
     "section": "Solution Approach",
-    "text": "Solution Approach\no   Tools/techniques (R, python, tableau) and methodology (regression)\n§  Will redo in R\n§  Perhaps do a shiny app or a quarto doc/R markdown\no   Flow diagram\n§  Explore data\n§  Clean data\n§  Prepare data for analytic functions\n§  Create analytic functions\n§  Post-process the data\n§  Interpret information"
+    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: R\nModeling Approach: Random Forest\nApp Development\n\nFront-end/back-end: R Shiny (UI/Server) and reactivity\nVisualizations: ggplot package in R\nReport generation: R Markdown\n\nDesign\n\nFigma\n\n\n\n\nUser Experience Flow\n\nStep 1: Read home page description\nStep 2: Check out the descriptive information for visualizations about housing in Nashville\nStep 3: Go to the deal prediction tab to identify which housing profile would be considered a good deal based on your inputs being applied to a ML model.\n\nStep 3.1: Your inputs will update the model dynamically in the back end\nStep 3.2: The model is going to product a prediction based on your inputs and the source data\n\nStep 4: Go to report generation which will dynamically produce a HTML/PDF report that includes all the visualizations from the application + the deal prediction insights."
   },
   {
     "objectID": "projects/03_nashville-house-purchasing-app/index.html#analysis-results",
     "href": "projects/03_nashville-house-purchasing-app/index.html#analysis-results",
     "title": "Nashville Housing Purchasing Application",
     "section": "Analysis / Results",
-    "text": "Analysis / Results\no   Key outcomes\no   Before and after comparisons\no   Quantify impact"
+    "text": "Analysis / Results\n\nThis tool is meant to provide data driven insights that will assist users in their journey to home-buying. This tool is in prototype phase and is not currently maintained.\nThe results for the deal prediction will be partially based on the user’s inputs.\nFull details in the Github: Github - Nashville Housing Analysis"
   },
   {
     "objectID": "projects/03_nashville-house-purchasing-app/index.html#learnings-and-challenges",
     "href": "projects/03_nashville-house-purchasing-app/index.html#learnings-and-challenges",
     "title": "Nashville Housing Purchasing Application",
     "section": "Learnings and challenges",
-    "text": "Learnings and challenges"
+    "text": "Learnings and challenges\n\nR Shiny is a great framework for rapid app prototyping that includes statistics and ML models\nThe predictions in the deal prediction tool are partly limited to the quantity and quality of the data, which comes from Kaggle."
   },
   {
     "objectID": "projects/03_nashville-house-purchasing-app/index.html#learn-more",
@@ -389,7 +389,7 @@
     "href": "about_me.html#values-and-how-they-impact-my-work",
     "title": "About Me",
     "section": "Values and How They Impact My Work",
-    "text": "Values and How They Impact My Work\n\nInclusion & Diversity of Thought\nEmbracing diverse perspectives to **foster innovation** and drive **collaboration**.\nImpact-Driven & Mission-Aligned\nPassionate about **creating meaningful solutions** that align with **vision & long-term goals**.\nAccountability & Ownership\nTaking responsibility for **outcomes** and delivering **results with integrity**.\nPerformance & Efficiency\nContinuously **optimizing processes** and driving **operational excellence**.\nSolution-Oriented Mindset\nEvery challenge has a **solution**—I believe in **problem-solving through innovation**.\nKnowledge Sharing & Collaboration\nEmpowering others by **sharing insights** and fostering a **culture of learning**.\nCreative & Strategic Thinking\nChallenging the **status quo** to develop **innovative solutions**.\nCommunity-Driven & Global Perspective\nThinking **globally** while making a **local impact** through meaningful contributions."
+    "text": "Values and How They Impact My Work\n\nInclusion & Diversity of Thought\nEmbracing diverse perspectives to foster innovation and drive collaboration.\nImpact-Driven & Mission-Aligned\nPassionate about creating meaningful solutions that align with vision & long-term goals.\nPerformance & Efficiency\nContinuously optimizing processes and driving operational excellence.\nKnowledge Sharing & Collaboration\nEmpowering others by sharing insights and fostering a culture of learning.\nCreative & Strategic Thinking\nChallenging the status quo to develop innovative solutions.\nCommunity-Driven & Global Perspective\nThinking globally while making a local impact through meaningful contributions."
   },
   {
     "objectID": "about_me.html#key-expertise-areas",
@@ -410,13 +410,20 @@
     "href": "projects/01_cancer-risk-factor-analysis/index.html#the-challenge-key-questions-to-answer",
     "title": "Cancer Mortality Analysis",
     "section": "The Challenge: Key Questions to Answer",
-    "text": "The Challenge: Key Questions to Answer\n\nWhat are the primary causes of cancer mortality?\nWhich risk factors contribute to higher cancer mortality rates at the county level?\nBy answering these, we aim to **empower public health initiatives** with data-driven insights."
+    "text": "The Challenge: Key Questions to Answer\n\nWhat are the primary causes of cancer mortality?\nWhich risk factors contribute to higher cancer mortality rates at the county level?\nBy answering these, we aim to empower public health initiatives with data-driven insights."
   },
   {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#the-challenge-key-questions-to-answer",
     "href": "projects/02_bank-personal-loan-analysis/index.html#the-challenge-key-questions-to-answer",
     "title": "Bank personal loan analysis",
     "section": "The Challenge: Key Questions To Answer",
-    "text": "The Challenge: Key Questions To Answer\n\nHow can banks improve loan approval decisions?**\nWhat factors influence a customer’s likelihood to accept a loan offer?**\nHow can we optimize customer targeting to increase loan acceptance rates?**"
+    "text": "The Challenge: Key Questions To Answer\n\nHow can banks improve loan approval decisions?\nWhat factors influence a customer’s likelihood to accept a loan offer?\nHow can we optimize customer targeting to increase loan acceptance rates?"
+  },
+  {
+    "objectID": "projects/03_nashville-house-purchasing-app/index.html#the-challenge-key-questions-to-answer",
+    "href": "projects/03_nashville-house-purchasing-app/index.html#the-challenge-key-questions-to-answer",
+    "title": "Nashville Housing Purchasing Application",
+    "section": "The Challenge: Key Questions To Answer",
+    "text": "The Challenge: Key Questions To Answer\n\nFind good deals for purchase during home buying journey in a tough market"
   }
 ]

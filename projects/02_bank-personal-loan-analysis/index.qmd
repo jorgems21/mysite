@@ -7,33 +7,33 @@ image: bank_loan.jpg
 
 ## Background context
 
--   Source: School project
+-   Help banks identify customers who are most likely to accept a loan approval based on past campaign results.
 
--   Objective: Help banks identify customers who are \*\*most likely to accept a loan approval\*\* based on past campaign results.
+-   Started as part of school project
 
 ## The Challenge: Key Questions To Answer
 
--   How can banks improve loan approval decisions?\*\*
+-   How can banks improve loan approval decisions?
 
--   What factors influence a customer’s likelihood to accept a loan offer?\*\*
+-   What factors influence a customer’s likelihood to accept a loan offer?
 
--   How can we optimize customer targeting to increase loan acceptance rates?\*\*
+-   How can we optimize customer targeting to increase loan acceptance rates?
 
 ## Objectives
 
--   Data Exploration – Apply \*\*EDA techniques\*\* to uncover patterns in customer behavior.
+-   Data Exploration – Apply EDA techniques to uncover patterns in customer behavior.
 
--   Descriptive Analytics – Analyze \*\*relationships between variables\*\* and loan approvals.
+-   Descriptive Analytics – Analyze relationships between variables and loan approvals.
 
--   Advanced Analytics – Build predictive models to \*\*profile ideal loan applicants\*\*.
+-   Advanced Analytics – Build predictive models to profile ideal loan applicants.
 
 ## Solution Approach
 
 ### Tools & Techniques
 
--   Languages:\*\* Python
+-   Languages: Python
 
--   Modeling Approach:\*\* Logistic Regression, XGBoost
+-   Modeling Approach: Logistic Regression, XGBoost
 
 ### Analytical Workflow
 
