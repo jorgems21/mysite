@@ -1,6 +1,7 @@
 /*-- scss:defaults --*/
-// Font: Inter from Google Fonts (overrides the Bootswatch default)
-$web-font-path: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap";
+// Font: Inter, self-hosted (fonts/inter-latin.woff2, @font-face in styles.css).
+// Disables the Bootswatch Google Fonts @import, which created a render-blocking request chain.
+$web-font-path: false;
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 // One accent color: muted teal

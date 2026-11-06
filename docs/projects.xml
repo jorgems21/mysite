@@ -34,9 +34,9 @@
 <ul>
 <li><strong>Problem:</strong> Nonprofits need to find the right funders and turn funder data into grant insights.</li>
 <li><strong>Approach:</strong> A data pipeline over IRS Form 990 filings feeds a PostgreSQL/pgvector foundation, with a RAG and multi-agent AI layer behind a React app.</li>
-<li><strong>Result:</strong> A working platform in pilot with nonprofit organizations, where user feedback drives the roadmap. <!-- TODO(Jorge): add one concrete number (e.g., filings ingested, organizations or funders covered, pilot users) --></li>
+<li><strong>Result:</strong> A working platform in pilot with nonprofit organizations, where user feedback drives the roadmap. </li>
 </ul>
-<!-- TODO(Jorge): add a screenshot or demo GIF of the app -->
+
 <section id="problem" class="level2">
 <h2 class="anchored" data-anchor-id="problem">Problem</h2>
 <p>Nonprofits have to find funders that fit their mission and then write about their work in ways those funders respond to. The public data to support this exists as IRS Form 990 filings, but it’s large and hard to use directly. Munay Works is an AI-enabled platform that helps nonprofits find funders and generate grant insights from that data. I’m building it independently, and this page covers the technical work.</p>
@@ -69,17 +69,17 @@
 <li><strong>Sources:</strong> IRS Form 990 filings, including the IRS TEOS monthly files, ingested into a 990 database I built.</li>
 <li><strong>Two-layer PostgreSQL schema:</strong> source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.</li>
 <li><strong>Materialized views</strong> provide peer benchmarks and foundation profiles.</li>
-<li><strong>Organization health score:</strong> a 100-point score computed for each organization. <!-- TODO(Jorge): add the score's components at a high level, if you want to share them --></li>
+<li><strong>Organization health score:</strong> a 100-point score computed for each organization. </li>
 </ul>
 </section>
 <section id="ai-layer-and-how-outputs-are-evaluated" class="level2">
 <h2 class="anchored" data-anchor-id="ai-layer-and-how-outputs-are-evaluated">AI Layer and How Outputs Are Evaluated</h2>
 <p>The AI layer is a RAG pipeline with a multi-agent architecture. LangChain orchestrates it, and retrieval uses FAISS and pgvector over the data above, so answers are grounded in actual filings and not generated from the model alone.</p>
-<!-- TODO(Jorge): describe how outputs are evaluated (e.g., test set of questions, grounding/citation checks, human review) and add any eval metrics. I haven't invented any. -->
+
 </section>
 <section id="what-pilots-taught-me" class="level2">
 <h2 class="anchored" data-anchor-id="what-pilots-taught-me">What Pilots Taught Me</h2>
-<p>The platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. <!-- TODO(Jorge): add 2–3 concrete lessons from the pilot (no organization names or contacts) --></p>
+<p>The platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. </p>
 <section id="lessons-from-the-early-prototype" class="level3">
 <h3 class="anchored" data-anchor-id="lessons-from-the-early-prototype">Lessons From the Early Prototype</h3>
 <p>The first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It worked with nonprofit data from IRS Form 990 filings, and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:</p>
@@ -92,9 +92,9 @@
 </section>
 <section id="whats-next" class="level2">
 <h2 class="anchored" data-anchor-id="whats-next">What’s Next</h2>
-<!-- TODO(Jorge): next steps / roadmap, as much as you want to share publicly -->
+
 <p>The roadmap follows what pilot users ask for.</p>
-<!-- TODO(Jorge): add a Code section if there's a public repo for Munay Works. The old early-prototype link (github.com/jorgems21/ai-grant-writing-assistant) was removed because its README names the ProPublica API (lines 19 and 47). Revisit if you update that README. -->
+
 
 
 </section>
@@ -117,7 +117,7 @@
 
 
 <p><em>Graduate project, December 2024; still evolving as a prototype.</em></p>
-<!-- TODO(Jorge): add a live app link or a short GIF/screenshot of the app, if available -->
+
 <p><strong>TL;DR</strong></p>
 <ul>
 <li><strong>Problem:</strong> Home buyers in a tough market need help spotting good deals.</li>
@@ -130,7 +130,7 @@
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p><a href="https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data">Nashville housing data on Kaggle</a>. The quality and quantity of this data limit the predictions. <!-- TODO(Jorge): add the row count and time period --></p>
+<p><a href="https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data">Nashville housing data on Kaggle</a>. The quality and quantity of this data limit the predictions. </p>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
@@ -149,7 +149,7 @@
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
-<p>The app delivers deal predictions based partly on the user’s inputs, plus a downloadable report. It is a prototype and is not currently maintained. <!-- TODO(Jorge): add model metrics (e.g., RMSE / R²) and one screenshot if available --></p>
+<p>The app delivers deal predictions based partly on the user’s inputs, plus a downloadable report. It is a prototype and is not currently maintained. </p>
 </section>
 <section id="what-id-do-next-limitations" class="level2">
 <h2 class="anchored" data-anchor-id="what-id-do-next-limitations">What I’d Do Next / Limitations</h2>
@@ -187,7 +187,7 @@
 <ul>
 <li><strong>Problem:</strong> Which county-level risk factors are associated with higher cancer mortality?</li>
 <li><strong>Approach:</strong> Exploratory analysis, then regression and machine learning models in Python.</li>
-<li><strong>Result:</strong> XGBoost gave the best predictive accuracy of the models compared. <!-- TODO(Jorge): add the headline metric (e.g., R²/RMSE) from the GitHub notebook --></li>
+<li><strong>Result:</strong> XGBoost gave the best predictive accuracy of the models compared. </li>
 </ul>
 <section id="problem" class="level2">
 <h2 class="anchored" data-anchor-id="problem">Problem</h2>
@@ -199,7 +199,7 @@
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>County-level data, about 3,000 rows and 34 variables, covering roughly 2015. <!-- TODO(Jorge): name the dataset and link the source (see the GitHub notebook) --></p>
+<p>County-level data, about 3,000 rows and 34 variables, covering roughly 2015. </p>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
@@ -209,7 +209,7 @@
 <li>Apply regression analysis and machine learning techniques (Python).</li>
 <li>Evaluate and interpret the results, and summarize the findings.</li>
 </ol>
-<!-- TODO(Jorge): list the exact models compared and why (see the GitHub notebook) -->
+
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
@@ -218,7 +218,7 @@
 <li>Hyperparameter tuning improved accuracy but was time-intensive.</li>
 <li>Data quality and preprocessing played a major role in improving results.</li>
 </ul>
-<!-- TODO(Jorge): add a metrics table (model comparison) and at least one chart, e.g. feature importance or predicted vs actual, from the GitHub notebook -->
+
 </section>
 <section id="what-id-do-next-limitations" class="level2">
 <h2 class="anchored" data-anchor-id="what-id-do-next-limitations">What I’d Do Next / Limitations</h2>
@@ -257,7 +257,7 @@
 <ul>
 <li><strong>Problem:</strong> A bank wants to target loan offers at the customers most likely to accept them.</li>
 <li><strong>Approach:</strong> Exploratory analysis and A/B testing, then logistic regression and XGBoost propensity models.</li>
-<li><strong>Result:</strong> XGBoost outperformed the other models in predictive accuracy. <!-- TODO(Jorge): add AUC and precision/recall at a chosen cutoff from the GitHub notebook --></li>
+<li><strong>Result:</strong> XGBoost outperformed the other models in predictive accuracy. </li>
 </ul>
 <section id="problem" class="level2">
 <h2 class="anchored" data-anchor-id="problem">Problem</h2>
@@ -269,7 +269,7 @@
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>Past campaign results with customer attributes and whether the customer accepted the loan. <!-- TODO(Jorge): name the dataset, size, time period and link (see the GitHub notebook) --></p>
+<p>Past campaign results with customer attributes and whether the customer accepted the loan. </p>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
@@ -289,10 +289,10 @@
 <li>Feature engineering improved model predictions.</li>
 <li>XGBoost outperformed the traditional models in predictive accuracy.</li>
 </ul>
-<!-- TODO(Jorge): add a metrics table (AUC, precision and recall at a chosen cutoff) and a calibration plot from the GitHub notebook -->
+
 <section id="business-impact" class="level3">
 <h3 class="anchored" data-anchor-id="business-impact">Business Impact</h3>
-<!-- TODO(Jorge): add a short business-impact section, e.g. how many offers a campaign could skip at a chosen cutoff while keeping most acceptances. Use real numbers from the notebook only. -->
+
 <p>Ranking customers by predicted propensity lets a marketing team focus offers on the likeliest acceptors instead of contacting everyone.</p>
 </section>
 </section>

@@ -52,9 +52,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-fd3f5383d77ad6d3cb8719de77cec9ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-9082030d61b43a5bf51efb0f4c2d2ace.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-fd3f5383d77ad6d3cb8719de77cec9ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-57cebb62a7a005c5f918fca04b991e84.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-215df537fc5e77572786da41c8c3f88a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-57cebb62a7a005c5f918fca04b991e84.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -388,9 +388,9 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>Problem:</strong> Nonprofits need to find the right funders and turn funder data into grant insights.</li>
 <li><strong>Approach:</strong> A data pipeline over IRS Form 990 filings feeds a PostgreSQL/pgvector foundation, with a RAG and multi-agent AI layer behind a React app.</li>
-<li><strong>Result:</strong> A working platform in pilot with nonprofit organizations, where user feedback drives the roadmap. <!-- TODO(Jorge): add one concrete number (e.g., filings ingested, organizations or funders covered, pilot users) --></li>
+<li><strong>Result:</strong> A working platform in pilot with nonprofit organizations, where user feedback drives the roadmap. </li>
 </ul>
-<!-- TODO(Jorge): add a screenshot or demo GIF of the app -->
+
 <section id="problem" class="level2">
 <h2 class="anchored" data-anchor-id="problem">Problem</h2>
 <p>Nonprofits have to find funders that fit their mission and then write about their work in ways those funders respond to. The public data to support this exists as IRS Form 990 filings, but it’s large and hard to use directly. Munay Works is an AI-enabled platform that helps nonprofits find funders and generate grant insights from that data. I’m building it independently, and this page covers the technical work.</p>
@@ -423,17 +423,17 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Sources:</strong> IRS Form 990 filings, including the IRS TEOS monthly files, ingested into a 990 database I built.</li>
 <li><strong>Two-layer PostgreSQL schema:</strong> source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.</li>
 <li><strong>Materialized views</strong> provide peer benchmarks and foundation profiles.</li>
-<li><strong>Organization health score:</strong> a 100-point score computed for each organization. <!-- TODO(Jorge): add the score's components at a high level, if you want to share them --></li>
+<li><strong>Organization health score:</strong> a 100-point score computed for each organization. </li>
 </ul>
 </section>
 <section id="ai-layer-and-how-outputs-are-evaluated" class="level2">
 <h2 class="anchored" data-anchor-id="ai-layer-and-how-outputs-are-evaluated">AI Layer and How Outputs Are Evaluated</h2>
 <p>The AI layer is a RAG pipeline with a multi-agent architecture. LangChain orchestrates it, and retrieval uses FAISS and pgvector over the data above, so answers are grounded in actual filings and not generated from the model alone.</p>
-<!-- TODO(Jorge): describe how outputs are evaluated (e.g., test set of questions, grounding/citation checks, human review) and add any eval metrics. I haven't invented any. -->
+
 </section>
 <section id="what-pilots-taught-me" class="level2">
 <h2 class="anchored" data-anchor-id="what-pilots-taught-me">What Pilots Taught Me</h2>
-<p>The platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. <!-- TODO(Jorge): add 2–3 concrete lessons from the pilot (no organization names or contacts) --></p>
+<p>The platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. </p>
 <section id="lessons-from-the-early-prototype" class="level3">
 <h3 class="anchored" data-anchor-id="lessons-from-the-early-prototype">Lessons From the Early Prototype</h3>
 <p>The first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It worked with nonprofit data from IRS Form 990 filings, and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:</p>
@@ -446,9 +446,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="whats-next" class="level2">
 <h2 class="anchored" data-anchor-id="whats-next">What’s Next</h2>
-<!-- TODO(Jorge): next steps / roadmap, as much as you want to share publicly -->
+
 <p>The roadmap follows what pilot users ask for.</p>
-<!-- TODO(Jorge): add a Code section if there's a public repo for Munay Works. The old early-prototype link (github.com/jorgems21/ai-grant-writing-assistant) was removed because its README names the ProPublica API (lines 19 and 47). Revisit if you update that README. -->
+
 
 
 </section>

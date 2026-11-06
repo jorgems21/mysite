@@ -28,7 +28,7 @@ I'm a data scientist who turns messy, real-world data into evidence, models and 
 :::
 
 ::: {.hero-photo}
-<img src="media/min_headshot.png" class="headshot" alt="Headshot of Jorge Montoya">
+<img src="media/min_headshot.webp" class="headshot" width="192" height="192" alt="Headshot of Jorge Montoya">
 :::
 :::
 

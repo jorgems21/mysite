@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  post-render: scripts/strip-todo-comments.ts
+  resources:
+    - fonts/*
 execute:
   freeze: auto
 profile:
