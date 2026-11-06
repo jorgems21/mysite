@@ -1,64 +1,31 @@
 ---
-title: "About Me"
+title: "About"
 ---
 
-## Who I am
+<!-- TODO(Jorge): review bio -->
 
-An **analytics professional** with **5+ years** of experience in **analytics, product design/development, and business strategy**
+I'm a healthcare data scientist with 5+ years of experience in analytics, product design and development. I'm currently a Senior Analytics Developer in Data Strategy & Solutions at Premier Inc., where I've worked on real-world evidence analytics and on turning research prototypes into production-ready data products.
 
-## **My Journey**
+I'm a first-generation Peruvian immigrant. I began my career in private wealth reporting, which showed me how much good data storytelling can change decisions. That led me to a Master's in Analytics at Northeastern, and then to healthcare, where I apply data to problems that affect people's lives.
 
-I am a first generation Peruvian immigrant who is passionate for improving the lives of people and bringing communities together. In the beginning of my career, I started working in the private wealth industry to help others achieve their investing goals by managing their investment data and presenting insights that would help them make informed decisions for their portfolios and finances. This interest in storytelling through data with purpose led me to pursue a Master's degree in Data and Analytics from Northeastern. This educational experience broadened my horizons in how storytelling with data and the use of analytics can drive meaningful impact and organizational growth.
+Alongside my day job, I'm building Munay Works, an AI platform that helps nonprofits find funders using IRS Form 990 data. It's a hands-on way to keep growing in data engineering, retrieval-augmented generation and product work.
 
-With this new perspective, I moved onto the healthcare industry in order to continue my pursuit of applying data, analytics and storytelling to drive and improve the lives of people. I started working at Premier where I am focused in formulating, designing and developing scalable solutions that aim to drive meaningful change and positive impact to business and communities that are most affected. I have led and contributed on multiple solutions  (i.e. application, dashboards, process improvements) through efforts in product design, product development, proof of concept building, evidence of business value generation and translating prototypes into production-ready solutions.
+[View my work](projects.qmd) · [Resume (PDF)](my_resume.pdf) · [Contact](contact_me.qmd)
 
-🔗 [**View My Projects**](projects.qmd)
+## Timeline
 
-## Values and How They Impact My Work
+| When | Role | Where |
+|---|---|---|
+| Jan 2026 – present | Founder / Builder | Munay Works |
+| Apr 2025 – present | Senior Analytics Developer, Data Strategy & Solutions | Premier Inc. |
+| Jul 2023 – Mar 2025 | Analytics Developer, Innovations, Research & Design | Premier Inc. |
+| Apr 2022 – Jun 2023 | Associate Analytics Developer, Innovations, Research & Design | Premier Inc. |
+| Jul 2020 – Mar 2022 | Operations Reporting Associate | Windrose Advisors |
 
--   **Inclusion & Diversity of Thought**
+## Education
 
-    Embracing diverse perspectives to foster innovation and drive collaboration.
-
--   **Impact-Driven & Mission-Aligned**
-
-    Passionate about creating meaningful solutions that align with vision & long-term goals.
-
--   **Performance & Efficiency**
-
-    Continuously optimizing processes and driving operational excellence.
-
--   **Knowledge Sharing & Collaboration**
-
-    Empowering others by sharing insights and fostering a culture of learning.
-
--   **Creative & Strategic Thinking**
-
-    Challenging the status quo to develop innovative solutions.
-
--   **Community-Driven & Global Perspective**
-
-    Thinking globally while making a local impact through meaningful contributions.
-
-## Key Expertise Areas
-
--   Project management
-
--   Design-thinking
-
--   Market research and analysis
-
--   Prototyping
-
--   Business case generation
-
--   Data analysis
-
--   Machine learning modelling
-
--   Systems design
-
--   Process improvement
+- **Northeastern University:** MS in Analytics (Statistical Modeling)
+- **Northeastern University:** BS in Business Administration (Finance & Entrepreneurship)
 
 ## Skills
 
@@ -66,18 +33,6 @@ With this new perspective, I moved onto the healthcare industry in order to cont
 <iframe src="figures/interactive_skills_chart.html" title="Interactive chart of technical skills" width="100%" height="600px"></iframe>
 ```
 
-## Fun interests
+## Outside Work
 
--   Cooking
-
--   Hiking outdoors
-
--   Sports (big Liverpool FC fan and all Miami-based teams)
-
--   Volunteering
-
--   Recent books read:
-
-    -   [El secreto del bambu](https://www.amazon.com/secreto-del-Bamb%C3%BA-f%C3%A1bula-Spanish/dp/0829701443)
-
-    -   [Crucial conversations](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/1469266822)
+Cooking, hiking, volunteering, and Liverpool FC and Miami sports. Recent reads: [El secreto del bambú](https://www.amazon.com/secreto-del-Bamb%C3%BA-f%C3%A1bula-Spanish/dp/0829701443) and [Crucial Conversations](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/1469266822).

@@ -11,14 +11,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about_me.qmd
-        text: About Me
       - href: projects.qmd
-        text: Projects
+        text: Work
+      - href: about_me.qmd
+        text: About
+      - href: my_resume.pdf
+        text: Resume (PDF)
       - href: contact_me.qmd
-        text: Contact Me
+        text: Contact
   page-footer:
-    right: "This blog is built with ❤️ and [Quarto](https://quarto.org/)."
+    right: "Built with ❤️ and [Quarto](https://quarto.org/)."
 
 format:
   html:
@@ -31,4 +33,3 @@ format:
     code-overflow: wrap
 
 editor: visual
-

@@ -4,84 +4,70 @@
     "href": "index.html",
     "title": "Jorge Montoya",
     "section": "",
-    "text": "Bridging technology and business strategy to drive success\n\nI’m passionate about solving complex problems by combining data-driven strategy, technical/business acumen, and a collaborative spirit. Whether it’s building scalable solutions or empowering teams to achieve their best, I thrive at the intersection of strategy, technology, and teamwork.\n\n\n\nHealthcare & Investment Analytics Experience\nData Science & Machine Learning Applications\nProduct & Data Analytics Innovation\nData Visualization & Storytelling for Impact\nCross-Functional Leadership & Strategic Collaboration\nDownload a copy of my resume here \nEmail: miraflores97@gmail.com \n\n\n\n\nA tool that helps future home-buyers make the right decision for them\n🛠️ Tech: R Shiny, Machine Learning\n🔗 See More\nCancer mortality prediction and risk factor analysis\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Explore\nData-driven bank loan risk prediction reducing loan defaults\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Read More\n\n\n\n\nAI for Growth: How LLM’s and RAG models can be used in applications that drive positive outcomes in multiple industries\nAdvanced Analytics: Design and develop self-serve analytics tools for real world problems that any person can use\nSocial Impact: Using technology (i.e. data, analytics, AI, etc.) to contribute to public benefit\nCreativity and Collaboration: A key approach to work, which helps welcome different viewpoints for complex problem-solving.\n\nLearn more about me here: About Me\n\n\n\n\n📩 If you would like to collaborate on a project together or chat more, contact me here LinkedIn email me at miraflores97@gmail.com, or reach out via my Contact Me page! 🚀"
+    "text": "Healthcare Data Scientist · Real-World Evidence & HEOR\nI turn messy healthcare data — EHR, chargemaster, claims-style real-world data — into evidence and data products that teams can trust. 5+ years building RWE analytics at Premier Inc.\n\nResume LinkedIn Email\n\n\nmiraflores97@gmail.com"
   },
   {
-    "objectID": "index.html#my-key-focus-areas",
-    "href": "index.html#my-key-focus-areas",
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
     "title": "Jorge Montoya",
-    "section": "",
-    "text": "Healthcare & Investment Analytics Experience\nData Science & Machine Learning Applications\nProduct & Data Analytics Innovation\nData Visualization & Storytelling for Impact\nCross-Functional Leadership & Strategic Collaboration\nDownload a copy of my resume here \nEmail: miraflores97@gmail.com"
+    "section": "Featured Work",
+    "text": "Featured Work\n\n\nCancer Mortality Analysis\nCounty-level risk factors for cancer mortality; XGBoost was the strongest model tested.\nPython Machine Learning Statistical Testing\nRead case study\n\n\nBank Personal Loan Analysis\nLogistic regression and XGBoost to profile customers most likely to accept a personal loan offer.\nPython XGBoost A/B Testing\nRead case study\n\n\nNashville Housing Purchasing App\nAn R Shiny app that uses a random forest to flag good deals for prospective home buyers.\nR Shiny Random Forest\nRead case study"
   },
   {
-    "objectID": "index.html#featured-projects",
-    "href": "index.html#featured-projects",
+    "objectID": "index.html#skills-snapshot",
+    "href": "index.html#skills-snapshot",
     "title": "Jorge Montoya",
-    "section": "",
-    "text": "A tool that helps future home-buyers make the right decision for them\n🛠️ Tech: R Shiny, Machine Learning\n🔗 See More\nCancer mortality prediction and risk factor analysis\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Explore\nData-driven bank loan risk prediction reducing loan defaults\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Read More"
+    "section": "Skills Snapshot",
+    "text": "Skills Snapshot\n\nDomain RWE HEOR EHR Chargemaster\nLanguages & Data Python R SQL PySpark Databricks Teradata\nAnalytics & Apps Statistical Modeling Machine Learning Tableau R Shiny Streamlit\nAI LangChain RAG FAISS pgvector FastAPI"
   },
   {
-    "objectID": "index.html#interests",
-    "href": "index.html#interests",
+    "objectID": "index.html#about",
+    "href": "index.html#about",
     "title": "Jorge Montoya",
-    "section": "",
-    "text": "AI for Growth: How LLM’s and RAG models can be used in applications that drive positive outcomes in multiple industries\nAdvanced Analytics: Design and develop self-serve analytics tools for real world problems that any person can use\nSocial Impact: Using technology (i.e. data, analytics, AI, etc.) to contribute to public benefit\nCreativity and Collaboration: A key approach to work, which helps welcome different viewpoints for complex problem-solving.\n\nLearn more about me here: About Me"
+    "section": "About",
+    "text": "About\nI’m a healthcare analytics developer who moved from private wealth reporting into real-world evidence work at Premier Inc., and I’m now also building an AI product independently. More about me →"
   },
   {
-    "objectID": "index.html#lets-connect",
-    "href": "index.html#lets-connect",
+    "objectID": "index.html#lets-talk",
+    "href": "index.html#lets-talk",
     "title": "Jorge Montoya",
-    "section": "",
-    "text": "📩 If you would like to collaborate on a project together or chat more, contact me here LinkedIn email me at miraflores97@gmail.com, or reach out via my Contact Me page! 🚀"
+    "section": "Let’s Talk",
+    "text": "Let’s Talk\nHiring for a healthcare RWE or data science role, or want to collaborate? Email me at miraflores97@gmail.com or connect on LinkedIn."
   },
   {
     "objectID": "about_me.html",
     "href": "about_me.html",
-    "title": "About Me",
+    "title": "About",
     "section": "",
-    "text": "An analytics professional with 5+ years of experience in analytics, product design/development, and business strategy"
+    "text": "I’m a healthcare data scientist with 5+ years of experience in analytics, product design and development. I’m currently a Senior Analytics Developer in Data Strategy & Solutions at Premier Inc., where I’ve worked on real-world evidence analytics and on turning research prototypes into production-ready data products.\nI’m a first-generation Peruvian immigrant. I began my career in private wealth reporting, which showed me how much good data storytelling can change decisions. That led me to a Master’s in Analytics at Northeastern, and then to healthcare, where I apply data to problems that affect people’s lives.\nAlongside my day job, I’m building Munay Works, an AI platform that helps nonprofits find funders using IRS Form 990 data. It’s a hands-on way to keep growing in data engineering, retrieval-augmented generation and product work.\nView my work · Resume (PDF) · Contact"
   },
   {
-    "objectID": "about_me.html#who-i-am",
-    "href": "about_me.html#who-i-am",
-    "title": "About Me",
-    "section": "",
-    "text": "An analytics professional with 5+ years of experience in analytics, product design/development, and business strategy"
+    "objectID": "about_me.html#timeline",
+    "href": "about_me.html#timeline",
+    "title": "About",
+    "section": "Timeline",
+    "text": "Timeline\n\n\n\n\n\n\n\n\nWhen\nRole\nWhere\n\n\n\n\nJan 2026 – present\nFounder / Builder\nMunay Works\n\n\nApr 2025 – present\nSenior Analytics Developer, Data Strategy & Solutions\nPremier Inc.\n\n\nJul 2023 – Mar 2025\nAnalytics Developer, Innovations, Research & Design\nPremier Inc.\n\n\nApr 2022 – Jun 2023\nAssociate Analytics Developer, Innovations, Research & Design\nPremier Inc.\n\n\nJul 2020 – Mar 2022\nOperations Reporting Associate\nWindrose Advisors"
   },
   {
-    "objectID": "about_me.html#my-journey",
-    "href": "about_me.html#my-journey",
-    "title": "About Me",
-    "section": "My Journey",
-    "text": "My Journey\nI am a first generation Peruvian immigrant who is passionate for improving the lives of people and bringing communities together. In the beginning of my career, I started working in the private wealth industry to help others achieve their investing goals by managing their investment data and presenting insights that would help them make informed decisions for their portfolios and finances. This interest in storytelling through data with purpose led me to pursue a Master’s degree in Data and Analytics from Northeastern. This educational experience broadened my horizons in how storytelling with data and the use of analytics can drive meaningful impact and organizational growth.\nWith this new perspective, I moved onto the healthcare industry in order to continue my pursuit of applying data, analytics and storytelling to drive and improve the lives of people. I started working at Premier where I am focused in formulating, designing and developing scalable solutions that aim to drive meaningful change and positive impact to business and communities that are most affected. I have led and contributed on multiple solutions  (i.e. application, dashboards, process improvements) through efforts in product design, product development, proof of concept building, evidence of business value generation and translating prototypes into production-ready solutions.\n🔗 View My Projects"
-  },
-  {
-    "objectID": "about_me.html#values-and-how-they-impact-my-work",
-    "href": "about_me.html#values-and-how-they-impact-my-work",
-    "title": "About Me",
-    "section": "Values and How They Impact My Work",
-    "text": "Values and How They Impact My Work\n\nInclusion & Diversity of Thought\nEmbracing diverse perspectives to foster innovation and drive collaboration.\nImpact-Driven & Mission-Aligned\nPassionate about creating meaningful solutions that align with vision & long-term goals.\nPerformance & Efficiency\nContinuously optimizing processes and driving operational excellence.\nKnowledge Sharing & Collaboration\nEmpowering others by sharing insights and fostering a culture of learning.\nCreative & Strategic Thinking\nChallenging the status quo to develop innovative solutions.\nCommunity-Driven & Global Perspective\nThinking globally while making a local impact through meaningful contributions."
-  },
-  {
-    "objectID": "about_me.html#key-expertise-areas",
-    "href": "about_me.html#key-expertise-areas",
-    "title": "About Me",
-    "section": "Key Expertise Areas",
-    "text": "Key Expertise Areas\n\nProject management\nDesign-thinking\nMarket research and analysis\nPrototyping\nBusiness case generation\nData analysis\nMachine learning modelling\nSystems design\nProcess improvement"
+    "objectID": "about_me.html#education",
+    "href": "about_me.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nNortheastern University: MS in Analytics (Statistical Modeling)\nNortheastern University: BS in Business Administration (Finance & Entrepreneurship)"
   },
   {
     "objectID": "about_me.html#skills",
     "href": "about_me.html#skills",
-    "title": "About Me",
+    "title": "About",
     "section": "Skills",
     "text": "Skills"
   },
   {
-    "objectID": "about_me.html#fun-interests",
-    "href": "about_me.html#fun-interests",
-    "title": "About Me",
-    "section": "Fun interests",
-    "text": "Fun interests\n\nCooking\nHiking outdoors\nSports (big Liverpool FC fan and all Miami-based teams)\nVolunteering\nRecent books read:\n\nEl secreto del bambu\nCrucial conversations"
+    "objectID": "about_me.html#outside-work",
+    "href": "about_me.html#outside-work",
+    "title": "About",
+    "section": "Outside Work",
+    "text": "Outside Work\nCooking, hiking, volunteering, and Liverpool FC and Miami sports. Recent reads: El secreto del bambú and Crucial Conversations."
   },
   {
     "objectID": "projects/03_nashville-house-purchasing-app/index.html",

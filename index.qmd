@@ -1,81 +1,102 @@
 ---
-title: "Jorge Montoya"
-image: media/min_headshot.png
+pagetitle: "Jorge Montoya | Healthcare Data Scientist, Real-World Evidence & HEOR"
 toc: false
-about: 
-  template: trestles # see other templates at https://quarto.org/docs/websites/website-about.html#templates
-  image-shape: round
-  image-alt: "Headshot of Jorge Montoya"
-  image-width: 20em
-  links:
-    - icon: linkedin # you'll need to the fontawesome extension to include icons: https://github.com/quarto-ext/fontawesome
-      text: LinkedIn
-      href: https://linkedin.com/in/jorge-montoya8454a8127/
-    - icon: github
-      text: GitHub
-      href: https://github.com/jorgems21
-    - icon: envelope
-      text: Email
-      href: mailto:miraflores97@gmail.com
-    - icon: file-earmark-person
-      text: Resume
-      href: https://jorgems21.github.io/mysite/my_resume.pdf
+page-layout: full
+title-block-banner: false
 execute: 
   freeze: auto
 ---
 
-# **Hey, I am Jorge** 👋
+<!-- TODO(Jorge): review hero copy, proof strip and featured-work one-liners -->
 
-::: animate.fadeIn
-Bridging technology and business strategy to drive success
+::: {.hero}
+::: {.hero-text}
+# Jorge Montoya
+
+**Healthcare Data Scientist · Real-World Evidence & HEOR**
+
+I turn messy healthcare data — EHR, chargemaster, claims-style real-world data — into evidence and data products that teams can trust. 5+ years building RWE analytics at Premier Inc.
+
+<div class="hero-buttons">
+<a class="btn btn-primary" href="my_resume.pdf">Resume</a>
+<a class="btn btn-outline-primary" href="https://www.linkedin.com/in/jorge-montoya8454a8127">LinkedIn</a>
+<a class="btn btn-outline-primary" href="mailto:miraflores97@gmail.com">Email</a>
+</div>
+
+<p class="hero-email">miraflores97@gmail.com <!-- TODO(Jorge): confirm which email to use --></p>
 :::
 
-I'm passionate about solving complex problems by combining data-driven strategy, technical/business acumen, and a collaborative spirit. Whether it's building scalable solutions or empowering teams to achieve their best, I thrive at the intersection of strategy, technology, and teamwork.
+::: {.hero-photo}
+<img src="media/min_headshot.png" class="headshot" alt="Headshot of Jorge Montoya">
+:::
+:::
 
-## **My Key Focus Areas**
+::: {.proof-strip}
+::: {.proof-card}
+<span class="proof-stat">5+ years</span>
+in healthcare data & analytics
+:::
+::: {.proof-card}
+<span class="proof-stat">Prototype → product</span>
+Built an open-source RWE research prototype that became a multimillion-dollar data product
+:::
+::: {.proof-card}
+<span class="proof-stat">Days → hours</span>
+Automated research workflows with Python, R and statistical modeling
+:::
+::: {.proof-card}
+<span class="proof-stat">Data validation lead</span>
+for a cloud migration of healthcare data products (PySpark, SQL, Tableau)
+:::
+:::
 
--   Healthcare & Investment Analytics Experience
+## Featured Work
 
--   Data Science & Machine Learning Applications
+::: {.work-grid}
+::: {.work-card}
+### Cancer Mortality Analysis
+County-level risk factors for cancer mortality; XGBoost was the strongest model tested.
 
--   Product & Data Analytics Innovation
+<span class="chip">Python</span> <span class="chip">Machine Learning</span> <span class="chip">Statistical Testing</span>
 
--   Data Visualization & Storytelling for Impact
+[Read case study](projects/01_cancer-risk-factor-analysis/index.qmd){.stretched-link}
+:::
+::: {.work-card}
+### Bank Personal Loan Analysis
+Logistic regression and XGBoost to profile customers most likely to accept a personal loan offer.
 
--   Cross-Functional Leadership & Strategic Collaboration
+<span class="chip">Python</span> <span class="chip">XGBoost</span> <span class="chip">A/B Testing</span>
 
-    Download a copy of my resume [here](my_resume.pdf) <!-- TODO(Jorge): upload latest resume PDF as my_resume.pdf -->
+[Read case study](projects/02_bank-personal-loan-analysis/index.qmd){.stretched-link}
+:::
+::: {.work-card}
+### Nashville Housing Purchasing App
+An R Shiny app that uses a random forest to flag good deals for prospective home buyers.
 
-    Email: [miraflores97@gmail.com](mailto:miraflores97@gmail.com) <!-- TODO(Jorge): confirm email -->
+<span class="chip">R Shiny</span> <span class="chip">Random Forest</span>
 
-## **Featured Projects**
+[Read case study](projects/03_nashville-house-purchasing-app/index.qmd){.stretched-link}
+:::
+:::
 
-**A tool that helps future home-buyers make the right decision for them**\
-🛠️ **Tech:** R Shiny, Machine Learning\
-🔗 [See More](projects/03_nashville-house-purchasing-app/index.qmd)
+## Skills Snapshot
 
-**Cancer mortality prediction and risk factor analysis**\
-🛠️ **Tech:** Python, Statistical Testing, Machine Learning\
-🔗 [Explore](projects/01_cancer-risk-factor-analysis/index.qmd)
+::: {.skills}
+**Domain** <span class="chip">RWE</span> <span class="chip">HEOR</span> <span class="chip">EHR</span> <span class="chip">Chargemaster</span>
 
-**Data-driven bank loan risk prediction reducing loan defaults**\
-🛠️ **Tech:** Python, Statistical Testing, Machine Learning\
-🔗 [Read More](projects/02_bank-personal-loan-analysis/index.qmd)
+**Languages & Data** <span class="chip">Python</span> <span class="chip">R</span> <span class="chip">SQL</span> <span class="chip">PySpark</span> <span class="chip">Databricks</span> <span class="chip">Teradata</span>
 
-## Interests
+**Analytics & Apps** <span class="chip">Statistical Modeling</span> <span class="chip">Machine Learning</span> <span class="chip">Tableau</span> <span class="chip">R Shiny</span> <span class="chip">Streamlit</span>
 
--   **AI for Growth**: How **LLM's** and **RAG** models can be used in applications that drive positive outcomes in multiple industries
+**AI** <span class="chip">LangChain</span> <span class="chip">RAG</span> <span class="chip">FAISS</span> <span class="chip">pgvector</span> <span class="chip">FastAPI</span>
+:::
 
--   **Advanced Analytics**: Design and develop **self-serve** analytics tools for real world problems that any person can use
+## About
 
--   **Social Impact:** Using technology (i.e. data, analytics, AI, etc.) to contribute to **public benefit**
+I'm a healthcare analytics developer who moved from private wealth reporting into real-world evidence work at Premier Inc., and I'm now also building an AI product independently. [More about me →](about_me.qmd)
 
--   **Creativity and Collaboration**: A **key approach** to work, which helps welcome different viewpoints for complex problem-solving.
+::: {.cta}
+## Let's Talk
 
-Learn more about me here: [About Me](about_me.qmd)
-
-------------------------------------------------------------------------
-
-## Let's Connect
-
-📩 If you would like to collaborate on a project together or chat more, contact me here [LinkedIn](https://www.linkedin.com/in/jorge-montoya8454a8127) email me at [miraflores97@gmail.com](mailto:miraflores97@gmail.com), or reach out via my [Contact Me](contact_me.qmd) page! 🚀
+Hiring for a healthcare RWE or data science role, or want to collaborate? Email me at [miraflores97@gmail.com](mailto:miraflores97@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/jorge-montoya8454a8127).
+:::
