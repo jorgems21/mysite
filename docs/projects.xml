@@ -43,7 +43,7 @@
 <div>
 
 <pre class="mermaid mermaid-js">flowchart TD
-  A["990 sources&lt;br/&gt;GivingTuesday data lake&lt;br/&gt;IRS TEOS monthly files"] --&gt; B["ETL / ingestion"]
+  A["IRS Form 990 filings&lt;br/&gt;IRS TEOS monthly files"] --&gt; B["ETL / ingestion"]
   B --&gt; C[("PostgreSQL / Supabase&lt;br/&gt;source tables + analytics tables&lt;br/&gt;pgvector")]
   C --&gt; D["RAG pipeline&lt;br/&gt;+ multi-agent layer&lt;br/&gt;(LangChain, FAISS)"]
   D --&gt; E["FastAPI"]
@@ -59,7 +59,7 @@
 <section id="data-pipeline" class="level2">
 <h2 class="anchored" data-anchor-id="data-pipeline">Data Pipeline</h2>
 <ul>
-<li><strong>Sources:</strong> 990 filings from the GivingTuesday data lake, and the IRS TEOS monthly files.</li>
+<li><strong>Sources:</strong> IRS Form 990 filings, including the IRS TEOS monthly files, ingested into a 990 database I built.</li>
 <li><strong>Two-layer PostgreSQL schema:</strong> source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.</li>
 <li><strong>Materialized views</strong> provide peer benchmarks and foundation profiles.</li>
 <li><strong>Organization health score:</strong> a 100-point score computed for each organization. <!-- TODO(Jorge): add the score's components at a high level, if you want to share them --></li>
@@ -75,7 +75,7 @@
 <p>The platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. <!-- TODO(Jorge): add 2–3 concrete lessons from the pilot (no organization names or contacts) --></p>
 <section id="lessons-from-the-early-prototype" class="level3">
 <h3 class="anchored" data-anchor-id="lessons-from-the-early-prototype">Lessons From the Early Prototype</h3>
-<p>The first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It pulled nonprofit data from the ProPublica API (IRS Form 990), and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:</p>
+<p>The first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It worked with nonprofit data from IRS Form 990 filings, and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:</p>
 <ul>
 <li>Clearly separating the advisory and document modes improved the user experience.</li>
 <li>RAG relevance depends on high-quality chunking and metadata.</li>

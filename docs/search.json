@@ -228,14 +228,14 @@
     "href": "projects/munay-works/index.html#architecture",
     "title": "Munay Works: AI Platform for Nonprofit Funding",
     "section": "Architecture",
-    "text": "Architecture\n\n\n\n\n\n\nflowchart TD\n  A[\"990 sources&lt;br/&gt;GivingTuesday data lake&lt;br/&gt;IRS TEOS monthly files\"] --&gt; B[\"ETL / ingestion\"]\n  B --&gt; C[(\"PostgreSQL / Supabase&lt;br/&gt;source tables + analytics tables&lt;br/&gt;pgvector\")]\n  C --&gt; D[\"RAG pipeline&lt;br/&gt;+ multi-agent layer&lt;br/&gt;(LangChain, FAISS)\"]\n  D --&gt; E[\"FastAPI\"]\n  E --&gt; F[\"React app\"]\n\n\n\n\n\n\nStack: React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase"
+    "text": "Architecture\n\n\n\n\n\n\nflowchart TD\n  A[\"IRS Form 990 filings&lt;br/&gt;IRS TEOS monthly files\"] --&gt; B[\"ETL / ingestion\"]\n  B --&gt; C[(\"PostgreSQL / Supabase&lt;br/&gt;source tables + analytics tables&lt;br/&gt;pgvector\")]\n  C --&gt; D[\"RAG pipeline&lt;br/&gt;+ multi-agent layer&lt;br/&gt;(LangChain, FAISS)\"]\n  D --&gt; E[\"FastAPI\"]\n  E --&gt; F[\"React app\"]\n\n\n\n\n\n\nStack: React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase"
   },
   {
     "objectID": "projects/munay-works/index.html#data-pipeline",
     "href": "projects/munay-works/index.html#data-pipeline",
     "title": "Munay Works: AI Platform for Nonprofit Funding",
     "section": "Data Pipeline",
-    "text": "Data Pipeline\n\nSources: 990 filings from the GivingTuesday data lake, and the IRS TEOS monthly files.\nTwo-layer PostgreSQL schema: source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.\nMaterialized views provide peer benchmarks and foundation profiles.\nOrganization health score: a 100-point score computed for each organization."
+    "text": "Data Pipeline\n\nSources: IRS Form 990 filings, including the IRS TEOS monthly files, ingested into a 990 database I built.\nTwo-layer PostgreSQL schema: source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.\nMaterialized views provide peer benchmarks and foundation profiles.\nOrganization health score: a 100-point score computed for each organization."
   },
   {
     "objectID": "projects/munay-works/index.html#ai-layer-and-how-outputs-are-evaluated",
@@ -249,7 +249,7 @@
     "href": "projects/munay-works/index.html#what-pilots-taught-me",
     "title": "Munay Works: AI Platform for Nonprofit Funding",
     "section": "What Pilots Taught Me",
-    "text": "What Pilots Taught Me\nThe platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. \n\nLessons From the Early Prototype\nThe first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It pulled nonprofit data from the ProPublica API (IRS Form 990), and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:\n\nClearly separating the advisory and document modes improved the user experience.\nRAG relevance depends on high-quality chunking and metadata.\nLocal model support balances privacy and performance tradeoffs."
+    "text": "What Pilots Taught Me\nThe platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. \n\nLessons From the Early Prototype\nThe first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It worked with nonprofit data from IRS Form 990 filings, and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:\n\nClearly separating the advisory and document modes improved the user experience.\nRAG relevance depends on high-quality chunking and metadata.\nLocal model support balances privacy and performance tradeoffs."
   },
   {
     "objectID": "projects/munay-works/index.html#whats-next",
