@@ -1,0 +1,70 @@
+---
+draft: true
+title: "MEPS Analysis (scaffold)"
+execute:
+  freeze: auto
+---
+
+<!-- TODO(Jorge): when the code is filled in and the data is downloaded, change the plain ```r fences below to executable ```{r} chunks (this needs R and the packages from setup.R installed locally). They are plain fences now so the site renders without R. -->
+
+Section stubs for the analysis. Every chunk is an **untested skeleton**: names in `<ANGLE_BRACKETS>` are placeholders to replace. No results are included.
+
+## 0. Setup
+
+```r
+library(dplyr)
+library(survey)     # MEPS is a complex survey: use its weights, strata and PSUs
+library(MatchIt)    # propensity score matching
+library(WeightIt)   # IPTW
+library(cobalt)     # balance diagnostics and love plot
+library(gtsummary)  # Table 1
+library(sandwich)
+```
+
+## 1. Cohort Definition
+
+TODO(Jorge): choose condition X, treatments A and B, the MEPS year(s), and the inclusion/exclusion criteria. Record the counts at each step (a cohort flow table).
+
+```r
+# raw <- read_meps("data/raw/<FILE>")   # see data/README.md
+# cohort <- raw |> filter(<CONDITION_X>, <ON_TREATMENT_A_OR_B>, <ELIGIBILITY>)
+# cohort$treatment <- ifelse(<ON_A>, "A", "B")
+```
+
+## 2. Table 1: Baseline Characteristics
+
+```r
+# cohort |> select(treatment, <BASELINE_COVARIATES>) |> tbl_summary(by = treatment) |> add_p()
+```
+
+## 3. Propensity Scores, Balance and Love Plot
+
+TODO(Jorge): choose matching or IPTW. Select covariates measured before treatment. Report balance before and after.
+
+```r
+# ps_model <- treatment ~ <COVARIATES>
+# w <- weightit(ps_model, data = cohort, method = "ps", estimand = "ATE")
+# bal.tab(w, un = TRUE, thresholds = c(m = 0.1))
+# love.plot(w, thresholds = c(m = 0.1))
+```
+
+## 4. Cost Model
+
+TODO(Jorge): gamma GLM with log link, or a two-part model (any cost, then positive cost). Account for the survey design.
+
+```r
+# design <- svydesign(ids = ~<PSU>, strata = ~<STRATA>, weights = ~<PERSON_WEIGHT>, data = cohort, nest = TRUE)
+# fit <- svyglm(<TOTAL_COST> ~ treatment + <COVARIATES>, design = design, family = Gamma(link = "log"))
+```
+
+## 5. Utilization
+
+TODO(Jorge): choose utilization outcomes (e.g., office visits, ER visits, inpatient stays) and a count model.
+
+## 6. Sensitivity Analysis
+
+TODO(Jorge): for example, alternative covariate sets, trimming extreme weights, a different cost model, and an E-value for unmeasured confounding.
+
+## 7. Limitations
+
+TODO(Jorge)

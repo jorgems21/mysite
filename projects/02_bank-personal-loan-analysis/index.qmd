@@ -1,68 +1,63 @@
 ---
-title: "Bank personal loan analysis"
+title: "Bank Personal Loan Analysis"
+subtitle: "Credit and marketing propensity modeling: who is most likely to accept a personal loan offer"
+description: "Propensity models (logistic regression, XGBoost) for targeting personal loan offers from past campaign results."
 date: "December 2023"
-categories: [python,statistical testing, machine learning]
+categories: ["Finance", "Machine Learning"]
 image: bank_loan.jpg
+image-alt: "Bank building representing a personal loan marketing analysis"
+execute:
+  freeze: true
 ---
 
-## Background context
+*Graduate project, December 2023.*
 
--   Help banks identify customers who are most likely to accept a loan approval based on past campaign results.
+**TL;DR**
 
--   Started as part of school project
+- **Problem:** A bank wants to target loan offers at the customers most likely to accept them.
+- **Approach:** Exploratory analysis and A/B testing, then logistic regression and XGBoost propensity models.
+- **Result:** XGBoost outperformed the other models in predictive accuracy. <!-- TODO(Jorge): add AUC and precision/recall at a chosen cutoff from the GitHub notebook -->
 
-## The Challenge: Key Questions To Answer
+## Problem
 
--   How can banks improve loan approval decisions?
+Banks run loan marketing campaigns and need to decide whom to target. This project builds a propensity model from past campaign results to answer:
 
--   What factors influence a customer’s likelihood to accept a loan offer?
+- What factors influence a customer's likelihood to accept a loan offer?
+- How can customer targeting be improved to increase acceptance rates?
 
--   How can we optimize customer targeting to increase loan acceptance rates?
+## Data
 
-## Objectives
+Past campaign results with customer attributes and whether the customer accepted the loan. <!-- TODO(Jorge): name the dataset, size, time period and link (see the GitHub notebook) -->
 
--   Data Exploration – Apply EDA techniques to uncover patterns in customer behavior.
+## Approach
 
--   Descriptive Analytics – Analyze relationships between variables and loan approvals.
+1. Explore and clean the data to find patterns in customer behavior.
+2. Analyze relationships between customer variables and loan acceptance.
+3. Run A/B testing for experimentation.
+4. Fit logistic regression and XGBoost, with feature engineering.
+5. Compare the models with visualizations.
 
--   Advanced Analytics – Build predictive models to profile ideal loan applicants.
+Logistic regression is a transparent baseline for a binary outcome; XGBoost is a stronger non-linear alternative.
 
-## Solution Approach
+## Results
 
-### Tools & Techniques
+- Identified the key factors influencing loan acceptance.
+- Feature engineering improved model predictions.
+- XGBoost outperformed the traditional models in predictive accuracy.
 
--   Languages: Python
+<!-- TODO(Jorge): add a metrics table (AUC, precision and recall at a chosen cutoff) and a calibration plot from the GitHub notebook -->
 
--   Modeling Approach: Logistic Regression, XGBoost
+### Business Impact
 
-### Analytical Workflow
+<!-- TODO(Jorge): add a short business-impact section, e.g. how many offers a campaign could skip at a chosen cutoff while keeping most acceptances. Use real numbers from the notebook only. -->
 
--   Step 1: Explore & clean the data
+Ranking customers by predicted propensity lets a marketing team focus offers on the likeliest acceptors instead of contacting everyone.
 
--   Step 2: Prepare data for analytics & machine learning models
+## What I'd Do Next / Limitations
 
--   Step 3: Conduct A/B testing for experimentation
+- Check probability calibration, so that scores can be used as acceptance probabilities and not only as a ranking.
+- Test the model on a campaign it wasn't built from.
 
--   Step 4: Apply logistic regression & XGBoost
+## Code
 
--   Step 5: Compare model performances using visualizations
-
--   Step 6: Interpret results & quantify impact
-
-## Analysis / Results
-
--   Identified key factors influencing loan acceptance rates.
-
--   Before vs. After Comparison: Improved model predictions through feature engineering.
-
-    Full details in the repo: [Github - Bank Loan Analysis](https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Bank%20Personal%20Loan%20Analysis)
-
-## Learnings and challenges
-
--   XGBoost outperformed traditional models in predictive accuracy.
-
--   Logistic regression worked well for binary classification problems.
-
--   Data visualization helped compare model performance effectively.
-
--   A/B Testing was a useful experimentation method.
+[Bank Loan Analysis on GitHub](https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Bank%20Personal%20Loan%20Analysis)

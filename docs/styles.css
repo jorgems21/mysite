@@ -1,1 +1,37 @@
-/* css styles */
+/* Inter (SIL OFL), latin subset, variable weight 400-700 */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("fonts/inter-latin.woff2") format("woff2");
+}
+
+/* Minimal layout styles; full theme comes in Phase 3 */
+.hero { display: flex; gap: 2rem; align-items: center; justify-content: space-between; margin: 1.5rem 0 2rem; flex-wrap: wrap-reverse; }
+.hero-text { flex: 1 1 22rem; }
+.hero-text h1 { margin-top: 0; margin-bottom: .5rem; }
+.hero-text h1 + p { margin-top: 0; }
+.hero-photo { flex: 0 0 auto; }
+.headshot { width: 12rem; height: 12rem; object-fit: cover; border-radius: 50%; }
+.hero-buttons { display: flex; gap: .5rem; flex-wrap: wrap; margin: 1rem 0 .5rem; }
+.hero-email { font-size: .9rem; opacity: .8; }
+.proof-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; margin: 1rem 0 2rem; }
+.proof-card { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: 1rem; }
+.proof-stat { display: block; font-weight: 700; font-size: 1.15rem; margin-bottom: .25rem; }
+.work-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; }
+.work-card { position: relative; border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: 1rem; }
+.work-card h3 { margin-top: 0; font-size: 1.2rem; }
+.chip { display: inline-block; border: 1px solid var(--bs-border-color); border-radius: 1rem; padding: .1rem .6rem; margin: .15rem .1rem; font-size: .85rem; }
+.skills p { margin-bottom: .6rem; }
+.cta { margin: 2rem 0; padding: 1rem 1.5rem; border: 1px solid var(--bs-border-color); border-radius: .5rem; }
+.cta h2 { margin-top: 0; }
+
+/* Consistent project thumbnails on the Work page */
+.quarto-grid-item .card-img-top, .quarto-grid-item img.thumbnail-image { aspect-ratio: 16 / 9; object-fit: cover; width: 100%; }
+
+/* Pre-rendered architecture diagram (SVG) */
+img.architecture { display: block; margin: 1rem auto; width: 210px; max-width: 100%; height: auto; }
+
+/* Category tags in the title banner: raise contrast on the teal background */
+.quarto-title-banner .quarto-category { color: #ffffff !important; border-color: #ffffff !important; opacity: 1 !important; }

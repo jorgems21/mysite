@@ -1,73 +1,55 @@
 ---
-title: "Nashville Housing Purchasing Application"
+title: "Nashville Housing Purchasing App"
+subtitle: "An R Shiny app that uses a random forest to flag good deals for prospective home buyers"
+description: "R Shiny prototype with a random forest deal predictor and report generation for Nashville home buyers."
 date: "December 2024"
-categories: [r shiny,machine learning]
+categories: ["Machine Learning"]
 image: home_buy.jpg
-href: housing_analysis_app_design.pdf
+image-alt: "Houses in a neighborhood representing the Nashville home-buying app"
+execute:
+  freeze: true
 ---
 
-## Background context
+*Graduate project, December 2024; still evolving as a prototype.*
 
--   Interest in home ownership for living and real estate investing
+<!-- TODO(Jorge): add a live app link or a short GIF/screenshot of the app, if available -->
 
--   Moved to Nashville around 2022
+**TL;DR**
 
--   Started as school project and are currently evolving it.
+- **Problem:** Home buyers in a tough market need help spotting good deals.
+- **Approach:** An R Shiny app with descriptive visuals of the Nashville market and a random forest model that scores a housing profile from the user's inputs.
+- **Result:** A working prototype with dynamic predictions and downloadable HTML/PDF reports.
 
--   Data source: [Kaggle](https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data)
+## Problem
 
-## The Challenge: Key Questions To Answer
+I moved to Nashville around 2022 and was interested in home ownership, both for living and for real estate investing. The goal was to give prospective buyers data-driven analysis of the market so they can identify the best deal for them.
 
--   Find good deals for purchase during home buying journey in a tough market
+## Data
 
-## Objectives
+[Nashville housing data on Kaggle](https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data). The quality and quantity of this data limit the predictions. <!-- TODO(Jorge): add the row count and time period -->
 
--   Provide data-driven analysis of the real estate market in Nashville (and beyond) to help prospective home buyers identify the best deal for them.
+## Approach
 
-## Solution Approach
+- **Model:** random forest in R, updated from the user's inputs.
+- **App:** R Shiny (UI, server and reactivity), ggplot visualizations, and R Markdown report generation.
+- **Design:** [Figma mockups (PDF)](housing_analysis_app_design.pdf).
 
-### Tools & Techniques
+How a user moves through the app:
 
--   Languages: R
+1. Read the home page description.
+2. Explore descriptive visualizations of Nashville housing.
+3. Enter a housing profile on the deal prediction tab; the model updates dynamically and returns a prediction.
+4. Generate an HTML/PDF report with all visualizations and the deal prediction insights.
 
--   Modeling Approach: Random Forest
+## Results
 
--   App Development
+The app delivers deal predictions based partly on the user's inputs, plus a downloadable report. It is a prototype and is not currently maintained. <!-- TODO(Jorge): add model metrics (e.g., RMSE / R²) and one screenshot if available -->
 
-    -   Front-end/back-end: R Shiny (UI/Server) and reactivity
+## What I'd Do Next / Limitations
 
-    -   Visualizations: ggplot package in R
+- R Shiny is a strong framework for rapid prototyping of apps that include statistics and machine learning models.
+- Predictions are limited by the quantity and quality of the Kaggle data.
 
-    -   Report generation: R Markdown
+## Code
 
--   Design
-
-    -   [Figma](housing_analysis_app_design.pdf)
-
-### User Experience Flow
-
--   Step 1: Read home page description
-
--   Step 2: Check out the descriptive information for visualizations about housing in Nashville
-
--   Step 3: Go to the deal prediction tab to identify which housing profile would be considered a good deal based on your inputs being applied to a ML model.
-
-    -   Step 3.1: Your inputs will update the model dynamically in the back end
-
-    -   Step 3.2: The model is going to product a prediction based on your inputs and the source data
-
--   Step 4: Go to report generation which will dynamically produce a HTML/PDF report that includes all the visualizations from the application + the deal prediction insights.
-
-## Analysis / Results
-
--   This tool is meant to provide data driven insights that will assist users in their journey to home-buying. This tool is in prototype phase and is not currently maintained.
-
--   The results for the deal prediction will be partially based on the user's inputs.
-
-    Full details in the Github: [Github - Nashville Housing Analysis](https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Nashville%20Housing%20Analysis/nashville_housing)
-
-## Learnings and challenges
-
--   R Shiny is a great framework for rapid app prototyping that includes statistics and ML models
-
--   The predictions in the deal prediction tool are partly limited to the quantity and quality of the data, which comes from Kaggle.
+[Nashville Housing Analysis on GitHub](https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Nashville%20Housing%20Analysis/nashville_housing)

@@ -1,80 +1,111 @@
 ---
-title: "Jorge Montoya"
-image:  media/min_headshot.png # great spot for your professional headshot :) 
+description: "Jorge Montoya is a data scientist building analytics, machine learning and AI data products, with deep experience in healthcare real-world evidence."
+image: og-card.png
+image-alt: "Jorge Montoya: Data Scientist — Data, Analytics & AI Products"
+pagetitle: "Jorge Montoya | Data Scientist: Data, Analytics & AI Products"
 toc: false
-about: 
-  template: trestles # see other templates at https://quarto.org/docs/websites/website-about.html#templates
-  image-shape: round
-  image-width: 20em
-  links:
-    - icon: linkedin # you'll need to the fontawesome extension to include icons: https://github.com/quarto-ext/fontawesome
-      text: LinkedIn
-      href: https://linkedin.com/in/jorge-montoya8454a8127/
-    - icon: github
-      text: GitHub
-      href: https://github.com/jorgems21
-    - icon: envelope
-      text: Email
-      href: mailto:montoya.j@northeastern.edu
-    - icon: CV
-      text: Resume
-      href: my_resume.pdf
+page-layout: full
+title-block-banner: false
 execute: 
   freeze: auto
 ---
 
-# **Hey, I am Jorge** 👋
+::: {.hero}
+::: {.hero-text}
+# Jorge Montoya
 
-::: animate.fadeIn
-Bridging technology and business strategy to drive success
+**Data Scientist — Data, Analytics & AI Products**
+
+I'm a data scientist who turns messy, real-world data into evidence, models and data products that teams can trust. My deepest experience is in healthcare — EHR, chargemaster and claims-style data at Premier Inc. — and I'm also building an AI product of my own with RAG and multi-agent systems.
+
+<div class="hero-buttons">
+<a class="btn btn-primary" href="my_resume.pdf">Resume</a>
+<a class="btn btn-outline-primary" href="https://www.linkedin.com/in/jorge-montoya8454a8127">LinkedIn</a>
+<a class="btn btn-outline-primary" href="mailto:miraflores97@gmail.com">Email</a>
+</div>
+
+<p class="hero-email">miraflores97@gmail.com</p>
 :::
 
-I'm passionate about solving complex problems by combining data-driven strategy, technical/business acumen, and a collaborative spirit. Whether it's building scalable solutions or empowering teams to achieve their best, I thrive at the intersection of strategy, technology, and teamwork.
+::: {.hero-photo}
+<img src="media/min_headshot.webp" class="headshot" width="192" height="192" alt="Headshot of Jorge Montoya">
+:::
+:::
 
-## **My Key Focus Areas**
+::: {.proof-strip}
+::: {.proof-card}
+<span class="proof-stat">5+ years</span>
+in data & analytics across finance, healthcare and AI products
+:::
+::: {.proof-card}
+<span class="proof-stat">Prototype → product</span>
+Built an open-source RWE research prototype that became a multimillion-dollar data product
+:::
+::: {.proof-card}
+<span class="proof-stat">Days → hours</span>
+Automated research workflows with Python, R and statistical modeling
+:::
+::: {.proof-card}
+<span class="proof-stat">AI product builder</span>
+Founded Munay Works: an LLM platform using RAG and a multi-agent architecture to match nonprofits with funders from IRS Form 990 data <!-- TODO(Jorge): cloud-migration data validation lead card (PySpark, SQL, Tableau) was swapped out; restore elsewhere if wanted -->
+:::
+:::
 
--   Healthcare & Investment Analytics Experience
+## Featured Work
 
--   Data Science & Machine Learning Applications
+::: {.work-grid}
+::: {.work-card}
+### Munay Works: AI for Nonprofit Funding
+An independent AI product: a RAG and multi-agent platform that helps nonprofits find funders from IRS Form 990 data.
 
--   Product & Data Analytics Innovation
+<span class="chip">LLM</span> <span class="chip">RAG</span> <span class="chip">Multi-Agent</span> <span class="chip">PostgreSQL / pgvector</span>
 
--   Data Visualization & Storytelling for Impact
+[Read case study](projects/munay-works/index.qmd){.stretched-link}
+:::
+::: {.work-card}
+### Cancer Mortality Analysis
+County-level risk factors for cancer mortality; XGBoost was the strongest model tested.
 
--   Cross-Functional Leadership & Strategic Collaboration
+<span class="chip">Python</span> <span class="chip">Machine Learning</span> <span class="chip">Statistical Testing</span>
 
-    Download a copy of my resume [here](my_resume.pdf)
+[Read case study](projects/01_cancer-risk-factor-analysis/index.qmd){.stretched-link}
+:::
+::: {.work-card}
+### Bank Personal Loan Analysis
+Logistic regression and XGBoost to profile customers most likely to accept a personal loan offer.
 
-## **Featured Projects**
+<span class="chip">Python</span> <span class="chip">XGBoost</span> <span class="chip">A/B Testing</span>
 
-**A tool that helps future home-buyers make the right decision for them**\
-🛠️ **Tech:** R Shiny, Machine Learning\
-🔗 [See More](projects.qmd#grant-assistant)
+[Read case study](projects/02_bank-personal-loan-analysis/index.qmd){.stretched-link}
+:::
+::: {.work-card}
+### Nashville Housing Purchasing App
+An R Shiny app that uses a random forest to flag good deals for prospective home buyers.
 
-**Cancer mortality prediction and risk factor analysis**\
-🛠️ **Tech:** Python, Statistical Testing, Machine Learning\
-🔗 [Explore](#0)
+<span class="chip">R Shiny</span> <span class="chip">Random Forest</span>
 
-**Data-driven bank loan risk prediction reducing loan defaults**\
-🛠️ **Tech:** Python, Statistical Testing, Machine Learning\
-🔗 [Read More](projects.qmd#risk-model)
+[Read case study](projects/03_nashville-house-purchasing-app/index.qmd){.stretched-link}
+:::
+:::
 
-Aside from project work, I also like to document my career experience, check out my posts here: [Blog](blog.qmd) ✏️
+## Skills Snapshot
 
-## Interests
+::: {.skills}
+**Domain** <span class="chip">Healthcare (RWE, HEOR, EHR)</span> <span class="chip">Chargemaster</span> <span class="chip">Finance</span> <span class="chip">Nonprofit (IRS 990)</span>
 
--   **AI for Growth**: How **LLM's** and **RAG** models can be used in applications that drive positive outcomes in multiple industries
+**Languages & Data** <span class="chip">Python</span> <span class="chip">R</span> <span class="chip">SQL</span> <span class="chip">PySpark</span> <span class="chip">Databricks</span> <span class="chip">Teradata</span>
 
--   **Advanced Analytics**: Design and develop **self-serve** analytics tools for real world problems that any person can use
+**Analytics & Apps** <span class="chip">Statistical Modeling</span> <span class="chip">Machine Learning</span> <span class="chip">Tableau</span> <span class="chip">R Shiny</span> <span class="chip">Streamlit</span>
 
--   **Social Impact:** Using technology (i.e. data, analytics, AI, etc.) to contribute to **public benefit**
+**AI** <span class="chip">LangChain</span> <span class="chip">RAG</span> <span class="chip">FAISS</span> <span class="chip">pgvector</span> <span class="chip">FastAPI</span>
+:::
 
--   **Creativity and Collaboration**: A **key approach** to work, which helps welcome different viewpoints for complex problem-solving.
+## About
 
-Learn more about me here: [About Me](about_me.qmd)
+I'm a data scientist who started in private wealth reporting, built deep healthcare experience at Premier Inc., and is now also building an AI product independently. [More about me →](about_me.qmd)
 
-------------------------------------------------------------------------
+::: {.cta}
+## Let's Talk
 
-## Let's Connect
-
-📩 If you would like to collaborate on a project together or chat more, contact me here [LinkedIn](www.linkedin.com/in/jorge-montoya8454a8127) or reach out via my [Contact Me](contact_me.qmd) page! 🚀
+Hiring for a data science, analytics or AI role, or want to collaborate? Email me at [miraflores97@gmail.com](mailto:miraflores97@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/jorge-montoya8454a8127).
+:::

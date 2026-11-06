@@ -1,0 +1,24 @@
+/*-- scss:defaults --*/
+// Font: Inter, self-hosted (fonts/inter-latin.woff2, @font-face in styles.css).
+// Disables the Bootswatch Google Fonts @import, which created a render-blocking request chain.
+$web-font-path: false;
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+// One accent color: muted teal
+$primary: #0f6b6b !default;
+$link-color: #0f6b6b !default;
+$navbar-bg: #0f6b6b !default;
+$navbar-fg: #ffffff !default;
+$navbar-hover-color: #d7efee !default;
+
+/*-- scss:rules --*/
+body { line-height: 1.65; }
+h1, h2, h3, h4 { font-weight: 650; letter-spacing: -0.01em; }
+.navbar-brand { font-weight: 650; }
+
+// Cap content width at ~1100px on full-width pages (home, Work)
+main.content.column-page {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,8 +1,9 @@
 ---
-title: "Nonprofit Grant Writer AI assistant"
+title: "Nonprofit Grant Writer AI Assistant"
 date: "November 2025"
-categories: [AI, Agents]
+categories: ["AI / LLM"]
 image: ../03_nashville-house-purchasing-app/home_buy.jpg
+image-alt: "Houses in a neighborhood used as a placeholder image"
 description: "Smart, AI-powered assistant helping nonprofits discover opportunities and write winning grant proposals."
 ---
 

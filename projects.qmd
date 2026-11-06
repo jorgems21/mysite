@@ -1,18 +1,22 @@
 ---
-title: "Projects"
+title: "Work"
+description: "Case studies in healthcare analytics, machine learning, finance and AI by Jorge Montoya."
+page-layout: full
+html-math-method: plain
+image: og-card.png
+image-alt: "Jorge Montoya: Data Scientist — Data, Analytics & AI Products"
 listing:
   contents: "projects/*/index.qmd"
   feed: true
   sort: "date desc"
   type: grid
+  date-format: "MMM YYYY"
   categories: true
   sort-ui: true
   filter-ui: true
-  fields: [image, date, title, description]
+  fields: [image, date, title, description, categories]
 execute: 
   freeze: auto
 ---
 
-📌 More projects coming soon! Stay tuned.
-
-🔗 Read some of my projects reflections and overall work here: [Blog](blog.qmd)
+Selected project write-ups, from healthcare analytics to machine learning and AI.

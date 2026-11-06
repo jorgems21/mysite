@@ -1,13 +1,8 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/projects/01_cancer-risk-factor-analysis/index.html"
-    ]
-  },
-  {
     "listing": "/projects.html",
     "items": [
+      "/projects/munay-works/index.html",
       "/projects/03_nashville-house-purchasing-app/index.html",
       "/projects/01_cancer-risk-factor-analysis/index.html",
       "/projects/02_bank-personal-loan-analysis/index.html"

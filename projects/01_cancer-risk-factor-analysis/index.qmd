@@ -1,70 +1,56 @@
 ---
 title: "Cancer Mortality Analysis"
+subtitle: "County-level cancer mortality modeling; XGBoost was the strongest model tested"
+description: "Python models for county-level cancer mortality and its risk factors; XGBoost outperformed the other models compared."
 date: "December 2023"
-categories: [python,statistical testing, machine learning]
-image: healthcare.jpg
+categories: ["Healthcare / RWE", "Machine Learning"]
+image: thumbnail.webp
+image-alt: "Stethoscope and medical charts representing cancer mortality analysis"
+execute:
+  freeze: true
 ---
 
-## Background context
+*Graduate project, December 2023.*
 
--   Selected for analysis due to personal family ties to cancer, part of a school project
+**TL;DR**
 
--   Dataset: \~3,000 rows, 34 variables
+- **Problem:** Which county-level risk factors are associated with higher cancer mortality?
+- **Approach:** Exploratory analysis, then regression and machine learning models in Python.
+- **Result:** XGBoost gave the best predictive accuracy of the models compared. <!-- TODO(Jorge): add the headline metric (e.g., R²/RMSE) from the GitHub notebook -->
 
--   Data Period: Roughly from 2015
+## Problem
 
-## The Challenge: Key Questions to Answer
+I picked this topic because of personal family ties to cancer. The goal was to understand what drives cancer mortality at the county level, so that public health initiatives can be guided by data. The analysis asks:
 
--   What are the primary causes of cancer mortality?
+- What are the primary causes of cancer mortality?
+- Which risk factors contribute to higher mortality rates at the county level?
 
--   Which risk factors contribute to higher cancer mortality rates at the county level?
+## Data
 
-    By answering these, we aim to empower public health initiatives with data-driven insights.
+County-level data, about 3,000 rows and 34 variables, covering roughly 2015. <!-- TODO(Jorge): name the dataset and link the source (see the GitHub notebook) -->
 
-## Objectives
+## Approach
 
--   Descriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.
+1. Explore and clean the data.
+2. Prepare the data for machine learning models.
+3. Apply regression analysis and machine learning techniques (Python).
+4. Evaluate and interpret the results, and summarize the findings.
 
--   Advanced Analytics – Use predictive modeling to identify factors associated with cancer mortality.
+<!-- TODO(Jorge): list the exact models compared and why (see the GitHub notebook) -->
 
-## Solution Approach
+## Results
 
-### Tools & Techniques
+- XGBoost outperformed the other models in predictive accuracy.
+- Hyperparameter tuning improved accuracy but was time-intensive.
+- Data quality and preprocessing played a major role in improving results.
 
--   Languages: Python
+<!-- TODO(Jorge): add a metrics table (model comparison) and at least one chart, e.g. feature importance or predicted vs actual, from the GitHub notebook -->
 
--   Modeling Approach: Regression & Machine Learning
+## What I'd Do Next / Limitations
 
-### Analytical Workflow
+- Add cross-validation to make the model comparison more reliable. This is the next iteration.
+- Stacking models significantly increased compute time.
 
--   Step 1: Explore & clean the data
+## Code
 
--   Step 2: Prepare data for machine learning models
-
--   Step 3: Apply regression analysis & ML techniques
-
--   Step 4: Evaluate & interpret results
-
--   Step 5: Summarize findings & quantify impact
-
-## Analysis / Results
-
--   Before vs. After Comparison: Impact of different models on prediction accuracy.
-
--   Quantified Risk Factors: Which factors have the strongest correlation with mortality rates?
-
-    Full details in the repo: [Github - Cancer Analysis](https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Cancer%20Risk%20Factor%20Analysis)
-
-## Learnings and challenges
-
--   Cross-validation is crucial for model reliability and is part of the next iteration
-
--   Hyperparameter tuning\*\* improved accuracy but was time-intensive.
-
--   Stacking models\*\* significantly increased compute time.
-
--   XGBoost outperformed other models\*\* in predictive accuracy.
-
--   Data quality & preprocessing\*\* played a major role in improving results.
-
-## 
+[Cancer Analysis on GitHub](https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Cancer%20Risk%20Factor%20Analysis)

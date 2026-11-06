@@ -1,35 +1,46 @@
 project:
   type: website
   output-dir: docs
+  post-render: scripts/strip-todo-comments.ts
+  resources:
+    - fonts/*
+execute:
+  freeze: auto
 profile:
   default: english
   group: [english,spanish]
 website:
+  site-url: https://jorgems21.github.io/mysite
   title: "Jorge Montoya"
+  description: "Jorge Montoya is a data scientist building analytics, machine learning and AI data products, with deep experience in healthcare real-world evidence."
+  favicon: favicon.png
+  image: og-card.png
+  image-alt: "Jorge Montoya: Data Scientist — Data, Analytics & AI Products"
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: about_me.qmd
-        text: About Me
       - href: projects.qmd
-        text: Projects
-      - href: blog.qmd
-        text: Blog
+        text: Work
+      - href: about_me.qmd
+        text: About
+      - href: my_resume.pdf
+        text: Resume (PDF)
       - href: contact_me.qmd
-        text: Contact Me
+        text: Contact
   page-footer:
-    right: "This blog is built with ❤️ and [Quarto](https://quarto.org/)."
+    right: "Built with ❤️ and [Quarto](https://quarto.org/)."
 
 format:
   html:
-    theme: 
-      light: flatly
-      dark: darkly
+    theme: [flatly, theme.scss]
     css: styles.css
     toc: true
+    code-fold: true
     code-copy: true
     code-overflow: wrap
 
 editor: visual
-

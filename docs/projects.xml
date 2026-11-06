@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Jorge Montoya</title>
+<link>https://jorgems21.github.io/mysite/projects.html</link>
+<atom:link href="https://jorgems21.github.io/mysite/projects.xml" rel="self" type="application/rss+xml"/>
+<description>Case studies in healthcare analytics, machine learning, finance and AI by Jorge Montoya.</description>
+<image>
+<url>https://jorgems21.github.io/mysite/og-card.png</url>
+<title>Jorge Montoya</title>
+<link>https://jorgems21.github.io/mysite/projects.html</link>
+<height>76</height>
+<width>144</width>
+</image>
+<generator>quarto-1.11.9</generator>
+<lastBuildDate>Thu, 01 Jan 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Munay Works: AI Platform for Nonprofit Funding</title>
+  <dc:creator>Jorge Montoya</dc:creator>
+  <link>https://jorgems21.github.io/mysite/projects/munay-works/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>Independent product build, January 2026 to present.</em></p>
+<p><strong>TL;DR</strong></p>
+<ul>
+<li><strong>Problem:</strong> Nonprofits need to find the right funders and turn funder data into grant insights.</li>
+<li><strong>Approach:</strong> A data pipeline over IRS Form 990 filings feeds a PostgreSQL/pgvector foundation, with a RAG and multi-agent AI layer behind a React app.</li>
+<li><strong>Result:</strong> A working platform in pilot with nonprofit organizations, where user feedback drives the roadmap. </li>
+</ul>
+
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>Nonprofits have to find funders that fit their mission and then write about their work in ways those funders respond to. The public data to support this exists as IRS Form 990 filings, but it’s large and hard to use directly. Munay Works is an AI-enabled platform that helps nonprofits find funders and generate grant insights from that data. I’m building it independently, and this page covers the technical work.</p>
+</section>
+<section id="architecture" class="level2">
+<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
+<p><img src="https://jorgems21.github.io/mysite/projects/munay-works/architecture.svg" class="architecture img-fluid" alt="Vertical flow diagram: IRS Form 990 filings and IRS TEOS monthly files, ETL / ingestion, PostgreSQL / Supabase with pgvector, RAG pipeline and multi-agent layer, FastAPI, React app."></p>
+<p><strong>Stack:</strong> React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase</p>
+</section>
+<section id="data-pipeline" class="level2">
+<h2 class="anchored" data-anchor-id="data-pipeline">Data Pipeline</h2>
+<ul>
+<li><strong>Sources:</strong> IRS Form 990 filings, including the IRS TEOS monthly files, ingested into a 990 database I built.</li>
+<li><strong>Two-layer PostgreSQL schema:</strong> source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.</li>
+<li><strong>Materialized views</strong> provide peer benchmarks and foundation profiles.</li>
+<li><strong>Organization health score:</strong> a 100-point score computed for each organization. </li>
+</ul>
+</section>
+<section id="ai-layer-and-how-outputs-are-evaluated" class="level2">
+<h2 class="anchored" data-anchor-id="ai-layer-and-how-outputs-are-evaluated">AI Layer and How Outputs Are Evaluated</h2>
+<p>The AI layer is a RAG pipeline with a multi-agent architecture. LangChain orchestrates it, and retrieval uses FAISS and pgvector over the data above, so answers are grounded in actual filings and not generated from the model alone.</p>
+
+</section>
+<section id="what-pilots-taught-me" class="level2">
+<h2 class="anchored" data-anchor-id="what-pilots-taught-me">What Pilots Taught Me</h2>
+<p>The platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. </p>
+<section id="lessons-from-the-early-prototype" class="level3">
+<h3 class="anchored" data-anchor-id="lessons-from-the-early-prototype">Lessons From the Early Prototype</h3>
+<p>The first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It worked with nonprofit data from IRS Form 990 filings, and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:</p>
+<ul>
+<li>Clearly separating the advisory and document modes improved the user experience.</li>
+<li>RAG relevance depends on high-quality chunking and metadata.</li>
+<li>Local model support balances privacy and performance tradeoffs.</li>
+</ul>
+</section>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s Next</h2>
+
+<p>The roadmap follows what pilot users ask for.</p>
+
+
+
+</section>
+
+ ]]></description>
+  <category>AI / LLM</category>
+  <guid>https://jorgems21.github.io/mysite/projects/munay-works/</guid>
+  <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://jorgems21.github.io/mysite/projects/munay-works/thumbnail.webp" medium="image" type="image/webp"/>
+</item>
+<item>
+  <title>Nashville Housing Purchasing App</title>
+  <dc:creator>Jorge Montoya</dc:creator>
+  <link>https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>Graduate project, December 2024; still evolving as a prototype.</em></p>
+
+<p><strong>TL;DR</strong></p>
+<ul>
+<li><strong>Problem:</strong> Home buyers in a tough market need help spotting good deals.</li>
+<li><strong>Approach:</strong> An R Shiny app with descriptive visuals of the Nashville market and a random forest model that scores a housing profile from the user’s inputs.</li>
+<li><strong>Result:</strong> A working prototype with dynamic predictions and downloadable HTML/PDF reports.</li>
+</ul>
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>I moved to Nashville around 2022 and was interested in home ownership, both for living and for real estate investing. The goal was to give prospective buyers data-driven analysis of the market so they can identify the best deal for them.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p><a href="https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data">Nashville housing data on Kaggle</a>. The quality and quantity of this data limit the predictions. </p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<ul>
+<li><strong>Model:</strong> random forest in R, updated from the user’s inputs.</li>
+<li><strong>App:</strong> R Shiny (UI, server and reactivity), ggplot visualizations, and R Markdown report generation.</li>
+<li><strong>Design:</strong> <a href="housing_analysis_app_design.pdf">Figma mockups (PDF)</a>.</li>
+</ul>
+<p>How a user moves through the app:</p>
+<ol type="1">
+<li>Read the home page description.</li>
+<li>Explore descriptive visualizations of Nashville housing.</li>
+<li>Enter a housing profile on the deal prediction tab; the model updates dynamically and returns a prediction.</li>
+<li>Generate an HTML/PDF report with all visualizations and the deal prediction insights.</li>
+</ol>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>The app delivers deal predictions based partly on the user’s inputs, plus a downloadable report. It is a prototype and is not currently maintained. </p>
+</section>
+<section id="what-id-do-next-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="what-id-do-next-limitations">What I’d Do Next / Limitations</h2>
+<ul>
+<li>R Shiny is a strong framework for rapid prototyping of apps that include statistics and machine learning models.</li>
+<li>Predictions are limited by the quantity and quality of the Kaggle data.</li>
+</ul>
+</section>
+<section id="code" class="level2">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<p><a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Nashville%20Housing%20Analysis/nashville_housing">Nashville Housing Analysis on GitHub</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Machine Learning</category>
+  <guid>https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/</guid>
+  <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/home_buy.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
+</item>
+<item>
+  <title>Cancer Mortality Analysis</title>
+  <dc:creator>Jorge Montoya</dc:creator>
+  <link>https://jorgems21.github.io/mysite/projects/01_cancer-risk-factor-analysis/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>Graduate project, December 2023.</em></p>
+<p><strong>TL;DR</strong></p>
+<ul>
+<li><strong>Problem:</strong> Which county-level risk factors are associated with higher cancer mortality?</li>
+<li><strong>Approach:</strong> Exploratory analysis, then regression and machine learning models in Python.</li>
+<li><strong>Result:</strong> XGBoost gave the best predictive accuracy of the models compared. </li>
+</ul>
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>I picked this topic because of personal family ties to cancer. The goal was to understand what drives cancer mortality at the county level, so that public health initiatives can be guided by data. The analysis asks:</p>
+<ul>
+<li>What are the primary causes of cancer mortality?</li>
+<li>Which risk factors contribute to higher mortality rates at the county level?</li>
+</ul>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>County-level data, about 3,000 rows and 34 variables, covering roughly 2015. </p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<ol type="1">
+<li>Explore and clean the data.</li>
+<li>Prepare the data for machine learning models.</li>
+<li>Apply regression analysis and machine learning techniques (Python).</li>
+<li>Evaluate and interpret the results, and summarize the findings.</li>
+</ol>
+
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<ul>
+<li>XGBoost outperformed the other models in predictive accuracy.</li>
+<li>Hyperparameter tuning improved accuracy but was time-intensive.</li>
+<li>Data quality and preprocessing played a major role in improving results.</li>
+</ul>
+
+</section>
+<section id="what-id-do-next-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="what-id-do-next-limitations">What I’d Do Next / Limitations</h2>
+<ul>
+<li>Add cross-validation to make the model comparison more reliable. This is the next iteration.</li>
+<li>Stacking models significantly increased compute time.</li>
+</ul>
+</section>
+<section id="code" class="level2">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<p><a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Cancer%20Risk%20Factor%20Analysis">Cancer Analysis on GitHub</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Healthcare / RWE</category>
+  <category>Machine Learning</category>
+  <guid>https://jorgems21.github.io/mysite/projects/01_cancer-risk-factor-analysis/</guid>
+  <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://jorgems21.github.io/mysite/projects/01_cancer-risk-factor-analysis/thumbnail.webp" medium="image" type="image/webp"/>
+</item>
+<item>
+  <title>Bank Personal Loan Analysis</title>
+  <dc:creator>Jorge Montoya</dc:creator>
+  <link>https://jorgems21.github.io/mysite/projects/02_bank-personal-loan-analysis/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>Graduate project, December 2023.</em></p>
+<p><strong>TL;DR</strong></p>
+<ul>
+<li><strong>Problem:</strong> A bank wants to target loan offers at the customers most likely to accept them.</li>
+<li><strong>Approach:</strong> Exploratory analysis and A/B testing, then logistic regression and XGBoost propensity models.</li>
+<li><strong>Result:</strong> XGBoost outperformed the other models in predictive accuracy. </li>
+</ul>
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>Banks run loan marketing campaigns and need to decide whom to target. This project builds a propensity model from past campaign results to answer:</p>
+<ul>
+<li>What factors influence a customer’s likelihood to accept a loan offer?</li>
+<li>How can customer targeting be improved to increase acceptance rates?</li>
+</ul>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>Past campaign results with customer attributes and whether the customer accepted the loan. </p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<ol type="1">
+<li>Explore and clean the data to find patterns in customer behavior.</li>
+<li>Analyze relationships between customer variables and loan acceptance.</li>
+<li>Run A/B testing for experimentation.</li>
+<li>Fit logistic regression and XGBoost, with feature engineering.</li>
+<li>Compare the models with visualizations.</li>
+</ol>
+<p>Logistic regression is a transparent baseline for a binary outcome; XGBoost is a stronger non-linear alternative.</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<ul>
+<li>Identified the key factors influencing loan acceptance.</li>
+<li>Feature engineering improved model predictions.</li>
+<li>XGBoost outperformed the traditional models in predictive accuracy.</li>
+</ul>
+
+<section id="business-impact" class="level3">
+<h3 class="anchored" data-anchor-id="business-impact">Business Impact</h3>
+
+<p>Ranking customers by predicted propensity lets a marketing team focus offers on the likeliest acceptors instead of contacting everyone.</p>
+</section>
+</section>
+<section id="what-id-do-next-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="what-id-do-next-limitations">What I’d Do Next / Limitations</h2>
+<ul>
+<li>Check probability calibration, so that scores can be used as acceptance probabilities and not only as a ranking.</li>
+<li>Test the model on a campaign it wasn’t built from.</li>
+</ul>
+</section>
+<section id="code" class="level2">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<p><a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Bank%20Personal%20Loan%20Analysis">Bank Loan Analysis on GitHub</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Finance</category>
+  <category>Machine Learning</category>
+  <guid>https://jorgems21.github.io/mysite/projects/02_bank-personal-loan-analysis/</guid>
+  <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://jorgems21.github.io/mysite/projects/02_bank-personal-loan-analysis/bank_loan.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
+</item>
+</channel>
+</rss>

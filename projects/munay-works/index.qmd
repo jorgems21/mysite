@@ -1,0 +1,62 @@
+---
+title: "Munay Works: AI Platform for Nonprofit Funding"
+subtitle: "An independent AI product build: RAG and multi-agent grant insights over IRS Form 990 data"
+description: "RAG and multi-agent platform on a PostgreSQL/pgvector data foundation that helps nonprofits find funders from IRS Form 990 data."
+date: "January 2026"
+categories: ["AI / LLM"]
+image: thumbnail.webp
+image-alt: "Munay Works title card showing the pipeline from 990 data to Postgres and pgvector, RAG and agents, and the app"
+---
+
+*Independent product build, January 2026 to present.*
+
+**TL;DR**
+
+- **Problem:** Nonprofits need to find the right funders and turn funder data into grant insights.
+- **Approach:** A data pipeline over IRS Form 990 filings feeds a PostgreSQL/pgvector foundation, with a RAG and multi-agent AI layer behind a React app.
+- **Result:** A working platform in pilot with nonprofit organizations, where user feedback drives the roadmap. <!-- TODO(Jorge): add one concrete number (e.g., filings ingested, organizations or funders covered, pilot users) -->
+
+<!-- TODO(Jorge): add a screenshot or demo GIF of the app -->
+
+## Problem
+
+Nonprofits have to find funders that fit their mission and then write about their work in ways those funders respond to. The public data to support this exists as IRS Form 990 filings, but it's large and hard to use directly. Munay Works is an AI-enabled platform that helps nonprofits find funders and generate grant insights from that data. I'm building it independently, and this page covers the technical work.
+
+## Architecture
+
+![](architecture.svg){.architecture fig-alt="Vertical flow diagram: IRS Form 990 filings and IRS TEOS monthly files, ETL / ingestion, PostgreSQL / Supabase with pgvector, RAG pipeline and multi-agent layer, FastAPI, React app."}
+
+**Stack:** React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase
+
+## Data Pipeline
+
+- **Sources:** IRS Form 990 filings, including the IRS TEOS monthly files, ingested into a 990 database I built.
+- **Two-layer PostgreSQL schema:** source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.
+- **Materialized views** provide peer benchmarks and foundation profiles.
+- **Organization health score:** a 100-point score computed for each organization. <!-- TODO(Jorge): add the score's components at a high level, if you want to share them -->
+
+## AI Layer and How Outputs Are Evaluated
+
+The AI layer is a RAG pipeline with a multi-agent architecture. LangChain orchestrates it, and retrieval uses FAISS and pgvector over the data above, so answers are grounded in actual filings and not generated from the model alone.
+
+<!-- TODO(Jorge): describe how outputs are evaluated (e.g., test set of questions, grounding/citation checks, human review) and add any eval metrics. I haven't invented any. -->
+
+## What Pilots Taught Me
+
+The platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. <!-- TODO(Jorge): add 2–3 concrete lessons from the pilot (no organization names or contacts) -->
+
+### Lessons From the Early Prototype
+
+The first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It worked with nonprofit data from IRS Form 990 filings, and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:
+
+- Clearly separating the advisory and document modes improved the user experience.
+- RAG relevance depends on high-quality chunking and metadata.
+- Local model support balances privacy and performance tradeoffs.
+
+## What's Next
+
+<!-- TODO(Jorge): next steps / roadmap, as much as you want to share publicly -->
+
+The roadmap follows what pilot users ask for.
+
+<!-- TODO(Jorge): add a Code section if there's a public repo for Munay Works. The old early-prototype link (github.com/jorgems21/ai-grant-writing-assistant) was removed because its README names the ProPublica API (lines 19 and 47). Revisit if you update that README. -->

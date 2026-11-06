@@ -1,9 +1,11 @@
 ---
 title: "Contact Me"
+description: "Contact Jorge Montoya by email or LinkedIn."
 ---
 
 #### 📩 Connect with me here:
 
-#### 🔹[LinkedIn](www.linkedin.com/in/jorge-montoya8454a8127)  
+#### 🔹 [LinkedIn](https://www.linkedin.com/in/jorge-montoya8454a8127)
 
-#### 🔹 Email: montoya.j\@northeastern.edu
+#### 🔹 Email: [miraflores97@gmail.com](mailto:miraflores97@gmail.com)
+
