@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+execute:
+  freeze: auto
 profile:
   default: english
   group: [english,spanish]
@@ -29,6 +31,7 @@ format:
       dark: [darkly, theme-dark.scss, theme.scss]
     css: styles.css
     toc: true
+    code-fold: true
     code-copy: true
     code-overflow: wrap
 

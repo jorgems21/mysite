@@ -89,7 +89,7 @@
   <media:content url="https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/home_buy.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
 </item>
 <item>
-  <title>Nashville Housing Purchasing Application</title>
+  <title>Nashville Housing Purchasing App</title>
   <dc:creator>Jorge Montoya</dc:creator>
   <link>https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/</link>
   <description><![CDATA[ 
@@ -99,74 +99,51 @@
 
 
 
-<section id="background-context" class="level2">
-<h2 class="anchored" data-anchor-id="background-context">Background context</h2>
+<p><em>Graduate project, December 2024; still evolving as a prototype.</em></p>
+<!-- TODO(Jorge): add a live app link or a short GIF/screenshot of the app, if available -->
+<p><strong>TL;DR</strong></p>
 <ul>
-<li><p>Interest in home ownership for living and real estate investing</p></li>
-<li><p>Moved to Nashville around 2022</p></li>
-<li><p>Started as school project and are currently evolving it.</p></li>
-<li><p>Data source: <a href="https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data">Kaggle</a></p></li>
+<li><strong>Problem:</strong> Home buyers in a tough market need help spotting good deals.</li>
+<li><strong>Approach:</strong> An R Shiny app with descriptive visuals of the Nashville market and a random forest model that scores a housing profile from the user’s inputs.</li>
+<li><strong>Result:</strong> A working prototype with dynamic predictions and downloadable HTML/PDF reports.</li>
+</ul>
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>I moved to Nashville around 2022 and was interested in home ownership, both for living and for real estate investing. The goal was to give prospective buyers data-driven analysis of the market so they can identify the best deal for them.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p><a href="https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data">Nashville housing data on Kaggle</a>. The quality and quantity of this data limit the predictions. <!-- TODO(Jorge): add the row count and time period --></p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<ul>
+<li><strong>Model:</strong> random forest in R, updated from the user’s inputs.</li>
+<li><strong>App:</strong> R Shiny (UI, server and reactivity), ggplot visualizations, and R Markdown report generation.</li>
+<li><strong>Design:</strong> <a href="housing_analysis_app_design.pdf">Figma mockups (PDF)</a>.</li>
+</ul>
+<p>How a user moves through the app:</p>
+<ol type="1">
+<li>Read the home page description.</li>
+<li>Explore descriptive visualizations of Nashville housing.</li>
+<li>Enter a housing profile on the deal prediction tab; the model updates dynamically and returns a prediction.</li>
+<li>Generate an HTML/PDF report with all visualizations and the deal prediction insights.</li>
+</ol>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>The app delivers deal predictions based partly on the user’s inputs, plus a downloadable report. It is a prototype and is not currently maintained. <!-- TODO(Jorge): add model metrics (e.g., RMSE / R²) and one screenshot if available --></p>
+</section>
+<section id="what-id-do-next-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="what-id-do-next-limitations">What I’d Do Next / Limitations</h2>
+<ul>
+<li>R Shiny is a strong framework for rapid prototyping of apps that include statistics and machine learning models.</li>
+<li>Predictions are limited by the quantity and quality of the Kaggle data.</li>
 </ul>
 </section>
-<section id="the-challenge-key-questions-to-answer" class="level2">
-<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions To Answer</h2>
-<ul>
-<li>Find good deals for purchase during home buying journey in a tough market</li>
-</ul>
-</section>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
-<ul>
-<li>Provide data-driven analysis of the real estate market in Nashville (and beyond) to help prospective home buyers identify the best deal for them.</li>
-</ul>
-</section>
-<section id="solution-approach" class="level2">
-<h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
-<section id="tools-techniques" class="level3">
-<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
-<ul>
-<li><p>Languages: R</p></li>
-<li><p>Modeling Approach: Random Forest</p></li>
-<li><p>App Development</p>
-<ul>
-<li><p>Front-end/back-end: R Shiny (UI/Server) and reactivity</p></li>
-<li><p>Visualizations: ggplot package in R</p></li>
-<li><p>Report generation: R Markdown</p></li>
-</ul></li>
-<li><p>Design</p>
-<ul>
-<li><a href="housing_analysis_app_design.pdf">Figma</a></li>
-</ul></li>
-</ul>
-</section>
-<section id="user-experience-flow" class="level3">
-<h3 class="anchored" data-anchor-id="user-experience-flow">User Experience Flow</h3>
-<ul>
-<li><p>Step 1: Read home page description</p></li>
-<li><p>Step 2: Check out the descriptive information for visualizations about housing in Nashville</p></li>
-<li><p>Step 3: Go to the deal prediction tab to identify which housing profile would be considered a good deal based on your inputs being applied to a ML model.</p>
-<ul>
-<li><p>Step 3.1: Your inputs will update the model dynamically in the back end</p></li>
-<li><p>Step 3.2: The model is going to product a prediction based on your inputs and the source data</p></li>
-</ul></li>
-<li><p>Step 4: Go to report generation which will dynamically produce a HTML/PDF report that includes all the visualizations from the application + the deal prediction insights.</p></li>
-</ul>
-</section>
-</section>
-<section id="analysis-results" class="level2">
-<h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
-<ul>
-<li><p>This tool is meant to provide data driven insights that will assist users in their journey to home-buying. This tool is in prototype phase and is not currently maintained.</p></li>
-<li><p>The results for the deal prediction will be partially based on the user’s inputs.</p>
-<p>Full details in the Github: <a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Nashville%20Housing%20Analysis/nashville_housing">Github - Nashville Housing Analysis</a></p></li>
-</ul>
-</section>
-<section id="learnings-and-challenges" class="level2">
-<h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
-<ul>
-<li><p>R Shiny is a great framework for rapid app prototyping that includes statistics and ML models</p></li>
-<li><p>The predictions in the deal prediction tool are partly limited to the quantity and quality of the data, which comes from Kaggle.</p></li>
-</ul>
+<section id="code" class="level2">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<p><a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Nashville%20Housing%20Analysis/nashville_housing">Nashville Housing Analysis on GitHub</a></p>
 
 
 </section>
@@ -188,66 +165,54 @@
 
 
 
-<section id="background-context" class="level2">
-<h2 class="anchored" data-anchor-id="background-context">Background context</h2>
+<p><em>Graduate project, December 2023.</em></p>
+<p><strong>TL;DR</strong></p>
 <ul>
-<li><p>Selected for analysis due to personal family ties to cancer, part of a school project</p></li>
-<li><p>Dataset: ~3,000 rows, 34 variables</p></li>
-<li><p>Data Period: Roughly from 2015</p></li>
+<li><strong>Problem:</strong> Which county-level risk factors are associated with higher cancer mortality?</li>
+<li><strong>Approach:</strong> Exploratory analysis, then regression and machine learning models in Python.</li>
+<li><strong>Result:</strong> XGBoost gave the best predictive accuracy of the models compared. <!-- TODO(Jorge): add the headline metric (e.g., R²/RMSE) from the GitHub notebook --></li>
+</ul>
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>I picked this topic because of personal family ties to cancer. The goal was to understand what drives cancer mortality at the county level, so that public health initiatives can be guided by data. The analysis asks:</p>
+<ul>
+<li>What are the primary causes of cancer mortality?</li>
+<li>Which risk factors contribute to higher mortality rates at the county level?</li>
 </ul>
 </section>
-<section id="the-challenge-key-questions-to-answer" class="level2">
-<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions to Answer</h2>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>County-level data, about 3,000 rows and 34 variables, covering roughly 2015. <!-- TODO(Jorge): name the dataset and link the source (see the GitHub notebook) --></p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<ol type="1">
+<li>Explore and clean the data.</li>
+<li>Prepare the data for machine learning models.</li>
+<li>Apply regression analysis and machine learning techniques (Python).</li>
+<li>Evaluate and interpret the results, and summarize the findings.</li>
+</ol>
+<!-- TODO(Jorge): list the exact models compared and why (see the GitHub notebook) -->
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
 <ul>
-<li><p>What are the primary causes of cancer mortality?</p></li>
-<li><p>Which risk factors contribute to higher cancer mortality rates at the county level?</p>
-<p>By answering these, we aim to empower public health initiatives with data-driven insights.</p></li>
+<li>XGBoost outperformed the other models in predictive accuracy.</li>
+<li>Hyperparameter tuning improved accuracy but was time-intensive.</li>
+<li>Data quality and preprocessing played a major role in improving results.</li>
+</ul>
+<!-- TODO(Jorge): add a metrics table (model comparison) and at least one chart, e.g. feature importance or predicted vs actual, from the GitHub notebook -->
+</section>
+<section id="what-id-do-next-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="what-id-do-next-limitations">What I’d Do Next / Limitations</h2>
+<ul>
+<li>Add cross-validation to make the model comparison more reliable. This is the next iteration.</li>
+<li>Stacking models significantly increased compute time.</li>
 </ul>
 </section>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
-<ul>
-<li><p>Descriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.</p></li>
-<li><p>Advanced Analytics – Use predictive modeling to identify factors associated with cancer mortality.</p></li>
-</ul>
-</section>
-<section id="solution-approach" class="level2">
-<h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
-<section id="tools-techniques" class="level3">
-<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
-<ul>
-<li><p>Languages: Python</p></li>
-<li><p>Modeling Approach: Regression &amp; Machine Learning</p></li>
-</ul>
-</section>
-<section id="analytical-workflow" class="level3">
-<h3 class="anchored" data-anchor-id="analytical-workflow">Analytical Workflow</h3>
-<ul>
-<li><p>Step 1: Explore &amp; clean the data</p></li>
-<li><p>Step 2: Prepare data for machine learning models</p></li>
-<li><p>Step 3: Apply regression analysis &amp; ML techniques</p></li>
-<li><p>Step 4: Evaluate &amp; interpret results</p></li>
-<li><p>Step 5: Summarize findings &amp; quantify impact</p></li>
-</ul>
-</section>
-</section>
-<section id="analysis-results" class="level2">
-<h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
-<ul>
-<li><p>Before vs.&nbsp;After Comparison: Impact of different models on prediction accuracy.</p></li>
-<li><p>Quantified Risk Factors: Which factors have the strongest correlation with mortality rates?</p>
-<p>Full details in the repo: <a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Cancer%20Risk%20Factor%20Analysis">Github - Cancer Analysis</a></p></li>
-</ul>
-</section>
-<section id="learnings-and-challenges" class="level2">
-<h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
-<ul>
-<li><p>Cross-validation is crucial for model reliability and is part of the next iteration</p></li>
-<li><p>Hyperparameter tuning improved accuracy but was time-intensive.</p></li>
-<li><p>Stacking models significantly increased compute time.</p></li>
-<li><p>XGBoost outperformed other models in predictive accuracy.</p></li>
-<li><p>Data quality &amp; preprocessing played a major role in improving results.</p></li>
-</ul>
+<section id="code" class="level2">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<p><a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Cancer%20Risk%20Factor%20Analysis">Cancer Analysis on GitHub</a></p>
 
 
 </section>
@@ -270,66 +235,60 @@
 
 
 
-<section id="background-context" class="level2">
-<h2 class="anchored" data-anchor-id="background-context">Background context</h2>
+<p><em>Graduate project, December 2023.</em></p>
+<p><strong>TL;DR</strong></p>
 <ul>
-<li><p>Help banks identify customers who are most likely to accept a loan approval based on past campaign results.</p></li>
-<li><p>Started as part of school project</p></li>
+<li><strong>Problem:</strong> A bank wants to target loan offers at the customers most likely to accept them.</li>
+<li><strong>Approach:</strong> Exploratory analysis and A/B testing, then logistic regression and XGBoost propensity models.</li>
+<li><strong>Result:</strong> XGBoost outperformed the other models in predictive accuracy. <!-- TODO(Jorge): add AUC and precision/recall at a chosen cutoff from the GitHub notebook --></li>
+</ul>
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>Banks run loan marketing campaigns and need to decide whom to target. This project builds a propensity model from past campaign results to answer:</p>
+<ul>
+<li>What factors influence a customer’s likelihood to accept a loan offer?</li>
+<li>How can customer targeting be improved to increase acceptance rates?</li>
 </ul>
 </section>
-<section id="the-challenge-key-questions-to-answer" class="level2">
-<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions To Answer</h2>
-<ul>
-<li><p>How can banks improve loan approval decisions?</p></li>
-<li><p>What factors influence a customer’s likelihood to accept a loan offer?</p></li>
-<li><p>How can we optimize customer targeting to increase loan acceptance rates?</p></li>
-</ul>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>Past campaign results with customer attributes and whether the customer accepted the loan. <!-- TODO(Jorge): name the dataset, size, time period and link (see the GitHub notebook) --></p>
 </section>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
-<ul>
-<li><p>Data Exploration – Apply EDA techniques to uncover patterns in customer behavior.</p></li>
-<li><p>Descriptive Analytics – Analyze relationships between variables and loan approvals.</p></li>
-<li><p>Advanced Analytics – Build predictive models to profile ideal loan applicants.</p></li>
-</ul>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<ol type="1">
+<li>Explore and clean the data to find patterns in customer behavior.</li>
+<li>Analyze relationships between customer variables and loan acceptance.</li>
+<li>Run A/B testing for experimentation.</li>
+<li>Fit logistic regression and XGBoost, with feature engineering.</li>
+<li>Compare the models with visualizations.</li>
+</ol>
+<p>Logistic regression is a transparent baseline for a binary outcome; XGBoost is a stronger non-linear alternative.</p>
 </section>
-<section id="solution-approach" class="level2">
-<h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
-<section id="tools-techniques" class="level3">
-<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
 <ul>
-<li><p>Languages: Python</p></li>
-<li><p>Modeling Approach: Logistic Regression, XGBoost</p></li>
+<li>Identified the key factors influencing loan acceptance.</li>
+<li>Feature engineering improved model predictions.</li>
+<li>XGBoost outperformed the traditional models in predictive accuracy.</li>
 </ul>
-</section>
-<section id="analytical-workflow" class="level3">
-<h3 class="anchored" data-anchor-id="analytical-workflow">Analytical Workflow</h3>
-<ul>
-<li><p>Step 1: Explore &amp; clean the data</p></li>
-<li><p>Step 2: Prepare data for analytics &amp; machine learning models</p></li>
-<li><p>Step 3: Conduct A/B testing for experimentation</p></li>
-<li><p>Step 4: Apply logistic regression &amp; XGBoost</p></li>
-<li><p>Step 5: Compare model performances using visualizations</p></li>
-<li><p>Step 6: Interpret results &amp; quantify impact</p></li>
-</ul>
+<!-- TODO(Jorge): add a metrics table (AUC, precision and recall at a chosen cutoff) and a calibration plot from the GitHub notebook -->
+<section id="business-impact" class="level3">
+<h3 class="anchored" data-anchor-id="business-impact">Business Impact</h3>
+<!-- TODO(Jorge): add a short business-impact section, e.g. how many offers a campaign could skip at a chosen cutoff while keeping most acceptances. Use real numbers from the notebook only. -->
+<p>Ranking customers by predicted propensity lets a marketing team focus offers on the likeliest acceptors instead of contacting everyone.</p>
 </section>
 </section>
-<section id="analysis-results" class="level2">
-<h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
+<section id="what-id-do-next-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="what-id-do-next-limitations">What I’d Do Next / Limitations</h2>
 <ul>
-<li><p>Identified key factors influencing loan acceptance rates.</p></li>
-<li><p>Before vs.&nbsp;After Comparison: Improved model predictions through feature engineering.</p>
-<p>Full details in the repo: <a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Bank%20Personal%20Loan%20Analysis">Github - Bank Loan Analysis</a></p></li>
+<li>Check probability calibration, so that scores can be used as acceptance probabilities and not only as a ranking.</li>
+<li>Test the model on a campaign it wasn’t built from.</li>
 </ul>
 </section>
-<section id="learnings-and-challenges" class="level2">
-<h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
-<ul>
-<li><p>XGBoost outperformed traditional models in predictive accuracy.</p></li>
-<li><p>Logistic regression worked well for binary classification problems.</p></li>
-<li><p>Data visualization helped compare model performance effectively.</p></li>
-<li><p>A/B Testing was a useful experimentation method.</p></li>
-</ul>
+<section id="code" class="level2">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<p><a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Bank%20Personal%20Loan%20Analysis">Bank Loan Analysis on GitHub</a></p>
 
 
 </section>

@@ -8,8 +8,9 @@
 
 <meta name="author" content="Jorge Montoya">
 <meta name="dcterms.date" content="2024-12-01">
+<meta name="description" content="R Shiny prototype with a random forest deal predictor and report generation for Nashville home buyers.">
 
-<title>Nashville Housing Purchasing Application – Jorge Montoya</title>
+<title>Nashville Housing Purchasing App – Jorge Montoya</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -304,8 +305,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Nashville Housing Purchasing Application</h1>
-                                <div class="quarto-categories">
+      <h1 class="title">Nashville Housing Purchasing App</h1>
+            <p class="subtitle lead">An R Shiny app that uses a random forest to flag good deals for prospective home buyers</p>
+                  <div>
+        <div class="description">
+          R Shiny prototype with a random forest deal predictor and report generation for Nashville home buyers.
+        </div>
+      </div>
+                          <div class="quarto-categories">
                 <div class="quarto-category">Machine Learning</div>
               </div>
                   </div>
@@ -340,16 +347,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#background-context" id="toc-background-context" class="nav-link active" data-scroll-target="#background-context">Background context</a></li>
-  <li><a href="#the-challenge-key-questions-to-answer" id="toc-the-challenge-key-questions-to-answer" class="nav-link" data-scroll-target="#the-challenge-key-questions-to-answer">The Challenge: Key Questions To Answer</a></li>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#solution-approach" id="toc-solution-approach" class="nav-link" data-scroll-target="#solution-approach">Solution Approach</a>
-  <ul class="collapse">
-  <li><a href="#tools-techniques" id="toc-tools-techniques" class="nav-link" data-scroll-target="#tools-techniques">Tools &amp; Techniques</a></li>
-  <li><a href="#user-experience-flow" id="toc-user-experience-flow" class="nav-link" data-scroll-target="#user-experience-flow">User Experience Flow</a></li>
-  </ul></li>
-  <li><a href="#analysis-results" id="toc-analysis-results" class="nav-link" data-scroll-target="#analysis-results">Analysis / Results</a></li>
-  <li><a href="#learnings-and-challenges" id="toc-learnings-and-challenges" class="nav-link" data-scroll-target="#learnings-and-challenges">Learnings and challenges</a></li>
+  <li><a href="#problem" id="toc-problem" class="nav-link active" data-scroll-target="#problem">Problem</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#what-id-do-next-limitations" id="toc-what-id-do-next-limitations" class="nav-link" data-scroll-target="#what-id-do-next-limitations">What I’d Do Next / Limitations</a></li>
+  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
   </ul>
 </nav>
     </div>
@@ -361,74 +364,51 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="background-context" class="level2">
-<h2 class="anchored" data-anchor-id="background-context">Background context</h2>
+<p><em>Graduate project, December 2024; still evolving as a prototype.</em></p>
+<!-- TODO(Jorge): add a live app link or a short GIF/screenshot of the app, if available -->
+<p><strong>TL;DR</strong></p>
 <ul>
-<li><p>Interest in home ownership for living and real estate investing</p></li>
-<li><p>Moved to Nashville around 2022</p></li>
-<li><p>Started as school project and are currently evolving it.</p></li>
-<li><p>Data source: <a href="https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data">Kaggle</a></p></li>
+<li><strong>Problem:</strong> Home buyers in a tough market need help spotting good deals.</li>
+<li><strong>Approach:</strong> An R Shiny app with descriptive visuals of the Nashville market and a random forest model that scores a housing profile from the user’s inputs.</li>
+<li><strong>Result:</strong> A working prototype with dynamic predictions and downloadable HTML/PDF reports.</li>
+</ul>
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>I moved to Nashville around 2022 and was interested in home ownership, both for living and for real estate investing. The goal was to give prospective buyers data-driven analysis of the market so they can identify the best deal for them.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p><a href="https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data">Nashville housing data on Kaggle</a>. The quality and quantity of this data limit the predictions. <!-- TODO(Jorge): add the row count and time period --></p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<ul>
+<li><strong>Model:</strong> random forest in R, updated from the user’s inputs.</li>
+<li><strong>App:</strong> R Shiny (UI, server and reactivity), ggplot visualizations, and R Markdown report generation.</li>
+<li><strong>Design:</strong> <a href="housing_analysis_app_design.pdf">Figma mockups (PDF)</a>.</li>
+</ul>
+<p>How a user moves through the app:</p>
+<ol type="1">
+<li>Read the home page description.</li>
+<li>Explore descriptive visualizations of Nashville housing.</li>
+<li>Enter a housing profile on the deal prediction tab; the model updates dynamically and returns a prediction.</li>
+<li>Generate an HTML/PDF report with all visualizations and the deal prediction insights.</li>
+</ol>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>The app delivers deal predictions based partly on the user’s inputs, plus a downloadable report. It is a prototype and is not currently maintained. <!-- TODO(Jorge): add model metrics (e.g., RMSE / R²) and one screenshot if available --></p>
+</section>
+<section id="what-id-do-next-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="what-id-do-next-limitations">What I’d Do Next / Limitations</h2>
+<ul>
+<li>R Shiny is a strong framework for rapid prototyping of apps that include statistics and machine learning models.</li>
+<li>Predictions are limited by the quantity and quality of the Kaggle data.</li>
 </ul>
 </section>
-<section id="the-challenge-key-questions-to-answer" class="level2">
-<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions To Answer</h2>
-<ul>
-<li>Find good deals for purchase during home buying journey in a tough market</li>
-</ul>
-</section>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
-<ul>
-<li>Provide data-driven analysis of the real estate market in Nashville (and beyond) to help prospective home buyers identify the best deal for them.</li>
-</ul>
-</section>
-<section id="solution-approach" class="level2">
-<h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
-<section id="tools-techniques" class="level3">
-<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
-<ul>
-<li><p>Languages: R</p></li>
-<li><p>Modeling Approach: Random Forest</p></li>
-<li><p>App Development</p>
-<ul>
-<li><p>Front-end/back-end: R Shiny (UI/Server) and reactivity</p></li>
-<li><p>Visualizations: ggplot package in R</p></li>
-<li><p>Report generation: R Markdown</p></li>
-</ul></li>
-<li><p>Design</p>
-<ul>
-<li><a href="housing_analysis_app_design.pdf">Figma</a></li>
-</ul></li>
-</ul>
-</section>
-<section id="user-experience-flow" class="level3">
-<h3 class="anchored" data-anchor-id="user-experience-flow">User Experience Flow</h3>
-<ul>
-<li><p>Step 1: Read home page description</p></li>
-<li><p>Step 2: Check out the descriptive information for visualizations about housing in Nashville</p></li>
-<li><p>Step 3: Go to the deal prediction tab to identify which housing profile would be considered a good deal based on your inputs being applied to a ML model.</p>
-<ul>
-<li><p>Step 3.1: Your inputs will update the model dynamically in the back end</p></li>
-<li><p>Step 3.2: The model is going to product a prediction based on your inputs and the source data</p></li>
-</ul></li>
-<li><p>Step 4: Go to report generation which will dynamically produce a HTML/PDF report that includes all the visualizations from the application + the deal prediction insights.</p></li>
-</ul>
-</section>
-</section>
-<section id="analysis-results" class="level2">
-<h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
-<ul>
-<li><p>This tool is meant to provide data driven insights that will assist users in their journey to home-buying. This tool is in prototype phase and is not currently maintained.</p></li>
-<li><p>The results for the deal prediction will be partially based on the user’s inputs.</p>
-<p>Full details in the Github: <a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Nashville%20Housing%20Analysis/nashville_housing">Github - Nashville Housing Analysis</a></p></li>
-</ul>
-</section>
-<section id="learnings-and-challenges" class="level2">
-<h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
-<ul>
-<li><p>R Shiny is a great framework for rapid app prototyping that includes statistics and ML models</p></li>
-<li><p>The predictions in the deal prediction tool are partly limited to the quantity and quality of the data, which comes from Kaggle.</p></li>
-</ul>
+<section id="code" class="level2">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<p><a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Nashville%20Housing%20Analysis/nashville_housing">Nashville Housing Analysis on GitHub</a></p>
 
 
 </section>

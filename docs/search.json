@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Jorge Montoya",
     "section": "",
-    "text": "Healthcare Data Scientist · Real-World Evidence & HEOR\nI turn messy healthcare data — EHR, chargemaster, claims-style real-world data — into evidence and data products that teams can trust. 5+ years building RWE analytics at Premier Inc.\n\nResume LinkedIn Email\n\n\nmiraflores97@gmail.com"
+    "text": "Data Scientist — Analytics, AI & Data Products\nI’m a data scientist who turns messy, real-world data into evidence, models and data products that teams can trust. My deepest experience is in healthcare — EHR, chargemaster and claims-style data at Premier Inc. — and I’m also building an AI product of my own with RAG and multi-agent systems.\n\nResume LinkedIn Email\n\n\nmiraflores97@gmail.com"
   },
   {
     "objectID": "index.html#featured-work",
@@ -18,28 +18,28 @@
     "href": "index.html#skills-snapshot",
     "title": "Jorge Montoya",
     "section": "Skills Snapshot",
-    "text": "Skills Snapshot\n\nDomain RWE HEOR EHR Chargemaster\nLanguages & Data Python R SQL PySpark Databricks Teradata\nAnalytics & Apps Statistical Modeling Machine Learning Tableau R Shiny Streamlit\nAI LangChain RAG FAISS pgvector FastAPI"
+    "text": "Skills Snapshot\n\nDomain Healthcare (RWE, HEOR, EHR) Chargemaster Finance Nonprofit (IRS 990)\nLanguages & Data Python R SQL PySpark Databricks Teradata\nAnalytics & Apps Statistical Modeling Machine Learning Tableau R Shiny Streamlit\nAI LangChain RAG FAISS pgvector FastAPI"
   },
   {
     "objectID": "index.html#about",
     "href": "index.html#about",
     "title": "Jorge Montoya",
     "section": "About",
-    "text": "About\nI’m a healthcare analytics developer who moved from private wealth reporting into real-world evidence work at Premier Inc., and I’m now also building an AI product independently. More about me →"
+    "text": "About\nI’m a data scientist who started in private wealth reporting, built deep healthcare experience at Premier Inc., and is now also building an AI product independently. More about me →"
   },
   {
     "objectID": "index.html#lets-talk",
     "href": "index.html#lets-talk",
     "title": "Jorge Montoya",
     "section": "Let’s Talk",
-    "text": "Let’s Talk\nHiring for a healthcare RWE or data science role, or want to collaborate? Email me at miraflores97@gmail.com or connect on LinkedIn."
+    "text": "Let’s Talk\nHiring for a data science, analytics or AI role, or want to collaborate? Email me at miraflores97@gmail.com or connect on LinkedIn."
   },
   {
     "objectID": "about_me.html",
     "href": "about_me.html",
     "title": "About",
     "section": "",
-    "text": "I’m a healthcare data scientist with 5+ years of experience in analytics, product design and development. I’m currently a Senior Analytics Developer in Data Strategy & Solutions at Premier Inc., where I’ve worked on real-world evidence analytics and on turning research prototypes into production-ready data products.\nI’m a first-generation Peruvian immigrant. I began my career in private wealth reporting, which showed me how much good data storytelling can change decisions. That led me to a Master’s in Analytics at Northeastern, and then to healthcare, where I apply data to problems that affect people’s lives.\nAlongside my day job, I’m building Munay Works, an AI platform that helps nonprofits find funders using IRS Form 990 data. It’s a hands-on way to keep growing in data engineering, retrieval-augmented generation and product work.\nView my work · Resume (PDF) · Contact"
+    "text": "I’m a data scientist with 5+ years of experience in analytics, machine learning and data product development. Two strands run through my work: deep experience in healthcare, and hands-on building of AI products.\nHealthcare. I’m currently a Senior Analytics Developer in Data Strategy & Solutions at Premier Inc., where I’ve worked on real-world evidence analytics and on turning research prototypes into production-ready data products. I’m a first-generation Peruvian immigrant. I began my career in private wealth reporting, which showed me how much good data storytelling can change decisions. That led me to a Master’s in Analytics at Northeastern, and then to healthcare, where I apply data to problems that affect people’s lives.\nAI products. Alongside my day job, I’m building Munay Works, an AI platform that helps nonprofits find funders using IRS Form 990 data. It’s a hands-on way to keep growing in data engineering, retrieval-augmented generation and product work.\nView my work · Resume (PDF) · Contact"
   },
   {
     "objectID": "about_me.html#timeline",
@@ -65,100 +65,100 @@
   {
     "objectID": "projects/03_nashville-house-purchasing-app/index.html",
     "href": "projects/03_nashville-house-purchasing-app/index.html",
-    "title": "Nashville Housing Purchasing Application",
+    "title": "Nashville Housing Purchasing App",
     "section": "",
-    "text": "Interest in home ownership for living and real estate investing\nMoved to Nashville around 2022\nStarted as school project and are currently evolving it.\nData source: Kaggle"
+    "text": "Graduate project, December 2024; still evolving as a prototype.\nTL;DR"
   },
   {
-    "objectID": "projects/03_nashville-house-purchasing-app/index.html#background-context",
-    "href": "projects/03_nashville-house-purchasing-app/index.html#background-context",
-    "title": "Nashville Housing Purchasing Application",
-    "section": "",
-    "text": "Interest in home ownership for living and real estate investing\nMoved to Nashville around 2022\nStarted as school project and are currently evolving it.\nData source: Kaggle"
+    "objectID": "projects/03_nashville-house-purchasing-app/index.html#problem",
+    "href": "projects/03_nashville-house-purchasing-app/index.html#problem",
+    "title": "Nashville Housing Purchasing App",
+    "section": "Problem",
+    "text": "Problem\nI moved to Nashville around 2022 and was interested in home ownership, both for living and for real estate investing. The goal was to give prospective buyers data-driven analysis of the market so they can identify the best deal for them."
   },
   {
-    "objectID": "projects/03_nashville-house-purchasing-app/index.html#the-challenge-key-questions-to-answer",
-    "href": "projects/03_nashville-house-purchasing-app/index.html#the-challenge-key-questions-to-answer",
-    "title": "Nashville Housing Purchasing Application",
-    "section": "The Challenge: Key Questions To Answer",
-    "text": "The Challenge: Key Questions To Answer\n\nFind good deals for purchase during home buying journey in a tough market"
+    "objectID": "projects/03_nashville-house-purchasing-app/index.html#data",
+    "href": "projects/03_nashville-house-purchasing-app/index.html#data",
+    "title": "Nashville Housing Purchasing App",
+    "section": "Data",
+    "text": "Data\nNashville housing data on Kaggle. The quality and quantity of this data limit the predictions."
   },
   {
-    "objectID": "projects/03_nashville-house-purchasing-app/index.html#objectives",
-    "href": "projects/03_nashville-house-purchasing-app/index.html#objectives",
-    "title": "Nashville Housing Purchasing Application",
-    "section": "Objectives",
-    "text": "Objectives\n\nProvide data-driven analysis of the real estate market in Nashville (and beyond) to help prospective home buyers identify the best deal for them."
+    "objectID": "projects/03_nashville-house-purchasing-app/index.html#approach",
+    "href": "projects/03_nashville-house-purchasing-app/index.html#approach",
+    "title": "Nashville Housing Purchasing App",
+    "section": "Approach",
+    "text": "Approach\n\nModel: random forest in R, updated from the user’s inputs.\nApp: R Shiny (UI, server and reactivity), ggplot visualizations, and R Markdown report generation.\nDesign: Figma mockups (PDF).\n\nHow a user moves through the app:\n\nRead the home page description.\nExplore descriptive visualizations of Nashville housing.\nEnter a housing profile on the deal prediction tab; the model updates dynamically and returns a prediction.\nGenerate an HTML/PDF report with all visualizations and the deal prediction insights."
   },
   {
-    "objectID": "projects/03_nashville-house-purchasing-app/index.html#solution-approach",
-    "href": "projects/03_nashville-house-purchasing-app/index.html#solution-approach",
-    "title": "Nashville Housing Purchasing Application",
-    "section": "Solution Approach",
-    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: R\nModeling Approach: Random Forest\nApp Development\n\nFront-end/back-end: R Shiny (UI/Server) and reactivity\nVisualizations: ggplot package in R\nReport generation: R Markdown\n\nDesign\n\nFigma\n\n\n\n\nUser Experience Flow\n\nStep 1: Read home page description\nStep 2: Check out the descriptive information for visualizations about housing in Nashville\nStep 3: Go to the deal prediction tab to identify which housing profile would be considered a good deal based on your inputs being applied to a ML model.\n\nStep 3.1: Your inputs will update the model dynamically in the back end\nStep 3.2: The model is going to product a prediction based on your inputs and the source data\n\nStep 4: Go to report generation which will dynamically produce a HTML/PDF report that includes all the visualizations from the application + the deal prediction insights."
+    "objectID": "projects/03_nashville-house-purchasing-app/index.html#results",
+    "href": "projects/03_nashville-house-purchasing-app/index.html#results",
+    "title": "Nashville Housing Purchasing App",
+    "section": "Results",
+    "text": "Results\nThe app delivers deal predictions based partly on the user’s inputs, plus a downloadable report. It is a prototype and is not currently maintained."
   },
   {
-    "objectID": "projects/03_nashville-house-purchasing-app/index.html#analysis-results",
-    "href": "projects/03_nashville-house-purchasing-app/index.html#analysis-results",
-    "title": "Nashville Housing Purchasing Application",
-    "section": "Analysis / Results",
-    "text": "Analysis / Results\n\nThis tool is meant to provide data driven insights that will assist users in their journey to home-buying. This tool is in prototype phase and is not currently maintained.\nThe results for the deal prediction will be partially based on the user’s inputs.\nFull details in the Github: Github - Nashville Housing Analysis"
+    "objectID": "projects/03_nashville-house-purchasing-app/index.html#what-id-do-next-limitations",
+    "href": "projects/03_nashville-house-purchasing-app/index.html#what-id-do-next-limitations",
+    "title": "Nashville Housing Purchasing App",
+    "section": "What I’d Do Next / Limitations",
+    "text": "What I’d Do Next / Limitations\n\nR Shiny is a strong framework for rapid prototyping of apps that include statistics and machine learning models.\nPredictions are limited by the quantity and quality of the Kaggle data."
   },
   {
-    "objectID": "projects/03_nashville-house-purchasing-app/index.html#learnings-and-challenges",
-    "href": "projects/03_nashville-house-purchasing-app/index.html#learnings-and-challenges",
-    "title": "Nashville Housing Purchasing Application",
-    "section": "Learnings and challenges",
-    "text": "Learnings and challenges\n\nR Shiny is a great framework for rapid app prototyping that includes statistics and ML models\nThe predictions in the deal prediction tool are partly limited to the quantity and quality of the data, which comes from Kaggle."
+    "objectID": "projects/03_nashville-house-purchasing-app/index.html#code",
+    "href": "projects/03_nashville-house-purchasing-app/index.html#code",
+    "title": "Nashville Housing Purchasing App",
+    "section": "Code",
+    "text": "Code\nNashville Housing Analysis on GitHub"
   },
   {
     "objectID": "projects/01_cancer-risk-factor-analysis/index.html",
     "href": "projects/01_cancer-risk-factor-analysis/index.html",
     "title": "Cancer Mortality Analysis",
     "section": "",
-    "text": "Selected for analysis due to personal family ties to cancer, part of a school project\nDataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015"
+    "text": "Graduate project, December 2023.\nTL;DR"
   },
   {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#problem",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#problem",
     "title": "Cancer Mortality Analysis",
-    "section": "",
-    "text": "Selected for analysis due to personal family ties to cancer, part of a school project\nDataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015"
+    "section": "Problem",
+    "text": "Problem\nI picked this topic because of personal family ties to cancer. The goal was to understand what drives cancer mortality at the county level, so that public health initiatives can be guided by data. The analysis asks:\n\nWhat are the primary causes of cancer mortality?\nWhich risk factors contribute to higher mortality rates at the county level?"
   },
   {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#the-challenge-key-questions-to-answer",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#the-challenge-key-questions-to-answer",
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#data",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#data",
     "title": "Cancer Mortality Analysis",
-    "section": "The Challenge: Key Questions to Answer",
-    "text": "The Challenge: Key Questions to Answer\n\nWhat are the primary causes of cancer mortality?\nWhich risk factors contribute to higher cancer mortality rates at the county level?\nBy answering these, we aim to empower public health initiatives with data-driven insights."
+    "section": "Data",
+    "text": "Data\nCounty-level data, about 3,000 rows and 34 variables, covering roughly 2015."
   },
   {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#objectives",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#objectives",
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#approach",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#approach",
     "title": "Cancer Mortality Analysis",
-    "section": "Objectives",
-    "text": "Objectives\n\nDescriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.\nAdvanced Analytics – Use predictive modeling to identify factors associated with cancer mortality."
+    "section": "Approach",
+    "text": "Approach\n\nExplore and clean the data.\nPrepare the data for machine learning models.\nApply regression analysis and machine learning techniques (Python).\nEvaluate and interpret the results, and summarize the findings."
   },
   {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#solution-approach",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#solution-approach",
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#results",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#results",
     "title": "Cancer Mortality Analysis",
-    "section": "Solution Approach",
-    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: Python\nModeling Approach: Regression & Machine Learning\n\n\n\nAnalytical Workflow\n\nStep 1: Explore & clean the data\nStep 2: Prepare data for machine learning models\nStep 3: Apply regression analysis & ML techniques\nStep 4: Evaluate & interpret results\nStep 5: Summarize findings & quantify impact"
+    "section": "Results",
+    "text": "Results\n\nXGBoost outperformed the other models in predictive accuracy.\nHyperparameter tuning improved accuracy but was time-intensive.\nData quality and preprocessing played a major role in improving results."
   },
   {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#analysis-results",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#analysis-results",
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#what-id-do-next-limitations",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#what-id-do-next-limitations",
     "title": "Cancer Mortality Analysis",
-    "section": "Analysis / Results",
-    "text": "Analysis / Results\n\nBefore vs. After Comparison: Impact of different models on prediction accuracy.\nQuantified Risk Factors: Which factors have the strongest correlation with mortality rates?\nFull details in the repo: Github - Cancer Analysis"
+    "section": "What I’d Do Next / Limitations",
+    "text": "What I’d Do Next / Limitations\n\nAdd cross-validation to make the model comparison more reliable. This is the next iteration.\nStacking models significantly increased compute time."
   },
   {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#learnings-and-challenges",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#learnings-and-challenges",
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#code",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#code",
     "title": "Cancer Mortality Analysis",
-    "section": "Learnings and challenges",
-    "text": "Learnings and challenges\n\nCross-validation is crucial for model reliability and is part of the next iteration\nHyperparameter tuning improved accuracy but was time-intensive.\nStacking models significantly increased compute time.\nXGBoost outperformed other models in predictive accuracy.\nData quality & preprocessing played a major role in improving results."
+    "section": "Code",
+    "text": "Code\nCancer Analysis on GitHub"
   },
   {
     "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html",
@@ -214,49 +214,49 @@
     "href": "projects/02_bank-personal-loan-analysis/index.html",
     "title": "Bank Personal Loan Analysis",
     "section": "",
-    "text": "Help banks identify customers who are most likely to accept a loan approval based on past campaign results.\nStarted as part of school project"
+    "text": "Graduate project, December 2023.\nTL;DR"
   },
   {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#background-context",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#background-context",
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#problem",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#problem",
     "title": "Bank Personal Loan Analysis",
-    "section": "",
-    "text": "Help banks identify customers who are most likely to accept a loan approval based on past campaign results.\nStarted as part of school project"
+    "section": "Problem",
+    "text": "Problem\nBanks run loan marketing campaigns and need to decide whom to target. This project builds a propensity model from past campaign results to answer:\n\nWhat factors influence a customer’s likelihood to accept a loan offer?\nHow can customer targeting be improved to increase acceptance rates?"
   },
   {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#the-challenge-key-questions-to-answer",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#the-challenge-key-questions-to-answer",
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#data",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#data",
     "title": "Bank Personal Loan Analysis",
-    "section": "The Challenge: Key Questions To Answer",
-    "text": "The Challenge: Key Questions To Answer\n\nHow can banks improve loan approval decisions?\nWhat factors influence a customer’s likelihood to accept a loan offer?\nHow can we optimize customer targeting to increase loan acceptance rates?"
+    "section": "Data",
+    "text": "Data\nPast campaign results with customer attributes and whether the customer accepted the loan."
   },
   {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#objectives",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#objectives",
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#approach",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#approach",
     "title": "Bank Personal Loan Analysis",
-    "section": "Objectives",
-    "text": "Objectives\n\nData Exploration – Apply EDA techniques to uncover patterns in customer behavior.\nDescriptive Analytics – Analyze relationships between variables and loan approvals.\nAdvanced Analytics – Build predictive models to profile ideal loan applicants."
+    "section": "Approach",
+    "text": "Approach\n\nExplore and clean the data to find patterns in customer behavior.\nAnalyze relationships between customer variables and loan acceptance.\nRun A/B testing for experimentation.\nFit logistic regression and XGBoost, with feature engineering.\nCompare the models with visualizations.\n\nLogistic regression is a transparent baseline for a binary outcome; XGBoost is a stronger non-linear alternative."
   },
   {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#solution-approach",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#solution-approach",
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#results",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#results",
     "title": "Bank Personal Loan Analysis",
-    "section": "Solution Approach",
-    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: Python\nModeling Approach: Logistic Regression, XGBoost\n\n\n\nAnalytical Workflow\n\nStep 1: Explore & clean the data\nStep 2: Prepare data for analytics & machine learning models\nStep 3: Conduct A/B testing for experimentation\nStep 4: Apply logistic regression & XGBoost\nStep 5: Compare model performances using visualizations\nStep 6: Interpret results & quantify impact"
+    "section": "Results",
+    "text": "Results\n\nIdentified the key factors influencing loan acceptance.\nFeature engineering improved model predictions.\nXGBoost outperformed the traditional models in predictive accuracy.\n\n\n\nBusiness Impact\n\nRanking customers by predicted propensity lets a marketing team focus offers on the likeliest acceptors instead of contacting everyone."
   },
   {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#analysis-results",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#analysis-results",
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#what-id-do-next-limitations",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#what-id-do-next-limitations",
     "title": "Bank Personal Loan Analysis",
-    "section": "Analysis / Results",
-    "text": "Analysis / Results\n\nIdentified key factors influencing loan acceptance rates.\nBefore vs. After Comparison: Improved model predictions through feature engineering.\nFull details in the repo: Github - Bank Loan Analysis"
+    "section": "What I’d Do Next / Limitations",
+    "text": "What I’d Do Next / Limitations\n\nCheck probability calibration, so that scores can be used as acceptance probabilities and not only as a ranking.\nTest the model on a campaign it wasn’t built from."
   },
   {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#learnings-and-challenges",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#learnings-and-challenges",
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#code",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#code",
     "title": "Bank Personal Loan Analysis",
-    "section": "Learnings and challenges",
-    "text": "Learnings and challenges\n\nXGBoost outperformed traditional models in predictive accuracy.\nLogistic regression worked well for binary classification problems.\nData visualization helped compare model performance effectively.\nA/B Testing was a useful experimentation method."
+    "section": "Code",
+    "text": "Code\nBank Loan Analysis on GitHub"
   },
   {
     "objectID": "contact_me.html",
@@ -270,6 +270,6 @@
     "href": "projects.html",
     "title": "Work",
     "section": "",
-    "text": "Selected project write-ups, from healthcare analytics to machine learning and AI.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNonprofit Grant Writer AI Assistant\n\n\n\nAI / LLM\n\n\n\nSmart, AI-powered assistant helping nonprofits discover opportunities and write winning grant proposals.\n\n\n\nNov 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNashville Housing Purchasing Application\n\n\n\nMachine Learning\n\n\n\n\n\n\n\nDec 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCancer Mortality Analysis\n\n\n\nHealthcare / RWE\n\nMachine Learning\n\n\n\n\n\n\n\nDec 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank Personal Loan Analysis\n\n\n\nFinance\n\nMachine Learning\n\n\n\n\n\n\n\nDec 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Selected project write-ups, from healthcare analytics to machine learning and AI.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNonprofit Grant Writer AI Assistant\n\n\n\nAI / LLM\n\n\n\nSmart, AI-powered assistant helping nonprofits discover opportunities and write winning grant proposals.\n\n\n\nNov 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNashville Housing Purchasing App\n\n\n\nMachine Learning\n\n\n\nR Shiny prototype with a random forest deal predictor and report generation for Nashville home buyers.\n\n\n\nDec 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCancer Mortality Analysis\n\n\n\nHealthcare / RWE\n\nMachine Learning\n\n\n\nPython models for county-level cancer mortality and its risk factors; XGBoost outperformed the other models compared.\n\n\n\nDec 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank Personal Loan Analysis\n\n\n\nFinance\n\nMachine Learning\n\n\n\nPropensity models (logistic regression, XGBoost) for targeting personal loan offers from past campaign results.\n\n\n\nDec 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -1,0 +1,39 @@
+---
+# Copy this folder to projects/<new-project>/ and fill it in.
+# Add a thumbnail.png (any 16:9-ish image) next to this file.
+title: ""
+subtitle: "One-line outcome"
+description: "One-line outcome shown on the Work page card"
+date: YYYY-MM-DD
+categories: ["Healthcare / RWE"]   # pick from: Healthcare / RWE, Machine Learning, AI / LLM, Finance
+image: thumbnail.png
+image-alt: "Describe the thumbnail"
+# execute:
+#   freeze: auto   # default (set in _quarto.yml); render locally and commit _freeze/ and docs/
+---
+
+**TL;DR**
+
+- **Problem:** 
+- **Approach:** 
+- **Result:** (include a number)
+
+## Problem
+
+## Data
+
+<!-- Name the source, size, time period, and link. -->
+
+## Approach
+
+<!-- Methods, and why they were chosen. -->
+
+## Results
+
+<!-- Metrics table + 1–2 charts. -->
+
+## What I'd Do Next / Limitations
+
+## Code
+
+<!-- GitHub link. -->

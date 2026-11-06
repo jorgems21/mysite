@@ -1,5 +1,5 @@
 ---
-pagetitle: "Jorge Montoya | Healthcare Data Scientist, Real-World Evidence & HEOR"
+pagetitle: "Jorge Montoya | Data Scientist: Analytics, AI & Data Products"
 toc: false
 page-layout: full
 title-block-banner: false
@@ -7,15 +7,15 @@ execute:
   freeze: auto
 ---
 
-<!-- TODO(Jorge): review hero copy, proof strip and featured-work one-liners -->
+<!-- TODO(Jorge): pick hero headline. Options: (A, current) Data Scientist — Analytics, AI & Data Products | (B) Data & AI Professional — From Messy Data to Production Data Products | (C) Data Scientist · Machine Learning, AI & Real-World Evidence. Also review pitch line, proof strip, featured-work one-liners. -->
 
 ::: {.hero}
 ::: {.hero-text}
 # Jorge Montoya
 
-**Healthcare Data Scientist · Real-World Evidence & HEOR**
+**Data Scientist — Analytics, AI & Data Products**
 
-I turn messy healthcare data — EHR, chargemaster, claims-style real-world data — into evidence and data products that teams can trust. 5+ years building RWE analytics at Premier Inc.
+I'm a data scientist who turns messy, real-world data into evidence, models and data products that teams can trust. My deepest experience is in healthcare — EHR, chargemaster and claims-style data at Premier Inc. — and I'm also building an AI product of my own with RAG and multi-agent systems.
 
 <div class="hero-buttons">
 <a class="btn btn-primary" href="my_resume.pdf">Resume</a>
@@ -34,7 +34,7 @@ I turn messy healthcare data — EHR, chargemaster, claims-style real-world data
 ::: {.proof-strip}
 ::: {.proof-card}
 <span class="proof-stat">5+ years</span>
-in healthcare data & analytics
+in data & analytics across finance, healthcare and AI products <!-- TODO(Jorge): confirm; Premier alone is Apr 2022 to present (~4.6 yrs), 5+ counts Windrose from Jul 2020 -->
 :::
 ::: {.proof-card}
 <span class="proof-stat">Prototype → product</span>
@@ -45,8 +45,8 @@ Built an open-source RWE research prototype that became a multimillion-dollar da
 Automated research workflows with Python, R and statistical modeling
 :::
 ::: {.proof-card}
-<span class="proof-stat">Data validation lead</span>
-for a cloud migration of healthcare data products (PySpark, SQL, Tableau)
+<span class="proof-stat">AI product builder</span>
+Founded Munay Works: an LLM platform using RAG and a multi-agent architecture to match nonprofits with funders from IRS Form 990 data <!-- TODO(Jorge): cloud-migration data validation lead card (PySpark, SQL, Tableau) was swapped out; restore elsewhere if wanted -->
 :::
 :::
 
@@ -82,7 +82,7 @@ An R Shiny app that uses a random forest to flag good deals for prospective home
 ## Skills Snapshot
 
 ::: {.skills}
-**Domain** <span class="chip">RWE</span> <span class="chip">HEOR</span> <span class="chip">EHR</span> <span class="chip">Chargemaster</span>
+**Domain** <span class="chip">Healthcare (RWE, HEOR, EHR)</span> <span class="chip">Chargemaster</span> <span class="chip">Finance</span> <span class="chip">Nonprofit (IRS 990)</span>
 
 **Languages & Data** <span class="chip">Python</span> <span class="chip">R</span> <span class="chip">SQL</span> <span class="chip">PySpark</span> <span class="chip">Databricks</span> <span class="chip">Teradata</span>
 
@@ -93,10 +93,10 @@ An R Shiny app that uses a random forest to flag good deals for prospective home
 
 ## About
 
-I'm a healthcare analytics developer who moved from private wealth reporting into real-world evidence work at Premier Inc., and I'm now also building an AI product independently. [More about me →](about_me.qmd)
+I'm a data scientist who started in private wealth reporting, built deep healthcare experience at Premier Inc., and is now also building an AI product independently. [More about me →](about_me.qmd)
 
 ::: {.cta}
 ## Let's Talk
 
-Hiring for a healthcare RWE or data science role, or want to collaborate? Email me at [miraflores97@gmail.com](mailto:miraflores97@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/jorge-montoya8454a8127).
+Hiring for a data science, analytics or AI role, or want to collaborate? Email me at [miraflores97@gmail.com](mailto:miraflores97@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/jorge-montoya8454a8127).
 :::

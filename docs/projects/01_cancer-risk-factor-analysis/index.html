@@ -8,6 +8,7 @@
 
 <meta name="author" content="Jorge Montoya">
 <meta name="dcterms.date" content="2023-12-01">
+<meta name="description" content="Python models for county-level cancer mortality and its risk factors; XGBoost outperformed the other models compared.">
 
 <title>Cancer Mortality Analysis – Jorge Montoya</title>
 <style>
@@ -305,7 +306,13 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Cancer Mortality Analysis</h1>
-                                <div class="quarto-categories">
+            <p class="subtitle lead">County-level cancer mortality modeling; XGBoost was the strongest model tested</p>
+                  <div>
+        <div class="description">
+          Python models for county-level cancer mortality and its risk factors; XGBoost outperformed the other models compared.
+        </div>
+      </div>
+                          <div class="quarto-categories">
                 <div class="quarto-category">Healthcare / RWE</div>
                 <div class="quarto-category">Machine Learning</div>
               </div>
@@ -341,16 +348,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#background-context" id="toc-background-context" class="nav-link active" data-scroll-target="#background-context">Background context</a></li>
-  <li><a href="#the-challenge-key-questions-to-answer" id="toc-the-challenge-key-questions-to-answer" class="nav-link" data-scroll-target="#the-challenge-key-questions-to-answer">The Challenge: Key Questions to Answer</a></li>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#solution-approach" id="toc-solution-approach" class="nav-link" data-scroll-target="#solution-approach">Solution Approach</a>
-  <ul class="collapse">
-  <li><a href="#tools-techniques" id="toc-tools-techniques" class="nav-link" data-scroll-target="#tools-techniques">Tools &amp; Techniques</a></li>
-  <li><a href="#analytical-workflow" id="toc-analytical-workflow" class="nav-link" data-scroll-target="#analytical-workflow">Analytical Workflow</a></li>
-  </ul></li>
-  <li><a href="#analysis-results" id="toc-analysis-results" class="nav-link" data-scroll-target="#analysis-results">Analysis / Results</a></li>
-  <li><a href="#learnings-and-challenges" id="toc-learnings-and-challenges" class="nav-link" data-scroll-target="#learnings-and-challenges">Learnings and challenges</a></li>
+  <li><a href="#problem" id="toc-problem" class="nav-link active" data-scroll-target="#problem">Problem</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#what-id-do-next-limitations" id="toc-what-id-do-next-limitations" class="nav-link" data-scroll-target="#what-id-do-next-limitations">What I’d Do Next / Limitations</a></li>
+  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
   </ul>
 </nav>
     </div>
@@ -362,66 +365,54 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="background-context" class="level2">
-<h2 class="anchored" data-anchor-id="background-context">Background context</h2>
+<p><em>Graduate project, December 2023.</em></p>
+<p><strong>TL;DR</strong></p>
 <ul>
-<li><p>Selected for analysis due to personal family ties to cancer, part of a school project</p></li>
-<li><p>Dataset: ~3,000 rows, 34 variables</p></li>
-<li><p>Data Period: Roughly from 2015</p></li>
+<li><strong>Problem:</strong> Which county-level risk factors are associated with higher cancer mortality?</li>
+<li><strong>Approach:</strong> Exploratory analysis, then regression and machine learning models in Python.</li>
+<li><strong>Result:</strong> XGBoost gave the best predictive accuracy of the models compared. <!-- TODO(Jorge): add the headline metric (e.g., R²/RMSE) from the GitHub notebook --></li>
+</ul>
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>I picked this topic because of personal family ties to cancer. The goal was to understand what drives cancer mortality at the county level, so that public health initiatives can be guided by data. The analysis asks:</p>
+<ul>
+<li>What are the primary causes of cancer mortality?</li>
+<li>Which risk factors contribute to higher mortality rates at the county level?</li>
 </ul>
 </section>
-<section id="the-challenge-key-questions-to-answer" class="level2">
-<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions to Answer</h2>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>County-level data, about 3,000 rows and 34 variables, covering roughly 2015. <!-- TODO(Jorge): name the dataset and link the source (see the GitHub notebook) --></p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<ol type="1">
+<li>Explore and clean the data.</li>
+<li>Prepare the data for machine learning models.</li>
+<li>Apply regression analysis and machine learning techniques (Python).</li>
+<li>Evaluate and interpret the results, and summarize the findings.</li>
+</ol>
+<!-- TODO(Jorge): list the exact models compared and why (see the GitHub notebook) -->
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
 <ul>
-<li><p>What are the primary causes of cancer mortality?</p></li>
-<li><p>Which risk factors contribute to higher cancer mortality rates at the county level?</p>
-<p>By answering these, we aim to empower public health initiatives with data-driven insights.</p></li>
+<li>XGBoost outperformed the other models in predictive accuracy.</li>
+<li>Hyperparameter tuning improved accuracy but was time-intensive.</li>
+<li>Data quality and preprocessing played a major role in improving results.</li>
+</ul>
+<!-- TODO(Jorge): add a metrics table (model comparison) and at least one chart, e.g. feature importance or predicted vs actual, from the GitHub notebook -->
+</section>
+<section id="what-id-do-next-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="what-id-do-next-limitations">What I’d Do Next / Limitations</h2>
+<ul>
+<li>Add cross-validation to make the model comparison more reliable. This is the next iteration.</li>
+<li>Stacking models significantly increased compute time.</li>
 </ul>
 </section>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
-<ul>
-<li><p>Descriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.</p></li>
-<li><p>Advanced Analytics – Use predictive modeling to identify factors associated with cancer mortality.</p></li>
-</ul>
-</section>
-<section id="solution-approach" class="level2">
-<h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
-<section id="tools-techniques" class="level3">
-<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
-<ul>
-<li><p>Languages: Python</p></li>
-<li><p>Modeling Approach: Regression &amp; Machine Learning</p></li>
-</ul>
-</section>
-<section id="analytical-workflow" class="level3">
-<h3 class="anchored" data-anchor-id="analytical-workflow">Analytical Workflow</h3>
-<ul>
-<li><p>Step 1: Explore &amp; clean the data</p></li>
-<li><p>Step 2: Prepare data for machine learning models</p></li>
-<li><p>Step 3: Apply regression analysis &amp; ML techniques</p></li>
-<li><p>Step 4: Evaluate &amp; interpret results</p></li>
-<li><p>Step 5: Summarize findings &amp; quantify impact</p></li>
-</ul>
-</section>
-</section>
-<section id="analysis-results" class="level2">
-<h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
-<ul>
-<li><p>Before vs.&nbsp;After Comparison: Impact of different models on prediction accuracy.</p></li>
-<li><p>Quantified Risk Factors: Which factors have the strongest correlation with mortality rates?</p>
-<p>Full details in the repo: <a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Cancer%20Risk%20Factor%20Analysis">Github - Cancer Analysis</a></p></li>
-</ul>
-</section>
-<section id="learnings-and-challenges" class="level2">
-<h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
-<ul>
-<li><p>Cross-validation is crucial for model reliability and is part of the next iteration</p></li>
-<li><p>Hyperparameter tuning improved accuracy but was time-intensive.</p></li>
-<li><p>Stacking models significantly increased compute time.</p></li>
-<li><p>XGBoost outperformed other models in predictive accuracy.</p></li>
-<li><p>Data quality &amp; preprocessing played a major role in improving results.</p></li>
-</ul>
+<section id="code" class="level2">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<p><a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Cancer%20Risk%20Factor%20Analysis">Cancer Analysis on GitHub</a></p>
 
 
 </section>
