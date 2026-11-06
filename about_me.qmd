@@ -12,7 +12,7 @@ I am a first generation Peruvian immigrant who is passionate for improving the l
 
 With this new perspective, I moved onto the healthcare industry in order to continue my pursuit of applying data, analytics and storytelling to drive and improve the lives of people. I started working at Premier where I am focused in formulating, designing and developing scalable solutions that aim to drive meaningful change and positive impact to business and communities that are most affected. I have led and contributed on multiple solutions  (i.e. application, dashboards, process improvements) through efforts in product design, product development, proof of concept building, evidence of business value generation and translating prototypes into production-ready solutions.
 
-🔗 [**View My Projects**](projects.qmd) \| 🔗 [**Read about my experience**](blog.qmd)
+🔗 [**View My Projects**](projects.qmd)
 
 ## Values and How They Impact My Work
 
@@ -63,7 +63,7 @@ With this new perspective, I moved onto the healthcare industry in order to cont
 ## Skills
 
 ```{=html}
-<iframe src="figures/interactive_skills_chart.html" width="100%" height="600px"></iframe>
+<iframe src="figures/interactive_skills_chart.html" title="Interactive chart of technical skills" width="100%" height="600px"></iframe>
 ```
 
 ## Fun interests

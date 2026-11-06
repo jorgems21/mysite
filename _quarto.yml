@@ -5,6 +5,7 @@ profile:
   default: english
   group: [english,spanish]
 website:
+  site-url: https://jorgems21.github.io/mysite
   title: "Jorge Montoya"
   navbar:
     left:
@@ -14,8 +15,6 @@ website:
         text: About Me
       - href: projects.qmd
         text: Projects
-      - href: blog.qmd
-        text: Blog
       - href: contact_me.qmd
         text: Contact Me
   page-footer:

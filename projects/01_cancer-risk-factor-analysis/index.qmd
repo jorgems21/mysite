@@ -3,6 +3,7 @@ title: "Cancer Mortality Analysis"
 date: "December 2023"
 categories: [python,statistical testing, machine learning]
 image: healthcare.jpg
+image-alt: "Stethoscope and medical charts representing cancer mortality analysis"
 ---
 
 ## Background context
@@ -59,12 +60,10 @@ image: healthcare.jpg
 
 -   Cross-validation is crucial for model reliability and is part of the next iteration
 
--   Hyperparameter tuning\*\* improved accuracy but was time-intensive.
+-   Hyperparameter tuning improved accuracy but was time-intensive.
 
--   Stacking models\*\* significantly increased compute time.
+-   Stacking models significantly increased compute time.
 
--   XGBoost outperformed other models\*\* in predictive accuracy.
+-   XGBoost outperformed other models in predictive accuracy.
 
--   Data quality & preprocessing\*\* played a major role in improving results.
-
-## 
+-   Data quality & preprocessing played a major role in improving results.

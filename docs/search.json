@@ -1,248 +1,24 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "📌 More projects coming soon! Stay tuned.\n🔗 Read some of my projects reflections and overall work here: Blog\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNashville Housing Purchasing Application\n\n\n\n\n\n\nDec 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCancer Mortality Analysis\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank personal loan analysis\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects.html#my-projects",
-    "href": "projects.html#my-projects",
-    "title": "Projects",
-    "section": "",
-    "text": "📌 More projects coming soon! Stay tuned.\n🔗 [Read My Insights](blog.qmd)"
-  },
-  {
-    "objectID": "projects.html#featured-innovations",
-    "href": "projects.html#featured-innovations",
-    "title": "Projects",
-    "section": "**Featured Innovations**",
-    "text": "**Featured Innovations**\n\n🔹 **Automated Healthcare Insights Dashboard**\n**Tech:** Python, SQL, Tableau\nA dynamic dashboard for healthcare providers that **automates patient insights** and **reduces manual reporting time by 50%**.\n\n\n🔹 **Predictive Financial Risk Model**\n**Tech:** R, Python, Databricks\nDeveloped an **AI-driven risk model** for financial decision-making, leading to a **20% reduction in loan defaults**.\n\n\n🔹 **AI-Powered Grant Application Assistant**\n**Tech:** NLP, RAG models, AI-assisted processing\nBuilding an **AI assistant** that helps nonprofits **craft stronger grant applications**.\n📌 More projects coming soon! Stay tuned.\n🔗 [Read My Insights](blog.qmd)"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jorge Montoya",
     "section": "",
-    "text": "Bridging technology and business strategy to drive success\n\nI’m passionate about solving complex problems by combining data-driven strategy, technical/business acumen, and a collaborative spirit. Whether it’s building scalable solutions or empowering teams to achieve their best, I thrive at the intersection of strategy, technology, and teamwork.\n\n\n\nHealthcare & Investment Analytics Experience\nData Science & Machine Learning Applications\nProduct & Data Analytics Innovation\nData Visualization & Storytelling for Impact\nCross-Functional Leadership & Strategic Collaboration\nDownload a copy of my resume here\n\n\n\n\nA tool that helps future home-buyers make the right decision for them\n🛠️ Tech: R Shiny, Machine Learning\n🔗 See More\nCancer mortality prediction and risk factor analysis\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Explore\nData-driven bank loan risk prediction reducing loan defaults\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Read More\nAside from project work, I also like to document my career experience, check out my posts here: Blog ✏️\n\n\n\n\nAI for Growth: How LLM’s and RAG models can be used in applications that drive positive outcomes in multiple industries\nAdvanced Analytics: Design and develop self-serve analytics tools for real world problems that any person can use\nSocial Impact: Using technology (i.e. data, analytics, AI, etc.) to contribute to public benefit\nCreativity and Collaboration: A key approach to work, which helps welcome different viewpoints for complex problem-solving.\n\nLearn more about me here: About Me\n\n\n\n\n📩 If you would like to collaborate on a project together or chat more, contact me here LinkedIn or reach out via my Contact Me page! 🚀"
+    "text": "Bridging technology and business strategy to drive success\n\nI’m passionate about solving complex problems by combining data-driven strategy, technical/business acumen, and a collaborative spirit. Whether it’s building scalable solutions or empowering teams to achieve their best, I thrive at the intersection of strategy, technology, and teamwork.\n\n\n\nHealthcare & Investment Analytics Experience\nData Science & Machine Learning Applications\nProduct & Data Analytics Innovation\nData Visualization & Storytelling for Impact\nCross-Functional Leadership & Strategic Collaboration\nDownload a copy of my resume here \nEmail: miraflores97@gmail.com \n\n\n\n\nA tool that helps future home-buyers make the right decision for them\n🛠️ Tech: R Shiny, Machine Learning\n🔗 See More\nCancer mortality prediction and risk factor analysis\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Explore\nData-driven bank loan risk prediction reducing loan defaults\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Read More\n\n\n\n\nAI for Growth: How LLM’s and RAG models can be used in applications that drive positive outcomes in multiple industries\nAdvanced Analytics: Design and develop self-serve analytics tools for real world problems that any person can use\nSocial Impact: Using technology (i.e. data, analytics, AI, etc.) to contribute to public benefit\nCreativity and Collaboration: A key approach to work, which helps welcome different viewpoints for complex problem-solving.\n\nLearn more about me here: About Me\n\n\n\n\n📩 If you would like to collaborate on a project together or chat more, contact me here LinkedIn email me at miraflores97@gmail.com, or reach out via my Contact Me page! 🚀"
   },
   {
-    "objectID": "index.html#my-key-expertise",
-    "href": "index.html#my-key-expertise",
+    "objectID": "index.html#my-key-focus-areas",
+    "href": "index.html#my-key-focus-areas",
     "title": "Jorge Montoya",
     "section": "",
-    "text": "Healthcare & Investment Analytics Experience\nData Science & Machine Learning Applications\nProduct & Data Analytics Innovation\nData Visualization & Storytelling for Impact\nCross-Functional Leadership & Strategic Collaboration"
-  },
-  {
-    "objectID": "index.html#my-innovation-focus-areas",
-    "href": "index.html#my-innovation-focus-areas",
-    "title": "Jorge Montoya",
-    "section": "",
-    "text": "🚀 AI for Business📊 Interactive Analytics💡 Future of Work🌍 Social Impact Analytics\n\n\n\nDeveloping AI-driven assistants for decision-making\n\nExploring LLMs & RAG models for enterprise automation\n\n\n\n\nCreating real-time dashboards\n\nEnabling self-serve analytics for stakeholders\n\n\n\n\nExploring automation’s impact on jobs\n\nHow AI can enhance productivity\n\n\n\n\nUsing data-driven insights to optimize healthcare outcomes\n\nImproving nonprofit analytics & funding strategies"
-  },
-  {
-    "objectID": "index.html#featured-work",
-    "href": "index.html#featured-work",
-    "title": "Jorge Montoya",
-    "section": "",
-    "text": "A tool that helps nonprofits craft stronger grant applications.\n🛠️ Tech: LLM, RAG, Streamlit\n🔗 See More\n\n\nA dynamic analytics tool for healthcare providers.\n🛠️ Tech: Python, SQL, Tableau\n🔗 Explore\n\n\nAI-driven financial risk prediction reducing loan defaults.\n🛠️ Tech: R, Python, Databricks\n🔗 Read More"
-  },
-  {
-    "objectID": "index.html#my-interests-thinking-beyond-the-data",
-    "href": "index.html#my-interests-thinking-beyond-the-data",
-    "title": "Jorge Montoya",
-    "section": "",
-    "text": "I am passionate about **blending analytics with innovation**, always exploring new ways to **push the boundaries of AI, automation, and strategic decision-making**.\n🎯 **What I’m Currently Exploring:** - **🚀 AI for Business:** How **LLMs and RAG models** can enhance decision-making. - **📊 Interactive Analytics:** Developing **real-time, self-serve analytics tools**. - **💡 Future of Work:** How **data, AI, and automation** will shape the next-gen workforce. - **🌍 Social Impact Analytics:** Using data-driven insights to improve **nonprofit and healthcare outcomes**."
-  },
-  {
-    "objectID": "index.html#explore-my-work",
-    "href": "index.html#explore-my-work",
-    "title": "Jorge Montoya",
-    "section": "",
-    "text": "🔹 [**Projects**](projects.qmd) → See how I apply innovation to real-world problems. 🔹 [**Insights**](blog.qmd) → Read my thoughts on AI, analytics, and business strategy. 🔹 [**About Me**](about.qmd) → Learn about my background and leadership philosophy."
-  },
-  {
-    "objectID": "index.html#lets-connect",
-    "href": "index.html#lets-connect",
-    "title": "Jorge Montoya",
-    "section": "",
-    "text": "📩 If you would like to collaborate on a project together or chat more, contact me here LinkedIn or reach out via my Contact Me page! 🚀"
-  },
-  {
-    "objectID": "about_me.html",
-    "href": "about_me.html",
-    "title": "About Me",
-    "section": "",
-    "text": "An analytics professional with 5+ years of experience in analytics, product design/development, and business strategy"
-  },
-  {
-    "objectID": "about_me.html#what-i-do",
-    "href": "about_me.html#what-i-do",
-    "title": "About Me",
-    "section": "What I Do",
-    "text": "What I Do\n✔ Lead Innovation – Driving analytics-driven product development & business solutions.\n✔ Build AI Solutions – Developing automation, predictive models, and data-driven decision tools.\n✔ Strategic Thinking – Bridging technology, analytics, and executive decision-making."
-  },
-  {
-    "objectID": "about_me.html#my-journey",
-    "href": "about_me.html#my-journey",
-    "title": "About Me",
-    "section": "My Journey",
-    "text": "My Journey\nI am a first generation Peruvian immigrant who is passionate for improving the lives of people and bringing communities together. In the beginning of my career, I started working in the private wealth industry to help others achieve their investing goals by managing their investment data and presenting insights that would help them make informed decisions for their portfolios and finances. This interest in storytelling through data with purpose led me to pursue a Master’s degree in Data and Analytics from Northeastern. This educational experience broadened my horizons in how storytelling with data and the use of analytics can drive meaningful impact and organizational growth.\nWith this new perspective, I moved onto the healthcare industry in order to continue my pursuit of applying data, analytics and storytelling to drive and improve the lives of people. I started working at Premier where I am focused in formulating, designing and developing scalable solutions that aim to drive meaningful change and positive impact to business and communities that are most affected. I have led and contributed on multiple solutions  (i.e. application, dashboards, process improvements) through efforts in product design, product development, proof of concept building, evidence of business value generation and translating prototypes into production-ready solutions.\n🔗 View My Projects | 🔗 Read about my experience"
-  },
-  {
-    "objectID": "about_me.html#my-journey-in-innovation",
-    "href": "about_me.html#my-journey-in-innovation",
-    "title": "About Me",
-    "section": "💡 My Journey in Innovation",
-    "text": "💡 My Journey in Innovation\n\n🚀 Leading Innovation📊 Expertise in Analytics⚙️ Automation & AI🏆 Achievements\n\n\n\nBuilt a data-driven innovations team within a major company\nDeveloped AI-powered tools to streamline analytics workflows\n\n\n\n\nSkilled in SQL, Python, R, Databricks, and Tableau\nDesigned data-driven solutions for healthcare & finance\n\n\n\n\nCreated AI-driven decision support tools\nFocused on automation for process optimization\n\n\n\n\nSuccessfully reduced processing time for key business reports by 40%\nDeveloped predictive analytics models with 20%+ improvement in accuracy\n\n\n\n\n🔗 View My Projects | 🔗 Read My Insights"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "🚧This page is under construction🚧"
-  },
-  {
-    "objectID": "blog.html#latest-posts",
-    "href": "blog.html#latest-posts",
-    "title": "Blog",
-    "section": "",
-    "text": "📌 How AI is Reshaping Healthcare Analytics – Exploring the impact of AI-driven automation.\n📌 The Future of Predictive Analytics in Finance – How businesses are leveraging data for better risk management.\n📌 Building a Culture of Innovation – Strategies for fostering innovation in analytics teams.\n🔹 Subscribe for future insights! 🚀\n🔗 Explore My Projects"
-  },
-  {
-    "objectID": "blog.html#recent-articles",
-    "href": "blog.html#recent-articles",
-    "title": "Blog",
-    "section": "📌 Recent Articles",
-    "text": "📌 Recent Articles\n\n🔹 AI in Healthcare Analytics🔹 Future of Predictive Analytics🔹 Building a Culture of Innovation\n\n\n📌 How AI is transforming decision-making in healthcare.\n📆 Published: January 2025\n🔗 Read More\n\n\n\n📌 How businesses are leveraging data for better risk management.\n📆 Published: December 2024\n🔗 Explore\n\n\n\n📌 How to drive innovation within analytics teams.\n📆 Published: November 2024\n🔗 Discover"
-  },
-  {
-    "objectID": "blog.html#ready-to-innovate",
-    "href": "blog.html#ready-to-innovate",
-    "title": "Blog",
-    "section": "🚀 Ready to Innovate?",
-    "text": "🚀 Ready to Innovate?\n📩 Let’s Connect: LinkedIn | Contact Me"
-  },
-  {
-    "objectID": "contact_me.html",
-    "href": "contact_me.html",
-    "title": "Contact Me",
-    "section": "",
-    "text": "📩 Connect with me here:\n\n\n🔹LinkedIn\n\n\n🔹 Email: montoya.j@northeastern.edu"
-  },
-  {
-    "objectID": "index.html#explore-more-of-my-work",
-    "href": "index.html#explore-more-of-my-work",
-    "title": "Jorge Montoya",
-    "section": "",
-    "text": "🔹 Projects → See how I apply my skills to solve real-world problems.\n🔹 Blog→ Read about my experience in analytics, innovation and business strategy."
-  },
-  {
-    "objectID": "index.html#interests-that-i-am-exploring",
-    "href": "index.html#interests-that-i-am-exploring",
-    "title": "Jorge Montoya",
-    "section": "",
-    "text": "AI for Business:\n\nHow LLM’s and RAG models can enhance decision-making.\n\nAdvanced Analytics:\n\nDeveloping real-time, self-serve analytics tools.\n\nFuture of Work:\n\nHow data, analytics, and automation will shape the next-gen workforce.\n\nSocial Impact:\n\nUsing data-driven insights to improve nonprofit and healthcare outcomes."
-  },
-  {
-    "objectID": "about_me.html#who-i-am",
-    "href": "about_me.html#who-i-am",
-    "title": "About Me",
-    "section": "",
-    "text": "An analytics professional with 5+ years of experience in analytics, product design/development, and business strategy"
-  },
-  {
-    "objectID": "about_me.html#values",
-    "href": "about_me.html#values",
-    "title": "About Me",
-    "section": "Values",
-    "text": "Values\n\n🌍 Inclusion & Diversity of Thought🎯 Impact-Driven & Mission-Aligned\n\n\n💡 Embracing diverse perspectives to **foster innovation** and drive **collaboration**.\n\n\n📈 Passionate about **creating meaningful solutions** that align with **vision & long-term goals**.\n\n\n\n\ninclusion and diversity of thought\nimpact driven, aligned with mission and vision\nAccountability\npassion for wanting to do things better and more efficiently and increase performance\nthere is a solution to everything\nshare the wealth and knowledge with others\nCreativity - thinking outside of the box\nThink globally and act locally, community driven"
-  },
-  {
-    "objectID": "about_me.html#interests",
-    "href": "about_me.html#interests",
-    "title": "About Me",
-    "section": "Interests",
-    "text": "Interests\n\nAnalytics, data science, business intelligence, healthcare, fintech, personal finance, productivity, creativity, collaboration, artificial intelligence, community work"
-  },
-  {
-    "objectID": "about_me.html#funner-interests",
-    "href": "about_me.html#funner-interests",
-    "title": "About Me",
-    "section": "Funner interests:",
-    "text": "Funner interests:\n\nCooking\nOutdoors\nSports\nVolunteering\nBooks\n\nEl secreto del bambu\nCrucial conversations\n\n\nSkills"
-  },
-  {
-    "objectID": "blog.html#ready-to-collaborate-lets-connect-linkedin-contact-me",
-    "href": "blog.html#ready-to-collaborate-lets-connect-linkedin-contact-me",
-    "title": "Blog",
-    "section": "Ready to Collaborate? 📩 Let’s Connect: LinkedIn | Contact Me",
-    "text": "Ready to Collaborate? 📩 Let’s Connect: LinkedIn | Contact Me"
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html",
-    "title": "Cancer Mortality Analysis",
-    "section": "",
-    "text": "Selected for analysis due to personal family ties to cancer, part of a school project\nDataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015"
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
-    "title": "Cancer Mortality Analysis",
-    "section": "",
-    "text": "Selected for analysis due to personal family ties to cancer, part of a school project\nDataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015"
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#the-problem-or-challenge-or-key-questions-to-answer",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#the-problem-or-challenge-or-key-questions-to-answer",
-    "title": "Cancer Mortality Analysis",
-    "section": "The problem or challenge or key questions to answer",
-    "text": "The problem or challenge or key questions to answer\no   What are the causes for cancer mortality?\no   Identify what are the risk factors for cancer mortality based on county level data from US"
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#objectives",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#objectives",
-    "title": "Cancer Mortality Analysis",
-    "section": "Objectives",
-    "text": "Objectives\n\nDescriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.\nAdvanced Analytics – Use predictive modeling to identify factors associated with cancer mortality."
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#solution-approach",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#solution-approach",
-    "title": "Cancer Mortality Analysis",
-    "section": "Solution Approach",
-    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: Python\nModeling Approach: Regression & Machine Learning\n\n\n\nAnalytical Workflow\n\nStep 1: Explore & clean the data\nStep 2: Prepare data for machine learning models\nStep 3: Apply regression analysis & ML techniques\nStep 4: Evaluate & interpret results\nStep 5: Summarize findings & quantify impact"
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#analysis-results",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#analysis-results",
-    "title": "Cancer Mortality Analysis",
-    "section": "Analysis / Results",
-    "text": "Analysis / Results\n\nBefore vs. After Comparison: Impact of different models on prediction accuracy.\nQuantified Risk Factors: Which factors have the strongest correlation with mortality rates?\nFull details in the repo: Github - Cancer Analysis"
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#learnings-and-challenges",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#learnings-and-challenges",
-    "title": "Cancer Mortality Analysis",
-    "section": "Learnings and challenges",
-    "text": "Learnings and challenges\n\nCross-validation is crucial for model reliability and is part of the next iteration\nHyperparameter tuning** improved accuracy but was time-intensive.\nStacking models** significantly increased compute time.\nXGBoost outperformed other models** in predictive accuracy.\nData quality & preprocessing** played a major role in improving results."
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#learn-more",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#learn-more",
-    "title": "Cancer Mortality Analysis",
-    "section": "Learn more",
-    "text": "Learn more\n\nRepo for slides:"
+    "text": "Healthcare & Investment Analytics Experience\nData Science & Machine Learning Applications\nProduct & Data Analytics Innovation\nData Visualization & Storytelling for Impact\nCross-Functional Leadership & Strategic Collaboration\nDownload a copy of my resume here \nEmail: miraflores97@gmail.com"
   },
   {
     "objectID": "index.html#featured-projects",
     "href": "index.html#featured-projects",
     "title": "Jorge Montoya",
     "section": "",
-    "text": "A tool that helps future home-buyers make the right decision for them\n🛠️ Tech: R Shiny, Machine Learning\n🔗 See More\nCancer mortality prediction and risk factor analysis\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Explore\nData-driven bank loan risk prediction reducing loan defaults\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Read More\nAside from project work, I also like to document my career experience, check out my posts here: Blog ✏️"
+    "text": "A tool that helps future home-buyers make the right decision for them\n🛠️ Tech: R Shiny, Machine Learning\n🔗 See More\nCancer mortality prediction and risk factor analysis\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Explore\nData-driven bank loan risk prediction reducing loan defaults\n🛠️ Tech: Python, Statistical Testing, Machine Learning\n🔗 Read More"
   },
   {
     "objectID": "index.html#interests",
@@ -252,74 +28,46 @@
     "text": "AI for Growth: How LLM’s and RAG models can be used in applications that drive positive outcomes in multiple industries\nAdvanced Analytics: Design and develop self-serve analytics tools for real world problems that any person can use\nSocial Impact: Using technology (i.e. data, analytics, AI, etc.) to contribute to public benefit\nCreativity and Collaboration: A key approach to work, which helps welcome different viewpoints for complex problem-solving.\n\nLearn more about me here: About Me"
   },
   {
-    "objectID": "index.html#my-key-focus-areas",
-    "href": "index.html#my-key-focus-areas",
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
     "title": "Jorge Montoya",
     "section": "",
-    "text": "Healthcare & Investment Analytics Experience\nData Science & Machine Learning Applications\nProduct & Data Analytics Innovation\nData Visualization & Storytelling for Impact\nCross-Functional Leadership & Strategic Collaboration\nDownload a copy of my resume here"
+    "text": "📩 If you would like to collaborate on a project together or chat more, contact me here LinkedIn email me at miraflores97@gmail.com, or reach out via my Contact Me page! 🚀"
   },
   {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html",
-    "href": "projects/02_bank-personal-loan-analysis/index.html",
-    "title": "Bank personal loan analysis",
-    "section": "",
-    "text": "Help banks identify customers who are most likely to accept a loan approval based on past campaign results.\nStarted as part of school project"
-  },
-  {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#background-context",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#background-context",
-    "title": "Bank personal loan analysis",
-    "section": "",
-    "text": "Help banks identify customers who are most likely to accept a loan approval based on past campaign results.\nStarted as part of school project"
-  },
-  {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#the-problem-or-challenge-or-key-questions-to-answer",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#the-problem-or-challenge-or-key-questions-to-answer",
-    "title": "Bank personal loan analysis",
-    "section": "The problem or challenge or key questions to answer",
-    "text": "The problem or challenge or key questions to answer\no   Help bank decide whether they should approve or reject loans based on the customer data provided by profiling the customers that are most likely to accept a loan approval based on last campaign’s result"
-  },
-  {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#objectives",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#objectives",
-    "title": "Bank personal loan analysis",
-    "section": "Objectives",
-    "text": "Objectives\n\nData Exploration – Apply EDA techniques to uncover patterns in customer behavior.\nDescriptive Analytics – Analyze relationships between variables and loan approvals.\nAdvanced Analytics – Build predictive models to profile ideal loan applicants."
-  },
-  {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#solution-approach",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#solution-approach",
-    "title": "Bank personal loan analysis",
-    "section": "Solution Approach",
-    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: Python\nModeling Approach: Logistic Regression, XGBoost\n\n\n\nAnalytical Workflow\n\nStep 1: Explore & clean the data\nStep 2: Prepare data for analytics & machine learning models\nStep 3: Conduct A/B testing for experimentation\nStep 4: Apply logistic regression & XGBoost\nStep 5: Compare model performances using visualizations\nStep 6: Interpret results & quantify impact"
-  },
-  {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#analysis-results",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#analysis-results",
-    "title": "Bank personal loan analysis",
-    "section": "Analysis / Results",
-    "text": "Analysis / Results\n\nIdentified key factors influencing loan acceptance rates.\nBefore vs. After Comparison: Improved model predictions through feature engineering.\nFull details in the repo: Github - Bank Loan Analysis"
-  },
-  {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#learnings-and-challenges",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#learnings-and-challenges",
-    "title": "Bank personal loan analysis",
-    "section": "Learnings and challenges",
-    "text": "Learnings and challenges\n\nXGBoost outperformed traditional models in predictive accuracy.\nLogistic regression worked well for binary classification problems.\nData visualization helped compare model performance effectively.\nA/B Testing was a useful experimentation method."
-  },
-  {
-    "objectID": "projects/02_bank-personal-loan-analysis/index.html#learn-more",
-    "href": "projects/02_bank-personal-loan-analysis/index.html#learn-more",
-    "title": "Bank personal loan analysis",
-    "section": "Learn more",
-    "text": "Learn more\n\nRepo for slides:"
-  },
-  {
-    "objectID": "about_me.html#fun-interests",
-    "href": "about_me.html#fun-interests",
+    "objectID": "about_me.html",
+    "href": "about_me.html",
     "title": "About Me",
-    "section": "Fun interests",
-    "text": "Fun interests\n\nCooking\nHiking outdoors\nSports (big Liverpool FC fan and all Miami-based teams)\nVolunteering\nRecent books read:\n\nEl secreto del bambu\nCrucial conversations"
+    "section": "",
+    "text": "An analytics professional with 5+ years of experience in analytics, product design/development, and business strategy"
+  },
+  {
+    "objectID": "about_me.html#who-i-am",
+    "href": "about_me.html#who-i-am",
+    "title": "About Me",
+    "section": "",
+    "text": "An analytics professional with 5+ years of experience in analytics, product design/development, and business strategy"
+  },
+  {
+    "objectID": "about_me.html#my-journey",
+    "href": "about_me.html#my-journey",
+    "title": "About Me",
+    "section": "My Journey",
+    "text": "My Journey\nI am a first generation Peruvian immigrant who is passionate for improving the lives of people and bringing communities together. In the beginning of my career, I started working in the private wealth industry to help others achieve their investing goals by managing their investment data and presenting insights that would help them make informed decisions for their portfolios and finances. This interest in storytelling through data with purpose led me to pursue a Master’s degree in Data and Analytics from Northeastern. This educational experience broadened my horizons in how storytelling with data and the use of analytics can drive meaningful impact and organizational growth.\nWith this new perspective, I moved onto the healthcare industry in order to continue my pursuit of applying data, analytics and storytelling to drive and improve the lives of people. I started working at Premier where I am focused in formulating, designing and developing scalable solutions that aim to drive meaningful change and positive impact to business and communities that are most affected. I have led and contributed on multiple solutions  (i.e. application, dashboards, process improvements) through efforts in product design, product development, proof of concept building, evidence of business value generation and translating prototypes into production-ready solutions.\n🔗 View My Projects"
+  },
+  {
+    "objectID": "about_me.html#values-and-how-they-impact-my-work",
+    "href": "about_me.html#values-and-how-they-impact-my-work",
+    "title": "About Me",
+    "section": "Values and How They Impact My Work",
+    "text": "Values and How They Impact My Work\n\nInclusion & Diversity of Thought\nEmbracing diverse perspectives to foster innovation and drive collaboration.\nImpact-Driven & Mission-Aligned\nPassionate about creating meaningful solutions that align with vision & long-term goals.\nPerformance & Efficiency\nContinuously optimizing processes and driving operational excellence.\nKnowledge Sharing & Collaboration\nEmpowering others by sharing insights and fostering a culture of learning.\nCreative & Strategic Thinking\nChallenging the status quo to develop innovative solutions.\nCommunity-Driven & Global Perspective\nThinking globally while making a local impact through meaningful contributions."
+  },
+  {
+    "objectID": "about_me.html#key-expertise-areas",
+    "href": "about_me.html#key-expertise-areas",
+    "title": "About Me",
+    "section": "Key Expertise Areas",
+    "text": "Key Expertise Areas\n\nProject management\nDesign-thinking\nMarket research and analysis\nPrototyping\nBusiness case generation\nData analysis\nMachine learning modelling\nSystems design\nProcess improvement"
   },
   {
     "objectID": "about_me.html#skills",
@@ -327,6 +75,13 @@
     "title": "About Me",
     "section": "Skills",
     "text": "Skills"
+  },
+  {
+    "objectID": "about_me.html#fun-interests",
+    "href": "about_me.html#fun-interests",
+    "title": "About Me",
+    "section": "Fun interests",
+    "text": "Fun interests\n\nCooking\nHiking outdoors\nSports (big Liverpool FC fan and all Miami-based teams)\nVolunteering\nRecent books read:\n\nEl secreto del bambu\nCrucial conversations"
   },
   {
     "objectID": "projects/03_nashville-house-purchasing-app/index.html",
@@ -343,11 +98,11 @@
     "text": "Interest in home ownership for living and real estate investing\nMoved to Nashville around 2022\nStarted as school project and are currently evolving it.\nData source: Kaggle"
   },
   {
-    "objectID": "projects/03_nashville-house-purchasing-app/index.html#the-problem-or-challenge-or-key-questions-to-answer",
-    "href": "projects/03_nashville-house-purchasing-app/index.html#the-problem-or-challenge-or-key-questions-to-answer",
+    "objectID": "projects/03_nashville-house-purchasing-app/index.html#the-challenge-key-questions-to-answer",
+    "href": "projects/03_nashville-house-purchasing-app/index.html#the-challenge-key-questions-to-answer",
     "title": "Nashville Housing Purchasing Application",
-    "section": "The problem or challenge or key questions to answer",
-    "text": "The problem or challenge or key questions to answer\no   Find best value deals for a real estate company"
+    "section": "The Challenge: Key Questions To Answer",
+    "text": "The Challenge: Key Questions To Answer\n\nFind good deals for purchase during home buying journey in a tough market"
   },
   {
     "objectID": "projects/03_nashville-house-purchasing-app/index.html#objectives",
@@ -378,32 +133,18 @@
     "text": "Learnings and challenges\n\nR Shiny is a great framework for rapid app prototyping that includes statistics and ML models\nThe predictions in the deal prediction tool are partly limited to the quantity and quality of the data, which comes from Kaggle."
   },
   {
-    "objectID": "projects/03_nashville-house-purchasing-app/index.html#learn-more",
-    "href": "projects/03_nashville-house-purchasing-app/index.html#learn-more",
-    "title": "Nashville Housing Purchasing Application",
-    "section": "Learn more",
-    "text": "Learn more\n\nRepo for slides:"
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html",
+    "title": "Cancer Mortality Analysis",
+    "section": "",
+    "text": "Selected for analysis due to personal family ties to cancer, part of a school project\nDataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015"
   },
   {
-    "objectID": "about_me.html#values-and-how-they-impact-my-work",
-    "href": "about_me.html#values-and-how-they-impact-my-work",
-    "title": "About Me",
-    "section": "Values and How They Impact My Work",
-    "text": "Values and How They Impact My Work\n\nInclusion & Diversity of Thought\nEmbracing diverse perspectives to foster innovation and drive collaboration.\nImpact-Driven & Mission-Aligned\nPassionate about creating meaningful solutions that align with vision & long-term goals.\nPerformance & Efficiency\nContinuously optimizing processes and driving operational excellence.\nKnowledge Sharing & Collaboration\nEmpowering others by sharing insights and fostering a culture of learning.\nCreative & Strategic Thinking\nChallenging the status quo to develop innovative solutions.\nCommunity-Driven & Global Perspective\nThinking globally while making a local impact through meaningful contributions."
-  },
-  {
-    "objectID": "about_me.html#key-expertise-areas",
-    "href": "about_me.html#key-expertise-areas",
-    "title": "About Me",
-    "section": "Key Expertise Areas",
-    "text": "Key Expertise Areas\n\nProject management\nDesign-thinking\nMarket research and analysis\nPrototyping\nBusiness case generation\nData analysis\nMachine learning modelling\nSystems design\nProcess improvement"
-  },
-  {
-    "objectID": "about_me.html#technical-skills",
-    "href": "about_me.html#technical-skills",
-    "title": "About Me",
-    "section": "Technical Skills",
-    "text": "Technical Skills"
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#background-context",
+    "title": "Cancer Mortality Analysis",
+    "section": "",
+    "text": "Selected for analysis due to personal family ties to cancer, part of a school project\nDataset: ~3,000 rows, 34 variables\nData Period: Roughly from 2015"
   },
   {
     "objectID": "projects/01_cancer-risk-factor-analysis/index.html#the-challenge-key-questions-to-answer",
@@ -413,17 +154,143 @@
     "text": "The Challenge: Key Questions to Answer\n\nWhat are the primary causes of cancer mortality?\nWhich risk factors contribute to higher cancer mortality rates at the county level?\nBy answering these, we aim to empower public health initiatives with data-driven insights."
   },
   {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#objectives",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#objectives",
+    "title": "Cancer Mortality Analysis",
+    "section": "Objectives",
+    "text": "Objectives\n\nDescriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.\nAdvanced Analytics – Use predictive modeling to identify factors associated with cancer mortality."
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#solution-approach",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#solution-approach",
+    "title": "Cancer Mortality Analysis",
+    "section": "Solution Approach",
+    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: Python\nModeling Approach: Regression & Machine Learning\n\n\n\nAnalytical Workflow\n\nStep 1: Explore & clean the data\nStep 2: Prepare data for machine learning models\nStep 3: Apply regression analysis & ML techniques\nStep 4: Evaluate & interpret results\nStep 5: Summarize findings & quantify impact"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#analysis-results",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#analysis-results",
+    "title": "Cancer Mortality Analysis",
+    "section": "Analysis / Results",
+    "text": "Analysis / Results\n\nBefore vs. After Comparison: Impact of different models on prediction accuracy.\nQuantified Risk Factors: Which factors have the strongest correlation with mortality rates?\nFull details in the repo: Github - Cancer Analysis"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#learnings-and-challenges",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#learnings-and-challenges",
+    "title": "Cancer Mortality Analysis",
+    "section": "Learnings and challenges",
+    "text": "Learnings and challenges\n\nCross-validation is crucial for model reliability and is part of the next iteration\nHyperparameter tuning improved accuracy but was time-intensive.\nStacking models significantly increased compute time.\nXGBoost outperformed other models in predictive accuracy.\nData quality & preprocessing played a major role in improving results."
+  },
+  {
+    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html",
+    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html",
+    "title": "Nonprofit Grant Writer AI Assistant",
+    "section": "",
+    "text": "Build an assistant to help nonprofits discover grants faster and draft stronger proposals.\nFocus on combining nonprofit data with AI guidance and document-aware answers."
+  },
+  {
+    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#background-context",
+    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#background-context",
+    "title": "Nonprofit Grant Writer AI Assistant",
+    "section": "",
+    "text": "Build an assistant to help nonprofits discover grants faster and draft stronger proposals.\nFocus on combining nonprofit data with AI guidance and document-aware answers."
+  },
+  {
+    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#the-challenge-key-questions-to-answer",
+    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#the-challenge-key-questions-to-answer",
+    "title": "Nonprofit Grant Writer AI Assistant",
+    "section": "The Challenge: Key Questions to Answer",
+    "text": "The Challenge: Key Questions to Answer\n\nHow can nonprofits quickly identify relevant funding opportunities?\nHow can proposal drafting be accelerated without sacrificing quality?"
+  },
+  {
+    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#objectives",
+    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#objectives",
+    "title": "Nonprofit Grant Writer AI Assistant",
+    "section": "Objectives",
+    "text": "Objectives\n\nDiscovery – Make nonprofit lookup and grant targeting faster and more accurate.\nDrafting – Provide structured, reusable proposal guidance with AI support."
+  },
+  {
+    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#solution-approach",
+    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#solution-approach",
+    "title": "Nonprofit Grant Writer AI Assistant",
+    "section": "Solution Approach",
+    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: Python\nFrameworks: Streamlit, LangChain\nRetrieval: RAG with FAISS\n\n\n\nAnalytical Workflow\n\nStep 1: Pull nonprofit data (IRS Form 990) via ProPublica API\nStep 2: Provide advisory mode for grant-writing strategy\nStep 3: Add document mode with RFP upload and retrieval\nStep 4: Draft responses and extract key requirements"
+  },
+  {
+    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#analysis-results",
+    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#analysis-results",
+    "title": "Nonprofit Grant Writer AI Assistant",
+    "section": "Analysis / Results",
+    "text": "Analysis / Results\n\nDelivered two modes: advisory guidance and document-aware drafting.\nImproved proposal turnaround by combining data insights with AI writing support.\nFull details in the repo: Github - AI Grant Writing Assistant"
+  },
+  {
+    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#learnings-and-challenges",
+    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#learnings-and-challenges",
+    "title": "Nonprofit Grant Writer AI Assistant",
+    "section": "Learnings and challenges",
+    "text": "Learnings and challenges\n\nClear separation of advisory vs. document modes improved UX.\nRAG relevance depends on high-quality chunking and metadata.\nLocal model support balances privacy and performance tradeoffs."
+  },
+  {
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html",
+    "href": "projects/02_bank-personal-loan-analysis/index.html",
+    "title": "Bank Personal Loan Analysis",
+    "section": "",
+    "text": "Help banks identify customers who are most likely to accept a loan approval based on past campaign results.\nStarted as part of school project"
+  },
+  {
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#background-context",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#background-context",
+    "title": "Bank Personal Loan Analysis",
+    "section": "",
+    "text": "Help banks identify customers who are most likely to accept a loan approval based on past campaign results.\nStarted as part of school project"
+  },
+  {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html#the-challenge-key-questions-to-answer",
     "href": "projects/02_bank-personal-loan-analysis/index.html#the-challenge-key-questions-to-answer",
-    "title": "Bank personal loan analysis",
+    "title": "Bank Personal Loan Analysis",
     "section": "The Challenge: Key Questions To Answer",
     "text": "The Challenge: Key Questions To Answer\n\nHow can banks improve loan approval decisions?\nWhat factors influence a customer’s likelihood to accept a loan offer?\nHow can we optimize customer targeting to increase loan acceptance rates?"
   },
   {
-    "objectID": "projects/03_nashville-house-purchasing-app/index.html#the-challenge-key-questions-to-answer",
-    "href": "projects/03_nashville-house-purchasing-app/index.html#the-challenge-key-questions-to-answer",
-    "title": "Nashville Housing Purchasing Application",
-    "section": "The Challenge: Key Questions To Answer",
-    "text": "The Challenge: Key Questions To Answer\n\nFind good deals for purchase during home buying journey in a tough market"
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#objectives",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#objectives",
+    "title": "Bank Personal Loan Analysis",
+    "section": "Objectives",
+    "text": "Objectives\n\nData Exploration – Apply EDA techniques to uncover patterns in customer behavior.\nDescriptive Analytics – Analyze relationships between variables and loan approvals.\nAdvanced Analytics – Build predictive models to profile ideal loan applicants."
+  },
+  {
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#solution-approach",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#solution-approach",
+    "title": "Bank Personal Loan Analysis",
+    "section": "Solution Approach",
+    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: Python\nModeling Approach: Logistic Regression, XGBoost\n\n\n\nAnalytical Workflow\n\nStep 1: Explore & clean the data\nStep 2: Prepare data for analytics & machine learning models\nStep 3: Conduct A/B testing for experimentation\nStep 4: Apply logistic regression & XGBoost\nStep 5: Compare model performances using visualizations\nStep 6: Interpret results & quantify impact"
+  },
+  {
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#analysis-results",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#analysis-results",
+    "title": "Bank Personal Loan Analysis",
+    "section": "Analysis / Results",
+    "text": "Analysis / Results\n\nIdentified key factors influencing loan acceptance rates.\nBefore vs. After Comparison: Improved model predictions through feature engineering.\nFull details in the repo: Github - Bank Loan Analysis"
+  },
+  {
+    "objectID": "projects/02_bank-personal-loan-analysis/index.html#learnings-and-challenges",
+    "href": "projects/02_bank-personal-loan-analysis/index.html#learnings-and-challenges",
+    "title": "Bank Personal Loan Analysis",
+    "section": "Learnings and challenges",
+    "text": "Learnings and challenges\n\nXGBoost outperformed traditional models in predictive accuracy.\nLogistic regression worked well for binary classification problems.\nData visualization helped compare model performance effectively.\nA/B Testing was a useful experimentation method."
+  },
+  {
+    "objectID": "contact_me.html",
+    "href": "contact_me.html",
+    "title": "Contact Me",
+    "section": "",
+    "text": "📩 Connect with me here:\n\n\n🔹 LinkedIn\n\n\n🔹 Email: miraflores97@gmail.com"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Selected project write-ups, from healthcare analytics to machine learning and AI.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNonprofit Grant Writer AI Assistant\n\n\nSmart, AI-powered assistant helping nonprofits discover opportunities and write winning grant proposals.\n\n\n\nNov 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNashville Housing Purchasing Application\n\n\n\n\n\n\nDec 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCancer Mortality Analysis\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank Personal Loan Analysis\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]

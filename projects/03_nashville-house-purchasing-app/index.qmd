@@ -3,7 +3,7 @@ title: "Nashville Housing Purchasing Application"
 date: "December 2024"
 categories: [r shiny,machine learning]
 image: home_buy.jpg
-href: housing_analysis_app_design.pdf
+image-alt: "Houses in a neighborhood representing the Nashville home-buying app"
 ---
 
 ## Background context

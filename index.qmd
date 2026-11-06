@@ -1,10 +1,11 @@
 ---
 title: "Jorge Montoya"
-image:  media/min_headshot.png # great spot for your professional headshot :) 
+image: media/min_headshot.png
 toc: false
 about: 
   template: trestles # see other templates at https://quarto.org/docs/websites/website-about.html#templates
   image-shape: round
+  image-alt: "Headshot of Jorge Montoya"
   image-width: 20em
   links:
     - icon: linkedin # you'll need to the fontawesome extension to include icons: https://github.com/quarto-ext/fontawesome
@@ -15,10 +16,10 @@ about:
       href: https://github.com/jorgems21
     - icon: envelope
       text: Email
-      href: mailto:montoya.j@northeastern.edu
-    - icon: CV
+      href: mailto:miraflores97@gmail.com
+    - icon: file-earmark-person
       text: Resume
-      href: my_resume.pdf
+      href: https://jorgems21.github.io/mysite/my_resume.pdf
 execute: 
   freeze: auto
 ---
@@ -43,23 +44,23 @@ I'm passionate about solving complex problems by combining data-driven strategy,
 
 -   Cross-Functional Leadership & Strategic Collaboration
 
-    Download a copy of my resume [here](my_resume.pdf)
+    Download a copy of my resume [here](my_resume.pdf) <!-- TODO(Jorge): upload latest resume PDF as my_resume.pdf -->
+
+    Email: [miraflores97@gmail.com](mailto:miraflores97@gmail.com) <!-- TODO(Jorge): confirm email -->
 
 ## **Featured Projects**
 
 **A tool that helps future home-buyers make the right decision for them**\
 🛠️ **Tech:** R Shiny, Machine Learning\
-🔗 [See More](projects.qmd#grant-assistant)
+🔗 [See More](projects/03_nashville-house-purchasing-app/index.qmd)
 
 **Cancer mortality prediction and risk factor analysis**\
 🛠️ **Tech:** Python, Statistical Testing, Machine Learning\
-🔗 [Explore](#0)
+🔗 [Explore](projects/01_cancer-risk-factor-analysis/index.qmd)
 
 **Data-driven bank loan risk prediction reducing loan defaults**\
 🛠️ **Tech:** Python, Statistical Testing, Machine Learning\
-🔗 [Read More](projects.qmd#risk-model)
-
-Aside from project work, I also like to document my career experience, check out my posts here: [Blog](blog.qmd) ✏️
+🔗 [Read More](projects/02_bank-personal-loan-analysis/index.qmd)
 
 ## Interests
 
@@ -77,4 +78,4 @@ Learn more about me here: [About Me](about_me.qmd)
 
 ## Let's Connect
 
-📩 If you would like to collaborate on a project together or chat more, contact me here [LinkedIn](www.linkedin.com/in/jorge-montoya8454a8127) or reach out via my [Contact Me](contact_me.qmd) page! 🚀
+📩 If you would like to collaborate on a project together or chat more, contact me here [LinkedIn](https://www.linkedin.com/in/jorge-montoya8454a8127) email me at [miraflores97@gmail.com](mailto:miraflores97@gmail.com), or reach out via my [Contact Me](contact_me.qmd) page! 🚀

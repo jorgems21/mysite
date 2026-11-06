@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Jorge Montoya</title>
+<link>https://jorgems21.github.io/mysite/projects.html</link>
+<atom:link href="https://jorgems21.github.io/mysite/projects.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.11.9</generator>
+<lastBuildDate>Sat, 01 Nov 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Nonprofit Grant Writer AI Assistant</title>
+  <dc:creator>Jorge Montoya</dc:creator>
+  <link>https://jorgems21.github.io/mysite/projects/04_nonprofit-grant-writer-ai-assistant/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="background-context" class="level2">
+<h2 class="anchored" data-anchor-id="background-context">Background context</h2>
+<ul>
+<li><p>Build an assistant to help nonprofits discover grants faster and draft stronger proposals.</p></li>
+<li><p>Focus on combining nonprofit data with AI guidance and document-aware answers.</p></li>
+</ul>
+</section>
+<section id="the-challenge-key-questions-to-answer" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions to Answer</h2>
+<ul>
+<li><p>How can nonprofits quickly identify relevant funding opportunities?</p></li>
+<li><p>How can proposal drafting be accelerated without sacrificing quality?</p></li>
+</ul>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<ul>
+<li><p>Discovery – Make nonprofit lookup and grant targeting faster and more accurate.</p></li>
+<li><p>Drafting – Provide structured, reusable proposal guidance with AI support.</p></li>
+</ul>
+</section>
+<section id="solution-approach" class="level2">
+<h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
+<section id="tools-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
+<ul>
+<li><p>Languages: Python</p></li>
+<li><p>Frameworks: Streamlit, LangChain</p></li>
+<li><p>Retrieval: RAG with FAISS</p></li>
+</ul>
+</section>
+<section id="analytical-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-workflow">Analytical Workflow</h3>
+<ul>
+<li><p>Step 1: Pull nonprofit data (IRS Form 990) via ProPublica API</p></li>
+<li><p>Step 2: Provide advisory mode for grant-writing strategy</p></li>
+<li><p>Step 3: Add document mode with RFP upload and retrieval</p></li>
+<li><p>Step 4: Draft responses and extract key requirements</p></li>
+</ul>
+</section>
+</section>
+<section id="analysis-results" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
+<ul>
+<li><p>Delivered two modes: advisory guidance and document-aware drafting.</p></li>
+<li><p>Improved proposal turnaround by combining data insights with AI writing support.</p>
+<p>Full details in the repo: <a href="https://github.com/jorgems21/ai-grant-writing-assistant/tree/main?tab=readme-ov-file">Github - AI Grant Writing Assistant</a></p></li>
+</ul>
+</section>
+<section id="learnings-and-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
+<ul>
+<li><p>Clear separation of advisory vs.&nbsp;document modes improved UX.</p></li>
+<li><p>RAG relevance depends on high-quality chunking and metadata.</p></li>
+<li><p>Local model support balances privacy and performance tradeoffs.</p></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>AI</category>
+  <category>Agents</category>
+  <guid>https://jorgems21.github.io/mysite/projects/04_nonprofit-grant-writer-ai-assistant/</guid>
+  <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/home_buy.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
+</item>
+<item>
+  <title>Nashville Housing Purchasing Application</title>
+  <dc:creator>Jorge Montoya</dc:creator>
+  <link>https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="background-context" class="level2">
+<h2 class="anchored" data-anchor-id="background-context">Background context</h2>
+<ul>
+<li><p>Interest in home ownership for living and real estate investing</p></li>
+<li><p>Moved to Nashville around 2022</p></li>
+<li><p>Started as school project and are currently evolving it.</p></li>
+<li><p>Data source: <a href="https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data">Kaggle</a></p></li>
+</ul>
+</section>
+<section id="the-challenge-key-questions-to-answer" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions To Answer</h2>
+<ul>
+<li>Find good deals for purchase during home buying journey in a tough market</li>
+</ul>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<ul>
+<li>Provide data-driven analysis of the real estate market in Nashville (and beyond) to help prospective home buyers identify the best deal for them.</li>
+</ul>
+</section>
+<section id="solution-approach" class="level2">
+<h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
+<section id="tools-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
+<ul>
+<li><p>Languages: R</p></li>
+<li><p>Modeling Approach: Random Forest</p></li>
+<li><p>App Development</p>
+<ul>
+<li><p>Front-end/back-end: R Shiny (UI/Server) and reactivity</p></li>
+<li><p>Visualizations: ggplot package in R</p></li>
+<li><p>Report generation: R Markdown</p></li>
+</ul></li>
+<li><p>Design</p>
+<ul>
+<li><a href="housing_analysis_app_design.pdf">Figma</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="user-experience-flow" class="level3">
+<h3 class="anchored" data-anchor-id="user-experience-flow">User Experience Flow</h3>
+<ul>
+<li><p>Step 1: Read home page description</p></li>
+<li><p>Step 2: Check out the descriptive information for visualizations about housing in Nashville</p></li>
+<li><p>Step 3: Go to the deal prediction tab to identify which housing profile would be considered a good deal based on your inputs being applied to a ML model.</p>
+<ul>
+<li><p>Step 3.1: Your inputs will update the model dynamically in the back end</p></li>
+<li><p>Step 3.2: The model is going to product a prediction based on your inputs and the source data</p></li>
+</ul></li>
+<li><p>Step 4: Go to report generation which will dynamically produce a HTML/PDF report that includes all the visualizations from the application + the deal prediction insights.</p></li>
+</ul>
+</section>
+</section>
+<section id="analysis-results" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
+<ul>
+<li><p>This tool is meant to provide data driven insights that will assist users in their journey to home-buying. This tool is in prototype phase and is not currently maintained.</p></li>
+<li><p>The results for the deal prediction will be partially based on the user’s inputs.</p>
+<p>Full details in the Github: <a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Nashville%20Housing%20Analysis/nashville_housing">Github - Nashville Housing Analysis</a></p></li>
+</ul>
+</section>
+<section id="learnings-and-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
+<ul>
+<li><p>R Shiny is a great framework for rapid app prototyping that includes statistics and ML models</p></li>
+<li><p>The predictions in the deal prediction tool are partly limited to the quantity and quality of the data, which comes from Kaggle.</p></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>r shiny</category>
+  <category>machine learning</category>
+  <guid>https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/</guid>
+  <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/home_buy.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
+</item>
+<item>
+  <title>Cancer Mortality Analysis</title>
+  <dc:creator>Jorge Montoya</dc:creator>
+  <link>https://jorgems21.github.io/mysite/projects/01_cancer-risk-factor-analysis/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="background-context" class="level2">
+<h2 class="anchored" data-anchor-id="background-context">Background context</h2>
+<ul>
+<li><p>Selected for analysis due to personal family ties to cancer, part of a school project</p></li>
+<li><p>Dataset: ~3,000 rows, 34 variables</p></li>
+<li><p>Data Period: Roughly from 2015</p></li>
+</ul>
+</section>
+<section id="the-challenge-key-questions-to-answer" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions to Answer</h2>
+<ul>
+<li><p>What are the primary causes of cancer mortality?</p></li>
+<li><p>Which risk factors contribute to higher cancer mortality rates at the county level?</p>
+<p>By answering these, we aim to empower public health initiatives with data-driven insights.</p></li>
+</ul>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<ul>
+<li><p>Descriptive Analytics – Perform exploratory data analysis (EDA) to understand the dataset.</p></li>
+<li><p>Advanced Analytics – Use predictive modeling to identify factors associated with cancer mortality.</p></li>
+</ul>
+</section>
+<section id="solution-approach" class="level2">
+<h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
+<section id="tools-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
+<ul>
+<li><p>Languages: Python</p></li>
+<li><p>Modeling Approach: Regression &amp; Machine Learning</p></li>
+</ul>
+</section>
+<section id="analytical-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-workflow">Analytical Workflow</h3>
+<ul>
+<li><p>Step 1: Explore &amp; clean the data</p></li>
+<li><p>Step 2: Prepare data for machine learning models</p></li>
+<li><p>Step 3: Apply regression analysis &amp; ML techniques</p></li>
+<li><p>Step 4: Evaluate &amp; interpret results</p></li>
+<li><p>Step 5: Summarize findings &amp; quantify impact</p></li>
+</ul>
+</section>
+</section>
+<section id="analysis-results" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
+<ul>
+<li><p>Before vs.&nbsp;After Comparison: Impact of different models on prediction accuracy.</p></li>
+<li><p>Quantified Risk Factors: Which factors have the strongest correlation with mortality rates?</p>
+<p>Full details in the repo: <a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Cancer%20Risk%20Factor%20Analysis">Github - Cancer Analysis</a></p></li>
+</ul>
+</section>
+<section id="learnings-and-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
+<ul>
+<li><p>Cross-validation is crucial for model reliability and is part of the next iteration</p></li>
+<li><p>Hyperparameter tuning improved accuracy but was time-intensive.</p></li>
+<li><p>Stacking models significantly increased compute time.</p></li>
+<li><p>XGBoost outperformed other models in predictive accuracy.</p></li>
+<li><p>Data quality &amp; preprocessing played a major role in improving results.</p></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>python</category>
+  <category>statistical testing</category>
+  <category>machine learning</category>
+  <guid>https://jorgems21.github.io/mysite/projects/01_cancer-risk-factor-analysis/</guid>
+  <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://jorgems21.github.io/mysite/projects/01_cancer-risk-factor-analysis/healthcare.jpg" medium="image" type="image/jpeg" height="93" width="144"/>
+</item>
+<item>
+  <title>Bank Personal Loan Analysis</title>
+  <dc:creator>Jorge Montoya</dc:creator>
+  <link>https://jorgems21.github.io/mysite/projects/02_bank-personal-loan-analysis/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="background-context" class="level2">
+<h2 class="anchored" data-anchor-id="background-context">Background context</h2>
+<ul>
+<li><p>Help banks identify customers who are most likely to accept a loan approval based on past campaign results.</p></li>
+<li><p>Started as part of school project</p></li>
+</ul>
+</section>
+<section id="the-challenge-key-questions-to-answer" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions To Answer</h2>
+<ul>
+<li><p>How can banks improve loan approval decisions?</p></li>
+<li><p>What factors influence a customer’s likelihood to accept a loan offer?</p></li>
+<li><p>How can we optimize customer targeting to increase loan acceptance rates?</p></li>
+</ul>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<ul>
+<li><p>Data Exploration – Apply EDA techniques to uncover patterns in customer behavior.</p></li>
+<li><p>Descriptive Analytics – Analyze relationships between variables and loan approvals.</p></li>
+<li><p>Advanced Analytics – Build predictive models to profile ideal loan applicants.</p></li>
+</ul>
+</section>
+<section id="solution-approach" class="level2">
+<h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
+<section id="tools-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
+<ul>
+<li><p>Languages: Python</p></li>
+<li><p>Modeling Approach: Logistic Regression, XGBoost</p></li>
+</ul>
+</section>
+<section id="analytical-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-workflow">Analytical Workflow</h3>
+<ul>
+<li><p>Step 1: Explore &amp; clean the data</p></li>
+<li><p>Step 2: Prepare data for analytics &amp; machine learning models</p></li>
+<li><p>Step 3: Conduct A/B testing for experimentation</p></li>
+<li><p>Step 4: Apply logistic regression &amp; XGBoost</p></li>
+<li><p>Step 5: Compare model performances using visualizations</p></li>
+<li><p>Step 6: Interpret results &amp; quantify impact</p></li>
+</ul>
+</section>
+</section>
+<section id="analysis-results" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
+<ul>
+<li><p>Identified key factors influencing loan acceptance rates.</p></li>
+<li><p>Before vs.&nbsp;After Comparison: Improved model predictions through feature engineering.</p>
+<p>Full details in the repo: <a href="https://github.com/jorgems21/Data-Science-Portfolio/tree/main/Bank%20Personal%20Loan%20Analysis">Github - Bank Loan Analysis</a></p></li>
+</ul>
+</section>
+<section id="learnings-and-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
+<ul>
+<li><p>XGBoost outperformed traditional models in predictive accuracy.</p></li>
+<li><p>Logistic regression worked well for binary classification problems.</p></li>
+<li><p>Data visualization helped compare model performance effectively.</p></li>
+<li><p>A/B Testing was a useful experimentation method.</p></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>python</category>
+  <category>statistical testing</category>
+  <category>machine learning</category>
+  <guid>https://jorgems21.github.io/mysite/projects/02_bank-personal-loan-analysis/</guid>
+  <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://jorgems21.github.io/mysite/projects/02_bank-personal-loan-analysis/bank_loan.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
+</item>
+</channel>
+</rss>

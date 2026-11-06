@@ -13,6 +13,4 @@ execute:
   freeze: auto
 ---
 
-📌 More projects coming soon! Stay tuned.
-
-🔗 Read some of my projects reflections and overall work here: [Blog](blog.qmd)
+Selected project write-ups, from healthcare analytics to machine learning and AI.

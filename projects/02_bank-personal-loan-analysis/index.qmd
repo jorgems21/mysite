@@ -1,8 +1,9 @@
 ---
-title: "Bank personal loan analysis"
+title: "Bank Personal Loan Analysis"
 date: "December 2023"
 categories: [python,statistical testing, machine learning]
 image: bank_loan.jpg
+image-alt: "Bank building representing a personal loan marketing analysis"
 ---
 
 ## Background context
