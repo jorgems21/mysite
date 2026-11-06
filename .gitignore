@@ -7,3 +7,7 @@
 *.quarto_ipynb
 
 **/*.quarto_ipynb
+
+# RWE study: raw MEPS files and renv library
+projects/rwe-outcomes-study/data/raw/
+projects/rwe-outcomes-study/renv/library/

@@ -66,8 +66,4 @@ The first version, built in late 2025, was a Streamlit app using LangChain and F
 
 The roadmap follows what pilot users ask for.
 
-## Code
-
-<!-- TODO(Jorge): public repo link for Munay Works, if any -->
-
-[Early prototype: AI Grant Writing Assistant on GitHub](https://github.com/jorgems21/ai-grant-writing-assistant/tree/main?tab=readme-ov-file)
+<!-- TODO(Jorge): add a Code section if there's a public repo for Munay Works. The old early-prototype link (github.com/jorgems21/ai-grant-writing-assistant) was removed because its README names the ProPublica API (lines 19 and 47). Revisit if you update that README. -->

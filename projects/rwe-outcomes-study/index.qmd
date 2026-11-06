@@ -1,0 +1,50 @@
+---
+# SCAFFOLD ONLY. `draft: true` keeps this page out of the rendered site, Work listing, search and sitemap.
+# Remove the `draft` line once the analysis is done and every TODO below is resolved.
+draft: true
+title: "TODO: Treatment A vs. B in Condition X: Costs and Utilization (MEPS)"
+subtitle: "TODO: one-line outcome, with a number"
+description: "TODO: one-line outcome shown on the Work page card"
+date: "TODO: YYYY-MM-DD"
+categories: ["Healthcare / RWE"]
+image: thumbnail.png   # TODO: add a thumbnail.png
+image-alt: "TODO: describe the thumbnail"
+---
+
+**TL;DR**
+
+- **Problem:** TODO(Jorge)
+- **Approach:** TODO(Jorge)
+- **Result:** TODO(Jorge): include a number from the final analysis
+
+## Problem
+
+TODO(Jorge): after adjusting for confounders, how do healthcare costs and utilization differ between patients on treatment A vs. treatment B for condition X? Pick X, A and B, and say why the question matters to payers, providers or patients.
+
+## Data
+
+- **Source:** Medical Expenditure Panel Survey (MEPS), Household Component public use files, from AHRQ. See [`data/README.md`](data/README.md) for download steps.
+- **Size and period:** TODO(Jorge)
+- **Link:** <https://meps.ahrq.gov/mepsweb/data_stats/download_data_files.jsp>
+
+## Approach
+
+TODO(Jorge): summarize each method and why it was chosen (details in [`analysis.qmd`](analysis.qmd)).
+
+1. Cohort definition
+2. Table 1: baseline characteristics
+3. Propensity score matching or IPTW, with balance diagnostics (love plot)
+4. Cost model: gamma GLM with log link, or a two-part model
+5. Sensitivity analysis
+
+## Results
+
+TODO(Jorge): metrics table and one or two charts from the final analysis. No results have been produced yet.
+
+## What I'd Do Next / Limitations
+
+TODO(Jorge): for example, unmeasured confounding, survey design, and small cohort sizes.
+
+## Code
+
+TODO(Jorge): GitHub link to the analysis.
