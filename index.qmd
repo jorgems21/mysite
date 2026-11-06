@@ -1,5 +1,5 @@
 ---
-pagetitle: "Jorge Montoya | Data Scientist: Analytics, AI & Data Products"
+pagetitle: "Jorge Montoya | Data Scientist: Data, Analytics & AI Products"
 toc: false
 page-layout: full
 title-block-banner: false
@@ -7,13 +7,11 @@ execute:
   freeze: auto
 ---
 
-<!-- TODO(Jorge): pick hero headline. Options: (A, current) Data Scientist — Analytics, AI & Data Products | (B) Data & AI Professional — From Messy Data to Production Data Products | (C) Data Scientist · Machine Learning, AI & Real-World Evidence. Also review pitch line, proof strip, featured-work one-liners. -->
-
 ::: {.hero}
 ::: {.hero-text}
 # Jorge Montoya
 
-**Data Scientist — Analytics, AI & Data Products**
+**Data Scientist — Data, Analytics & AI Products**
 
 I'm a data scientist who turns messy, real-world data into evidence, models and data products that teams can trust. My deepest experience is in healthcare — EHR, chargemaster and claims-style data at Premier Inc. — and I'm also building an AI product of my own with RAG and multi-agent systems.
 
@@ -53,6 +51,14 @@ Founded Munay Works: an LLM platform using RAG and a multi-agent architecture to
 ## Featured Work
 
 ::: {.work-grid}
+::: {.work-card}
+### Munay Works: AI for Nonprofit Funding
+An independent AI product: a RAG and multi-agent platform that helps nonprofits find funders from IRS Form 990 data.
+
+<span class="chip">LLM</span> <span class="chip">RAG</span> <span class="chip">Multi-Agent</span> <span class="chip">PostgreSQL / pgvector</span>
+
+[Read case study](projects/munay-works/index.qmd){.stretched-link}
+:::
 ::: {.work-card}
 ### Cancer Mortality Analysis
 County-level risk factors for cancer mortality; XGBoost was the strongest model tested.

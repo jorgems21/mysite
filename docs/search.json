@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Jorge Montoya",
     "section": "",
-    "text": "Data Scientist — Analytics, AI & Data Products\nI’m a data scientist who turns messy, real-world data into evidence, models and data products that teams can trust. My deepest experience is in healthcare — EHR, chargemaster and claims-style data at Premier Inc. — and I’m also building an AI product of my own with RAG and multi-agent systems.\n\nResume LinkedIn Email\n\n\nmiraflores97@gmail.com"
+    "text": "Data Scientist — Data, Analytics & AI Products\nI’m a data scientist who turns messy, real-world data into evidence, models and data products that teams can trust. My deepest experience is in healthcare — EHR, chargemaster and claims-style data at Premier Inc. — and I’m also building an AI product of my own with RAG and multi-agent systems.\n\nResume LinkedIn Email\n\n\nmiraflores97@gmail.com"
   },
   {
     "objectID": "index.html#featured-work",
     "href": "index.html#featured-work",
     "title": "Jorge Montoya",
     "section": "Featured Work",
-    "text": "Featured Work\n\n\nCancer Mortality Analysis\nCounty-level risk factors for cancer mortality; XGBoost was the strongest model tested.\nPython Machine Learning Statistical Testing\nRead case study\n\n\nBank Personal Loan Analysis\nLogistic regression and XGBoost to profile customers most likely to accept a personal loan offer.\nPython XGBoost A/B Testing\nRead case study\n\n\nNashville Housing Purchasing App\nAn R Shiny app that uses a random forest to flag good deals for prospective home buyers.\nR Shiny Random Forest\nRead case study"
+    "text": "Featured Work\n\n\nMunay Works: AI for Nonprofit Funding\nAn independent AI product: a RAG and multi-agent platform that helps nonprofits find funders from IRS Form 990 data.\nLLM RAG Multi-Agent PostgreSQL / pgvector\nRead case study\n\n\nCancer Mortality Analysis\nCounty-level risk factors for cancer mortality; XGBoost was the strongest model tested.\nPython Machine Learning Statistical Testing\nRead case study\n\n\nBank Personal Loan Analysis\nLogistic regression and XGBoost to profile customers most likely to accept a personal loan offer.\nPython XGBoost A/B Testing\nRead case study\n\n\nNashville Housing Purchasing App\nAn R Shiny app that uses a random forest to flag good deals for prospective home buyers.\nR Shiny Random Forest\nRead case study"
   },
   {
     "objectID": "index.html#skills-snapshot",
@@ -112,104 +112,6 @@
     "text": "Code\nNashville Housing Analysis on GitHub"
   },
   {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html",
-    "title": "Cancer Mortality Analysis",
-    "section": "",
-    "text": "Graduate project, December 2023.\nTL;DR"
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#problem",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#problem",
-    "title": "Cancer Mortality Analysis",
-    "section": "Problem",
-    "text": "Problem\nI picked this topic because of personal family ties to cancer. The goal was to understand what drives cancer mortality at the county level, so that public health initiatives can be guided by data. The analysis asks:\n\nWhat are the primary causes of cancer mortality?\nWhich risk factors contribute to higher mortality rates at the county level?"
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#data",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#data",
-    "title": "Cancer Mortality Analysis",
-    "section": "Data",
-    "text": "Data\nCounty-level data, about 3,000 rows and 34 variables, covering roughly 2015."
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#approach",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#approach",
-    "title": "Cancer Mortality Analysis",
-    "section": "Approach",
-    "text": "Approach\n\nExplore and clean the data.\nPrepare the data for machine learning models.\nApply regression analysis and machine learning techniques (Python).\nEvaluate and interpret the results, and summarize the findings."
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#results",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#results",
-    "title": "Cancer Mortality Analysis",
-    "section": "Results",
-    "text": "Results\n\nXGBoost outperformed the other models in predictive accuracy.\nHyperparameter tuning improved accuracy but was time-intensive.\nData quality and preprocessing played a major role in improving results."
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#what-id-do-next-limitations",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#what-id-do-next-limitations",
-    "title": "Cancer Mortality Analysis",
-    "section": "What I’d Do Next / Limitations",
-    "text": "What I’d Do Next / Limitations\n\nAdd cross-validation to make the model comparison more reliable. This is the next iteration.\nStacking models significantly increased compute time."
-  },
-  {
-    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#code",
-    "href": "projects/01_cancer-risk-factor-analysis/index.html#code",
-    "title": "Cancer Mortality Analysis",
-    "section": "Code",
-    "text": "Code\nCancer Analysis on GitHub"
-  },
-  {
-    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html",
-    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html",
-    "title": "Nonprofit Grant Writer AI Assistant",
-    "section": "",
-    "text": "Build an assistant to help nonprofits discover grants faster and draft stronger proposals.\nFocus on combining nonprofit data with AI guidance and document-aware answers."
-  },
-  {
-    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#background-context",
-    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#background-context",
-    "title": "Nonprofit Grant Writer AI Assistant",
-    "section": "",
-    "text": "Build an assistant to help nonprofits discover grants faster and draft stronger proposals.\nFocus on combining nonprofit data with AI guidance and document-aware answers."
-  },
-  {
-    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#the-challenge-key-questions-to-answer",
-    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#the-challenge-key-questions-to-answer",
-    "title": "Nonprofit Grant Writer AI Assistant",
-    "section": "The Challenge: Key Questions to Answer",
-    "text": "The Challenge: Key Questions to Answer\n\nHow can nonprofits quickly identify relevant funding opportunities?\nHow can proposal drafting be accelerated without sacrificing quality?"
-  },
-  {
-    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#objectives",
-    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#objectives",
-    "title": "Nonprofit Grant Writer AI Assistant",
-    "section": "Objectives",
-    "text": "Objectives\n\nDiscovery – Make nonprofit lookup and grant targeting faster and more accurate.\nDrafting – Provide structured, reusable proposal guidance with AI support."
-  },
-  {
-    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#solution-approach",
-    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#solution-approach",
-    "title": "Nonprofit Grant Writer AI Assistant",
-    "section": "Solution Approach",
-    "text": "Solution Approach\n\nTools & Techniques\n\nLanguages: Python\nFrameworks: Streamlit, LangChain\nRetrieval: RAG with FAISS\n\n\n\nAnalytical Workflow\n\nStep 1: Pull nonprofit data (IRS Form 990) via ProPublica API\nStep 2: Provide advisory mode for grant-writing strategy\nStep 3: Add document mode with RFP upload and retrieval\nStep 4: Draft responses and extract key requirements"
-  },
-  {
-    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#analysis-results",
-    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#analysis-results",
-    "title": "Nonprofit Grant Writer AI Assistant",
-    "section": "Analysis / Results",
-    "text": "Analysis / Results\n\nDelivered two modes: advisory guidance and document-aware drafting.\nImproved proposal turnaround by combining data insights with AI writing support.\nFull details in the repo: Github - AI Grant Writing Assistant"
-  },
-  {
-    "objectID": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#learnings-and-challenges",
-    "href": "projects/04_nonprofit-grant-writer-ai-assistant/index.html#learnings-and-challenges",
-    "title": "Nonprofit Grant Writer AI Assistant",
-    "section": "Learnings and challenges",
-    "text": "Learnings and challenges\n\nClear separation of advisory vs. document modes improved UX.\nRAG relevance depends on high-quality chunking and metadata.\nLocal model support balances privacy and performance tradeoffs."
-  },
-  {
     "objectID": "projects/02_bank-personal-loan-analysis/index.html",
     "href": "projects/02_bank-personal-loan-analysis/index.html",
     "title": "Bank Personal Loan Analysis",
@@ -259,6 +161,111 @@
     "text": "Code\nBank Loan Analysis on GitHub"
   },
   {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html",
+    "title": "Cancer Mortality Analysis",
+    "section": "",
+    "text": "Graduate project, December 2023.\nTL;DR"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#problem",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#problem",
+    "title": "Cancer Mortality Analysis",
+    "section": "Problem",
+    "text": "Problem\nI picked this topic because of personal family ties to cancer. The goal was to understand what drives cancer mortality at the county level, so that public health initiatives can be guided by data. The analysis asks:\n\nWhat are the primary causes of cancer mortality?\nWhich risk factors contribute to higher mortality rates at the county level?"
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#data",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#data",
+    "title": "Cancer Mortality Analysis",
+    "section": "Data",
+    "text": "Data\nCounty-level data, about 3,000 rows and 34 variables, covering roughly 2015."
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#approach",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#approach",
+    "title": "Cancer Mortality Analysis",
+    "section": "Approach",
+    "text": "Approach\n\nExplore and clean the data.\nPrepare the data for machine learning models.\nApply regression analysis and machine learning techniques (Python).\nEvaluate and interpret the results, and summarize the findings."
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#results",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#results",
+    "title": "Cancer Mortality Analysis",
+    "section": "Results",
+    "text": "Results\n\nXGBoost outperformed the other models in predictive accuracy.\nHyperparameter tuning improved accuracy but was time-intensive.\nData quality and preprocessing played a major role in improving results."
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#what-id-do-next-limitations",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#what-id-do-next-limitations",
+    "title": "Cancer Mortality Analysis",
+    "section": "What I’d Do Next / Limitations",
+    "text": "What I’d Do Next / Limitations\n\nAdd cross-validation to make the model comparison more reliable. This is the next iteration.\nStacking models significantly increased compute time."
+  },
+  {
+    "objectID": "projects/01_cancer-risk-factor-analysis/index.html#code",
+    "href": "projects/01_cancer-risk-factor-analysis/index.html#code",
+    "title": "Cancer Mortality Analysis",
+    "section": "Code",
+    "text": "Code\nCancer Analysis on GitHub"
+  },
+  {
+    "objectID": "projects/munay-works/index.html",
+    "href": "projects/munay-works/index.html",
+    "title": "Munay Works: AI Platform for Nonprofit Funding",
+    "section": "",
+    "text": "Independent product build, January 2026 to present.\nTL;DR"
+  },
+  {
+    "objectID": "projects/munay-works/index.html#problem",
+    "href": "projects/munay-works/index.html#problem",
+    "title": "Munay Works: AI Platform for Nonprofit Funding",
+    "section": "Problem",
+    "text": "Problem\nNonprofits have to find funders that fit their mission and then write about their work in ways those funders respond to. The public data to support this exists as IRS Form 990 filings, but it’s large and hard to use directly. Munay Works is an AI-enabled platform that helps nonprofits find funders and generate grant insights from that data. I’m building it independently, and this page covers the technical work."
+  },
+  {
+    "objectID": "projects/munay-works/index.html#architecture",
+    "href": "projects/munay-works/index.html#architecture",
+    "title": "Munay Works: AI Platform for Nonprofit Funding",
+    "section": "Architecture",
+    "text": "Architecture\n\n\n\n\n\n\nflowchart TD\n  A[\"990 sources&lt;br/&gt;GivingTuesday data lake&lt;br/&gt;IRS TEOS monthly files\"] --&gt; B[\"ETL / ingestion\"]\n  B --&gt; C[(\"PostgreSQL / Supabase&lt;br/&gt;source tables + analytics tables&lt;br/&gt;pgvector\")]\n  C --&gt; D[\"RAG pipeline&lt;br/&gt;+ multi-agent layer&lt;br/&gt;(LangChain, FAISS)\"]\n  D --&gt; E[\"FastAPI\"]\n  E --&gt; F[\"React app\"]\n\n\n\n\n\n\nStack: React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase"
+  },
+  {
+    "objectID": "projects/munay-works/index.html#data-pipeline",
+    "href": "projects/munay-works/index.html#data-pipeline",
+    "title": "Munay Works: AI Platform for Nonprofit Funding",
+    "section": "Data Pipeline",
+    "text": "Data Pipeline\n\nSources: 990 filings from the GivingTuesday data lake, and the IRS TEOS monthly files.\nTwo-layer PostgreSQL schema: source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.\nMaterialized views provide peer benchmarks and foundation profiles.\nOrganization health score: a 100-point score computed for each organization."
+  },
+  {
+    "objectID": "projects/munay-works/index.html#ai-layer-and-how-outputs-are-evaluated",
+    "href": "projects/munay-works/index.html#ai-layer-and-how-outputs-are-evaluated",
+    "title": "Munay Works: AI Platform for Nonprofit Funding",
+    "section": "AI Layer and How Outputs Are Evaluated",
+    "text": "AI Layer and How Outputs Are Evaluated\nThe AI layer is a RAG pipeline with a multi-agent architecture. LangChain orchestrates it, and retrieval uses FAISS and pgvector over the data above, so answers are grounded in actual filings and not generated from the model alone."
+  },
+  {
+    "objectID": "projects/munay-works/index.html#what-pilots-taught-me",
+    "href": "projects/munay-works/index.html#what-pilots-taught-me",
+    "title": "Munay Works: AI Platform for Nonprofit Funding",
+    "section": "What Pilots Taught Me",
+    "text": "What Pilots Taught Me\nThe platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. \n\nLessons From the Early Prototype\nThe first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It pulled nonprofit data from the ProPublica API (IRS Form 990), and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:\n\nClearly separating the advisory and document modes improved the user experience.\nRAG relevance depends on high-quality chunking and metadata.\nLocal model support balances privacy and performance tradeoffs."
+  },
+  {
+    "objectID": "projects/munay-works/index.html#whats-next",
+    "href": "projects/munay-works/index.html#whats-next",
+    "title": "Munay Works: AI Platform for Nonprofit Funding",
+    "section": "What’s Next",
+    "text": "What’s Next\n\nThe roadmap follows what pilot users ask for."
+  },
+  {
+    "objectID": "projects/munay-works/index.html#code",
+    "href": "projects/munay-works/index.html#code",
+    "title": "Munay Works: AI Platform for Nonprofit Funding",
+    "section": "Code",
+    "text": "Code\n\nEarly prototype: AI Grant Writing Assistant on GitHub"
+  },
+  {
     "objectID": "contact_me.html",
     "href": "contact_me.html",
     "title": "Contact Me",
@@ -270,6 +277,6 @@
     "href": "projects.html",
     "title": "Work",
     "section": "",
-    "text": "Selected project write-ups, from healthcare analytics to machine learning and AI.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNonprofit Grant Writer AI Assistant\n\n\n\nAI / LLM\n\n\n\nSmart, AI-powered assistant helping nonprofits discover opportunities and write winning grant proposals.\n\n\n\nNov 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNashville Housing Purchasing App\n\n\n\nMachine Learning\n\n\n\nR Shiny prototype with a random forest deal predictor and report generation for Nashville home buyers.\n\n\n\nDec 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCancer Mortality Analysis\n\n\n\nHealthcare / RWE\n\nMachine Learning\n\n\n\nPython models for county-level cancer mortality and its risk factors; XGBoost outperformed the other models compared.\n\n\n\nDec 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank Personal Loan Analysis\n\n\n\nFinance\n\nMachine Learning\n\n\n\nPropensity models (logistic regression, XGBoost) for targeting personal loan offers from past campaign results.\n\n\n\nDec 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Selected project write-ups, from healthcare analytics to machine learning and AI.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMunay Works: AI Platform for Nonprofit Funding\n\n\n\nAI / LLM\n\n\n\nRAG and multi-agent platform on a PostgreSQL/pgvector data foundation that helps nonprofits find funders from IRS Form 990 data.\n\n\n\nJan 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nNashville Housing Purchasing App\n\n\n\nMachine Learning\n\n\n\nR Shiny prototype with a random forest deal predictor and report generation for Nashville home buyers.\n\n\n\nDec 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCancer Mortality Analysis\n\n\n\nHealthcare / RWE\n\nMachine Learning\n\n\n\nPython models for county-level cancer mortality and its risk factors; XGBoost outperformed the other models compared.\n\n\n\nDec 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank Personal Loan Analysis\n\n\n\nFinance\n\nMachine Learning\n\n\n\nPropensity models (logistic regression, XGBoost) for targeting personal loan offers from past campaign results.\n\n\n\nDec 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]

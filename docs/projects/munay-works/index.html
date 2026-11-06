@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jorge Montoya">
-<meta name="dcterms.date" content="2025-11-01">
-<meta name="description" content="Smart, AI-powered assistant helping nonprofits discover opportunities and write winning grant proposals.">
+<meta name="dcterms.date" content="2026-01-01">
+<meta name="description" content="RAG and multi-agent platform on a PostgreSQL/pgvector data foundation that helps nonprofits find funders from IRS Form 990 data.">
 
-<title>Nonprofit Grant Writer AI Assistant – Jorge Montoya</title>
+<title>Munay Works: AI Platform for Nonprofit Funding – Jorge Montoya</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -81,6 +81,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -305,10 +308,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Nonprofit Grant Writer AI Assistant</h1>
+      <h1 class="title">Munay Works: AI Platform for Nonprofit Funding</h1>
+            <p class="subtitle lead">An independent AI product build: RAG and multi-agent grant insights over IRS Form 990 data</p>
                   <div>
         <div class="description">
-          Smart, AI-powered assistant helping nonprofits discover opportunities and write winning grant proposals.
+          RAG and multi-agent platform on a PostgreSQL/pgvector data foundation that helps nonprofits find funders from IRS Form 990 data.
         </div>
       </div>
                           <div class="quarto-categories">
@@ -330,7 +334,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">November 1, 2025</p>
+        <p class="date">January 1, 2026</p>
       </div>
     </div>
     
@@ -346,16 +350,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#background-context" id="toc-background-context" class="nav-link active" data-scroll-target="#background-context">Background context</a></li>
-  <li><a href="#the-challenge-key-questions-to-answer" id="toc-the-challenge-key-questions-to-answer" class="nav-link" data-scroll-target="#the-challenge-key-questions-to-answer">The Challenge: Key Questions to Answer</a></li>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#solution-approach" id="toc-solution-approach" class="nav-link" data-scroll-target="#solution-approach">Solution Approach</a>
+  <li><a href="#problem" id="toc-problem" class="nav-link active" data-scroll-target="#problem">Problem</a></li>
+  <li><a href="#architecture" id="toc-architecture" class="nav-link" data-scroll-target="#architecture">Architecture</a></li>
+  <li><a href="#data-pipeline" id="toc-data-pipeline" class="nav-link" data-scroll-target="#data-pipeline">Data Pipeline</a></li>
+  <li><a href="#ai-layer-and-how-outputs-are-evaluated" id="toc-ai-layer-and-how-outputs-are-evaluated" class="nav-link" data-scroll-target="#ai-layer-and-how-outputs-are-evaluated">AI Layer and How Outputs Are Evaluated</a></li>
+  <li><a href="#what-pilots-taught-me" id="toc-what-pilots-taught-me" class="nav-link" data-scroll-target="#what-pilots-taught-me">What Pilots Taught Me</a>
   <ul class="collapse">
-  <li><a href="#tools-techniques" id="toc-tools-techniques" class="nav-link" data-scroll-target="#tools-techniques">Tools &amp; Techniques</a></li>
-  <li><a href="#analytical-workflow" id="toc-analytical-workflow" class="nav-link" data-scroll-target="#analytical-workflow">Analytical Workflow</a></li>
+  <li><a href="#lessons-from-the-early-prototype" id="toc-lessons-from-the-early-prototype" class="nav-link" data-scroll-target="#lessons-from-the-early-prototype">Lessons From the Early Prototype</a></li>
   </ul></li>
-  <li><a href="#analysis-results" id="toc-analysis-results" class="nav-link" data-scroll-target="#analysis-results">Analysis / Results</a></li>
-  <li><a href="#learnings-and-challenges" id="toc-learnings-and-challenges" class="nav-link" data-scroll-target="#learnings-and-challenges">Learnings and challenges</a></li>
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s Next</a></li>
+  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
   </ul>
 </nav>
     </div>
@@ -367,62 +371,76 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="background-context" class="level2">
-<h2 class="anchored" data-anchor-id="background-context">Background context</h2>
+<p><em>Independent product build, January 2026 to present.</em></p>
+<p><strong>TL;DR</strong></p>
 <ul>
-<li><p>Build an assistant to help nonprofits discover grants faster and draft stronger proposals.</p></li>
-<li><p>Focus on combining nonprofit data with AI guidance and document-aware answers.</p></li>
+<li><strong>Problem:</strong> Nonprofits need to find the right funders and turn funder data into grant insights.</li>
+<li><strong>Approach:</strong> A data pipeline over IRS Form 990 filings feeds a PostgreSQL/pgvector foundation, with a RAG and multi-agent AI layer behind a React app.</li>
+<li><strong>Result:</strong> A working platform in pilot with nonprofit organizations, where user feedback drives the roadmap. <!-- TODO(Jorge): add one concrete number (e.g., filings ingested, organizations or funders covered, pilot users) --></li>
+</ul>
+<!-- TODO(Jorge): add a screenshot or demo GIF of the app -->
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>Nonprofits have to find funders that fit their mission and then write about their work in ways those funders respond to. The public data to support this exists as IRS Form 990 filings, but it’s large and hard to use directly. Munay Works is an AI-enabled platform that helps nonprofits find funders and generate grant insights from that data. I’m building it independently, and this page covers the technical work.</p>
+</section>
+<section id="architecture" class="level2">
+<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+
+<pre class="mermaid mermaid-js">flowchart TD
+  A["990 sources&lt;br/&gt;GivingTuesday data lake&lt;br/&gt;IRS TEOS monthly files"] --&gt; B["ETL / ingestion"]
+  B --&gt; C[("PostgreSQL / Supabase&lt;br/&gt;source tables + analytics tables&lt;br/&gt;pgvector")]
+  C --&gt; D["RAG pipeline&lt;br/&gt;+ multi-agent layer&lt;br/&gt;(LangChain, FAISS)"]
+  D --&gt; E["FastAPI"]
+  E --&gt; F["React app"]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><strong>Stack:</strong> React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase</p>
+</section>
+<section id="data-pipeline" class="level2">
+<h2 class="anchored" data-anchor-id="data-pipeline">Data Pipeline</h2>
+<ul>
+<li><strong>Sources:</strong> 990 filings from the GivingTuesday data lake, and the IRS TEOS monthly files.</li>
+<li><strong>Two-layer PostgreSQL schema:</strong> source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.</li>
+<li><strong>Materialized views</strong> provide peer benchmarks and foundation profiles.</li>
+<li><strong>Organization health score:</strong> a 100-point score computed for each organization. <!-- TODO(Jorge): add the score's components at a high level, if you want to share them --></li>
 </ul>
 </section>
-<section id="the-challenge-key-questions-to-answer" class="level2">
-<h2 class="anchored" data-anchor-id="the-challenge-key-questions-to-answer">The Challenge: Key Questions to Answer</h2>
-<ul>
-<li><p>How can nonprofits quickly identify relevant funding opportunities?</p></li>
-<li><p>How can proposal drafting be accelerated without sacrificing quality?</p></li>
-</ul>
+<section id="ai-layer-and-how-outputs-are-evaluated" class="level2">
+<h2 class="anchored" data-anchor-id="ai-layer-and-how-outputs-are-evaluated">AI Layer and How Outputs Are Evaluated</h2>
+<p>The AI layer is a RAG pipeline with a multi-agent architecture. LangChain orchestrates it, and retrieval uses FAISS and pgvector over the data above, so answers are grounded in actual filings and not generated from the model alone.</p>
+<!-- TODO(Jorge): describe how outputs are evaluated (e.g., test set of questions, grounding/citation checks, human review) and add any eval metrics. I haven't invented any. -->
 </section>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<section id="what-pilots-taught-me" class="level2">
+<h2 class="anchored" data-anchor-id="what-pilots-taught-me">What Pilots Taught Me</h2>
+<p>The platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. <!-- TODO(Jorge): add 2–3 concrete lessons from the pilot (no organization names or contacts) --></p>
+<section id="lessons-from-the-early-prototype" class="level3">
+<h3 class="anchored" data-anchor-id="lessons-from-the-early-prototype">Lessons From the Early Prototype</h3>
+<p>The first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It pulled nonprofit data from the ProPublica API (IRS Form 990), and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:</p>
 <ul>
-<li><p>Discovery – Make nonprofit lookup and grant targeting faster and more accurate.</p></li>
-<li><p>Drafting – Provide structured, reusable proposal guidance with AI support.</p></li>
-</ul>
-</section>
-<section id="solution-approach" class="level2">
-<h2 class="anchored" data-anchor-id="solution-approach">Solution Approach</h2>
-<section id="tools-techniques" class="level3">
-<h3 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h3>
-<ul>
-<li><p>Languages: Python</p></li>
-<li><p>Frameworks: Streamlit, LangChain</p></li>
-<li><p>Retrieval: RAG with FAISS</p></li>
-</ul>
-</section>
-<section id="analytical-workflow" class="level3">
-<h3 class="anchored" data-anchor-id="analytical-workflow">Analytical Workflow</h3>
-<ul>
-<li><p>Step 1: Pull nonprofit data (IRS Form 990) via ProPublica API</p></li>
-<li><p>Step 2: Provide advisory mode for grant-writing strategy</p></li>
-<li><p>Step 3: Add document mode with RFP upload and retrieval</p></li>
-<li><p>Step 4: Draft responses and extract key requirements</p></li>
+<li>Clearly separating the advisory and document modes improved the user experience.</li>
+<li>RAG relevance depends on high-quality chunking and metadata.</li>
+<li>Local model support balances privacy and performance tradeoffs.</li>
 </ul>
 </section>
 </section>
-<section id="analysis-results" class="level2">
-<h2 class="anchored" data-anchor-id="analysis-results">Analysis / Results</h2>
-<ul>
-<li><p>Delivered two modes: advisory guidance and document-aware drafting.</p></li>
-<li><p>Improved proposal turnaround by combining data insights with AI writing support.</p>
-<p>Full details in the repo: <a href="https://github.com/jorgems21/ai-grant-writing-assistant/tree/main?tab=readme-ov-file">Github - AI Grant Writing Assistant</a></p></li>
-</ul>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s Next</h2>
+<!-- TODO(Jorge): next steps / roadmap, as much as you want to share publicly -->
+<p>The roadmap follows what pilot users ask for.</p>
 </section>
-<section id="learnings-and-challenges" class="level2">
-<h2 class="anchored" data-anchor-id="learnings-and-challenges">Learnings and challenges</h2>
-<ul>
-<li><p>Clear separation of advisory vs.&nbsp;document modes improved UX.</p></li>
-<li><p>RAG relevance depends on high-quality chunking and metadata.</p></li>
-<li><p>Local model support balances privacy and performance tradeoffs.</p></li>
-</ul>
+<section id="code" class="level2">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<!-- TODO(Jorge): public repo link for Munay Works, if any -->
+<p><a href="https://github.com/jorgems21/ai-grant-writing-assistant/tree/main?tab=readme-ov-file">Early prototype: AI Grant Writing Assistant on GitHub</a></p>
 
 
 </section>
