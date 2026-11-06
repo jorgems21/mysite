@@ -29,3 +29,9 @@
 
 /* Consistent project thumbnails on the Work page */
 .quarto-grid-item .card-img-top, .quarto-grid-item img.thumbnail-image { aspect-ratio: 16 / 9; object-fit: cover; width: 100%; }
+
+/* Pre-rendered architecture diagram (SVG) */
+img.architecture { display: block; margin: 1rem auto; width: 210px; max-width: 100%; height: auto; }
+
+/* Category tags in the title banner: raise contrast on the teal background */
+.quarto-title-banner .quarto-category { color: #ffffff !important; border-color: #ffffff !important; opacity: 1 !important; }

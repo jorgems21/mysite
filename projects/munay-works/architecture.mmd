@@ -1,0 +1,6 @@
+flowchart TD
+  A["IRS Form 990 filings<br/>IRS TEOS monthly files"] --> B["ETL / ingestion"]
+  B --> C[("PostgreSQL / Supabase<br/>source tables + analytics tables<br/>pgvector")]
+  C --> D["RAG pipeline<br/>+ multi-agent layer<br/>(LangChain, FAISS)"]
+  D --> E["FastAPI"]
+  E --> F["React app"]

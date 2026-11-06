@@ -228,7 +228,7 @@
     "href": "projects/munay-works/index.html#architecture",
     "title": "Munay Works: AI Platform for Nonprofit Funding",
     "section": "Architecture",
-    "text": "Architecture\n\n\n\n\n\n\nflowchart TD\n  A[\"IRS Form 990 filings&lt;br/&gt;IRS TEOS monthly files\"] --&gt; B[\"ETL / ingestion\"]\n  B --&gt; C[(\"PostgreSQL / Supabase&lt;br/&gt;source tables + analytics tables&lt;br/&gt;pgvector\")]\n  C --&gt; D[\"RAG pipeline&lt;br/&gt;+ multi-agent layer&lt;br/&gt;(LangChain, FAISS)\"]\n  D --&gt; E[\"FastAPI\"]\n  E --&gt; F[\"React app\"]\n\n\n\n\n\n\nStack: React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase"
+    "text": "Architecture\n\nStack: React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase"
   },
   {
     "objectID": "projects/munay-works/index.html#data-pipeline",

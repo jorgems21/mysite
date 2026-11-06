@@ -24,14 +24,7 @@ Nonprofits have to find funders that fit their mission and then write about thei
 
 ## Architecture
 
-```{mermaid}
-flowchart TD
-  A["IRS Form 990 filings<br/>IRS TEOS monthly files"] --> B["ETL / ingestion"]
-  B --> C[("PostgreSQL / Supabase<br/>source tables + analytics tables<br/>pgvector")]
-  C --> D["RAG pipeline<br/>+ multi-agent layer<br/>(LangChain, FAISS)"]
-  D --> E["FastAPI"]
-  E --> F["React app"]
-```
+![](architecture.svg){.architecture fig-alt="Vertical flow diagram: IRS Form 990 filings and IRS TEOS monthly files, ETL / ingestion, PostgreSQL / Supabase with pgvector, RAG pipeline and multi-agent layer, FastAPI, React app."}
 
 **Stack:** React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase
 

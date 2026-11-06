@@ -28,7 +28,6 @@
 
 
 
-
 <p><em>Independent product build, January 2026 to present.</em></p>
 <p><strong>TL;DR</strong></p>
 <ul>
@@ -43,24 +42,7 @@
 </section>
 <section id="architecture" class="level2">
 <h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-
-<pre class="mermaid mermaid-js">flowchart TD
-  A["IRS Form 990 filings&lt;br/&gt;IRS TEOS monthly files"] --&gt; B["ETL / ingestion"]
-  B --&gt; C[("PostgreSQL / Supabase&lt;br/&gt;source tables + analytics tables&lt;br/&gt;pgvector")]
-  C --&gt; D["RAG pipeline&lt;br/&gt;+ multi-agent layer&lt;br/&gt;(LangChain, FAISS)"]
-  D --&gt; E["FastAPI"]
-  E --&gt; F["React app"]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+<p><img src="https://jorgems21.github.io/mysite/projects/munay-works/architecture.svg" class="architecture img-fluid" alt="Vertical flow diagram: IRS Form 990 filings and IRS TEOS monthly files, ETL / ingestion, PostgreSQL / Supabase with pgvector, RAG pipeline and multi-agent layer, FastAPI, React app."></p>
 <p><strong>Stack:</strong> React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase</p>
 </section>
 <section id="data-pipeline" class="level2">
@@ -110,7 +92,6 @@
   <dc:creator>Jorge Montoya</dc:creator>
   <link>https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -181,7 +162,6 @@
 
 
 
-
 <p><em>Graduate project, December 2023.</em></p>
 <p><strong>TL;DR</strong></p>
 <ul>
@@ -246,7 +226,6 @@
   <dc:creator>Jorge Montoya</dc:creator>
   <link>https://jorgems21.github.io/mysite/projects/02_bank-personal-loan-analysis/</link>
   <description><![CDATA[ 
-
 
 
 
