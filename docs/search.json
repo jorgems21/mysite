@@ -11,14 +11,14 @@
     "href": "index.html#featured-work",
     "title": "Jorge Montoya",
     "section": "Featured Work",
-    "text": "Featured Work\n\n\nMunay Works: AI for Nonprofit Funding\nAn independent AI product: a RAG and multi-agent platform that helps nonprofits find funders from IRS Form 990 data.\nLLM RAG Multi-Agent PostgreSQL / pgvector\nRead case study\n\n\nCancer Mortality Analysis\nCounty-level risk factors for cancer mortality; XGBoost was the strongest model tested.\nPython Machine Learning Statistical Testing\nRead case study\n\n\nBank Personal Loan Analysis\nLogistic regression and XGBoost to profile customers most likely to accept a personal loan offer.\nPython XGBoost A/B Testing\nRead case study\n\n\nNashville Housing Purchasing App\nAn R Shiny app that uses a random forest to flag good deals for prospective home buyers.\nR Shiny Random Forest\nRead case study"
+    "text": "Featured Work\n\n\nMunay Works: AI for Nonprofit Funding\nAn independent AI product: a RAG and multi-agent platform that helps nonprofits find funders from IRS Form 990 data.\nLLM RAG Multi-Agent Vector Database\nRead case study\n\n\nCancer Mortality Analysis\nCounty-level risk factors for cancer mortality; XGBoost was the strongest model tested.\nPython Machine Learning Statistical Testing\nRead case study\n\n\nBank Personal Loan Analysis\nLogistic regression and XGBoost to profile customers most likely to accept a personal loan offer.\nPython XGBoost A/B Testing\nRead case study\n\n\nNashville Housing Purchasing App\nAn R Shiny app that uses a random forest to flag good deals for prospective home buyers.\nR Shiny Random Forest\nRead case study"
   },
   {
     "objectID": "index.html#skills-snapshot",
     "href": "index.html#skills-snapshot",
     "title": "Jorge Montoya",
     "section": "Skills Snapshot",
-    "text": "Skills Snapshot\n\nDomain Healthcare (RWE, HEOR, EHR) Chargemaster Finance Nonprofit (IRS 990)\nLanguages & Data Python R SQL PySpark Databricks Teradata\nAnalytics & Apps Statistical Modeling Machine Learning Tableau R Shiny Streamlit\nAI LangChain RAG FAISS pgvector FastAPI"
+    "text": "Skills Snapshot\n\nDomain Healthcare (RWE, HEOR, EHR) Chargemaster Finance Nonprofit (IRS 990)\nLanguages & Data Python R SQL PySpark Databricks Teradata\nAnalytics & Apps Statistical Modeling Machine Learning Tableau R Shiny Streamlit\nAI LLM Applications RAG Multi-Agent Systems Vector Databases Prompt Engineering API Development"
   },
   {
     "objectID": "index.html#about",
@@ -228,28 +228,28 @@
     "href": "projects/munay-works/index.html#architecture",
     "title": "Munay Works: AI Platform for Nonprofit Funding",
     "section": "Architecture",
-    "text": "Architecture\n\nStack: React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase"
+    "text": "Architecture\n\nStack: web front end · Python API service · RAG pipeline · multi-agent architecture · vector database · relational database"
   },
   {
     "objectID": "projects/munay-works/index.html#data-pipeline",
     "href": "projects/munay-works/index.html#data-pipeline",
     "title": "Munay Works: AI Platform for Nonprofit Funding",
     "section": "Data Pipeline",
-    "text": "Data Pipeline\n\nSources: IRS Form 990 filings, including the IRS TEOS monthly files, ingested into a 990 database I built.\nTwo-layer PostgreSQL schema: source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.\nMaterialized views provide peer benchmarks and foundation profiles.\nOrganization health score: a 100-point score computed for each organization."
+    "text": "Data Pipeline\n\nSources: IRS Form 990 filings, including the IRS TEOS monthly files, ingested through an ETL pipeline into a 990 database I built.\nTwo-layer schema: source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.\nMaterialized views provide peer benchmarks and foundation profiles."
   },
   {
     "objectID": "projects/munay-works/index.html#ai-layer-and-how-outputs-are-evaluated",
     "href": "projects/munay-works/index.html#ai-layer-and-how-outputs-are-evaluated",
     "title": "Munay Works: AI Platform for Nonprofit Funding",
     "section": "AI Layer and How Outputs Are Evaluated",
-    "text": "AI Layer and How Outputs Are Evaluated\nThe AI layer is a RAG pipeline with a multi-agent architecture. LangChain orchestrates it, and retrieval uses FAISS and pgvector over the data above, so answers are grounded in actual filings and not generated from the model alone."
+    "text": "AI Layer and How Outputs Are Evaluated\nThe AI layer is a RAG pipeline with a multi-agent architecture. Retrieval runs against a vector database alongside the relational data, so answers are grounded in actual filings and not generated from the model alone."
   },
   {
     "objectID": "projects/munay-works/index.html#what-pilots-taught-me",
     "href": "projects/munay-works/index.html#what-pilots-taught-me",
     "title": "Munay Works: AI Platform for Nonprofit Funding",
     "section": "What Pilots Taught Me",
-    "text": "What Pilots Taught Me\nThe platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. \n\nLessons From the Early Prototype\nThe first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It worked with nonprofit data from IRS Form 990 filings, and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:\n\nClearly separating the advisory and document modes improved the user experience.\nRAG relevance depends on high-quality chunking and metadata.\nLocal model support balances privacy and performance tradeoffs."
+    "text": "What Pilots Taught Me\nThe platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. \n\nLessons From the Early Prototype\nThe first version, built in late 2025, was a RAG prototype backed by a vector store, with two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:\n\nClearly separating the advisory and document modes improved the user experience.\nRAG relevance depends on high-quality chunking and metadata.\nLocal model support balances privacy and performance tradeoffs."
   },
   {
     "objectID": "projects/munay-works/index.html#whats-next",
@@ -270,6 +270,6 @@
     "href": "projects.html",
     "title": "Work",
     "section": "",
-    "text": "Selected project write-ups, from healthcare analytics to machine learning and AI.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMunay Works: AI Platform for Nonprofit Funding\n\n\n\nAI / LLM\n\n\n\nRAG and multi-agent platform on a PostgreSQL/pgvector data foundation that helps nonprofits find funders from IRS Form 990 data.\n\n\n\nJan 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nNashville Housing Purchasing App\n\n\n\nMachine Learning\n\n\n\nR Shiny prototype with a random forest deal predictor and report generation for Nashville home buyers.\n\n\n\nDec 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCancer Mortality Analysis\n\n\n\nHealthcare / RWE\n\nMachine Learning\n\n\n\nPython models for county-level cancer mortality and its risk factors; XGBoost outperformed the other models compared.\n\n\n\nDec 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank Personal Loan Analysis\n\n\n\nFinance\n\nMachine Learning\n\n\n\nPropensity models (logistic regression, XGBoost) for targeting personal loan offers from past campaign results.\n\n\n\nDec 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Selected project write-ups, from healthcare analytics to machine learning and AI.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMunay Works: AI Platform for Nonprofit Funding\n\n\n\nAI / LLM\n\n\n\nRAG and multi-agent platform on a relational and vector database foundation that helps nonprofits find funders from IRS Form 990 data.\n\n\n\nJan 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nNashville Housing Purchasing App\n\n\n\nMachine Learning\n\n\n\nR Shiny prototype with a random forest deal predictor and report generation for Nashville home buyers.\n\n\n\nDec 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCancer Mortality Analysis\n\n\n\nHealthcare / RWE\n\nMachine Learning\n\n\n\nPython models for county-level cancer mortality and its risk factors; XGBoost outperformed the other models compared.\n\n\n\nDec 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank Personal Loan Analysis\n\n\n\nFinance\n\nMachine Learning\n\n\n\nPropensity models (logistic regression, XGBoost) for targeting personal loan offers from past campaign results.\n\n\n\nDec 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]

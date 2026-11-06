@@ -32,7 +32,7 @@
 <p><strong>TL;DR</strong></p>
 <ul>
 <li><strong>Problem:</strong> Nonprofits need to find the right funders and turn funder data into grant insights.</li>
-<li><strong>Approach:</strong> A data pipeline over IRS Form 990 filings feeds a PostgreSQL/pgvector foundation, with a RAG and multi-agent AI layer behind a React app.</li>
+<li><strong>Approach:</strong> A data pipeline over IRS Form 990 filings feeds a relational and vector database, with a retrieval-augmented generation (RAG) and multi-agent AI layer behind a web app.</li>
 <li><strong>Result:</strong> A working platform in pilot with nonprofit organizations, where user feedback drives the roadmap. </li>
 </ul>
 
@@ -42,21 +42,20 @@
 </section>
 <section id="architecture" class="level2">
 <h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
-<p><img src="https://jorgems21.github.io/mysite/projects/munay-works/architecture.svg" class="architecture img-fluid" alt="Vertical flow diagram: IRS Form 990 filings and IRS TEOS monthly files, ETL / ingestion, PostgreSQL / Supabase with pgvector, RAG pipeline and multi-agent layer, FastAPI, React app."></p>
-<p><strong>Stack:</strong> React · Python / FastAPI · LangChain · RAG pipeline · multi-agent architecture · FAISS · pgvector · PostgreSQL / Supabase</p>
+<p><img src="https://jorgems21.github.io/mysite/projects/munay-works/architecture.svg" class="architecture img-fluid" alt="Vertical flow diagram: IRS Form 990 filings and IRS TEOS monthly files, ETL / ingestion, a relational and vector database with source and analytics layers, a RAG pipeline with a multi-agent layer, an API service, and a web app."></p>
+<p><strong>Stack:</strong> web front end · Python API service · RAG pipeline · multi-agent architecture · vector database · relational database</p>
 </section>
 <section id="data-pipeline" class="level2">
 <h2 class="anchored" data-anchor-id="data-pipeline">Data Pipeline</h2>
 <ul>
-<li><strong>Sources:</strong> IRS Form 990 filings, including the IRS TEOS monthly files, ingested into a 990 database I built.</li>
-<li><strong>Two-layer PostgreSQL schema:</strong> source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.</li>
+<li><strong>Sources:</strong> IRS Form 990 filings, including the IRS TEOS monthly files, ingested through an ETL pipeline into a 990 database I built.</li>
+<li><strong>Two-layer schema:</strong> source tables are kept separate from analytics tables, so raw filings stay untouched and the analytics layer can be rebuilt.</li>
 <li><strong>Materialized views</strong> provide peer benchmarks and foundation profiles.</li>
-<li><strong>Organization health score:</strong> a 100-point score computed for each organization. </li>
 </ul>
 </section>
 <section id="ai-layer-and-how-outputs-are-evaluated" class="level2">
 <h2 class="anchored" data-anchor-id="ai-layer-and-how-outputs-are-evaluated">AI Layer and How Outputs Are Evaluated</h2>
-<p>The AI layer is a RAG pipeline with a multi-agent architecture. LangChain orchestrates it, and retrieval uses FAISS and pgvector over the data above, so answers are grounded in actual filings and not generated from the model alone.</p>
+<p>The AI layer is a RAG pipeline with a multi-agent architecture. Retrieval runs against a vector database alongside the relational data, so answers are grounded in actual filings and not generated from the model alone.</p>
 
 </section>
 <section id="what-pilots-taught-me" class="level2">
@@ -64,7 +63,7 @@
 <p>The platform is in a pilot with nonprofit organizations, and user feedback from the pilot drives the roadmap. </p>
 <section id="lessons-from-the-early-prototype" class="level3">
 <h3 class="anchored" data-anchor-id="lessons-from-the-early-prototype">Lessons From the Early Prototype</h3>
-<p>The first version, built in late 2025, was a Streamlit app using LangChain and FAISS. It worked with nonprofit data from IRS Form 990 filings, and offered two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:</p>
+<p>The first version, built in late 2025, was a RAG prototype backed by a vector store, with two modes: an advisory mode for grant-writing strategy, and a document mode where a user uploads an RFP, retrieves from it, and drafts responses. What carried forward:</p>
 <ul>
 <li>Clearly separating the advisory and document modes improved the user experience.</li>
 <li>RAG relevance depends on high-quality chunking and metadata.</li>

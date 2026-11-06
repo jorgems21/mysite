@@ -58,7 +58,7 @@ Founded Munay Works: an LLM platform using RAG and a multi-agent architecture to
 ### Munay Works: AI for Nonprofit Funding
 An independent AI product: a RAG and multi-agent platform that helps nonprofits find funders from IRS Form 990 data.
 
-<span class="chip">LLM</span> <span class="chip">RAG</span> <span class="chip">Multi-Agent</span> <span class="chip">PostgreSQL / pgvector</span>
+<span class="chip">LLM</span> <span class="chip">RAG</span> <span class="chip">Multi-Agent</span> <span class="chip">Vector Database</span>
 
 [Read case study](projects/munay-works/index.qmd){.stretched-link}
 :::
@@ -97,7 +97,7 @@ An R Shiny app that uses a random forest to flag good deals for prospective home
 
 **Analytics & Apps** <span class="chip">Statistical Modeling</span> <span class="chip">Machine Learning</span> <span class="chip">Tableau</span> <span class="chip">R Shiny</span> <span class="chip">Streamlit</span>
 
-**AI** <span class="chip">LangChain</span> <span class="chip">RAG</span> <span class="chip">FAISS</span> <span class="chip">pgvector</span> <span class="chip">FastAPI</span>
+**AI** <span class="chip">LLM Applications</span> <span class="chip">RAG</span> <span class="chip">Multi-Agent Systems</span> <span class="chip">Vector Databases</span> <span class="chip">Prompt Engineering</span> <span class="chip">API Development</span>
 :::
 
 ## About
