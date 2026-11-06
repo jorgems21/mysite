@@ -2,6 +2,7 @@
 title: "Work"
 description: "Case studies in healthcare analytics, machine learning, finance and AI by Jorge Montoya."
 page-layout: full
+html-math-method: plain
 image: og-card.png
 image-alt: "Jorge Montoya: Data Scientist — Data, Analytics & AI Products"
 listing:

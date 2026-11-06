@@ -27,6 +27,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
@@ -102,35 +103,6 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="alternate" type="application/rss+xml" title="Jorge Montoya" href="projects.xml" data-external="1"><meta property="og:title" content="Work – Jorge Montoya">
@@ -254,11 +226,11 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QUklMjAlMkYlMjBMTE0=" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1793973194234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="536">
+<div class="g-col-1" data-index="0" data-categories="QUklMjAlMkYlMjBMTE0=" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1793991518011" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="536">
 <a href="./projects/munay-works/index.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./projects/munay-works/thumbnail.png" class="thumbnail-image card-img" style="height: 150px;" alt="Munay Works title card showing the pipeline from 990 data to Postgres and pgvector, RAG and agents, and the app">
+<img loading="lazy" src="./projects/munay-works/thumbnail.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Munay Works title card showing the pipeline from 990 data to Postgres and pgvector, RAG and agents, and the app">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -306,11 +278,11 @@ Dec 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="SGVhbHRoY2FyZSUyMCUyRiUyMFJXRSUyQ01hY2hpbmUlMjBMZWFybmluZw==" data-listing-date-sort="1701388800000" data-listing-file-modified-sort="1793939139658" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
+<div class="g-col-1" data-index="2" data-categories="SGVhbHRoY2FyZSUyMCUyRiUyMFJXRSUyQ01hY2hpbmUlMjBMZWFybmluZw==" data-listing-date-sort="1701388800000" data-listing-file-modified-sort="1793991518011" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
 <a href="./projects/01_cancer-risk-factor-analysis/index.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./projects/01_cancer-risk-factor-analysis/healthcare.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Stethoscope and medical charts representing cancer mortality analysis">
+<img loading="lazy" src="./projects/01_cancer-risk-factor-analysis/thumbnail.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Stethoscope and medical charts representing cancer mortality analysis">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">

@@ -4,7 +4,7 @@ subtitle: "County-level cancer mortality modeling; XGBoost was the strongest mod
 description: "Python models for county-level cancer mortality and its risk factors; XGBoost outperformed the other models compared."
 date: "December 2023"
 categories: ["Healthcare / RWE", "Machine Learning"]
-image: healthcare.jpg
+image: thumbnail.webp
 image-alt: "Stethoscope and medical charts representing cancer mortality analysis"
 execute:
   freeze: true

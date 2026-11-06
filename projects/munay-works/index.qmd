@@ -4,7 +4,7 @@ subtitle: "An independent AI product build: RAG and multi-agent grant insights o
 description: "RAG and multi-agent platform on a PostgreSQL/pgvector data foundation that helps nonprofits find funders from IRS Form 990 data."
 date: "January 2026"
 categories: ["AI / LLM"]
-image: thumbnail.png
+image: thumbnail.webp
 image-alt: "Munay Works title card showing the pipeline from 990 data to Postgres and pgvector, RAG and agents, and the app"
 ---
 
