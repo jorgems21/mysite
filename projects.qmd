@@ -1,14 +1,16 @@
 ---
-title: "Projects"
+title: "Work"
+page-layout: full
 listing:
   contents: "projects/*/index.qmd"
   feed: true
   sort: "date desc"
   type: grid
+  date-format: "MMM YYYY"
   categories: true
   sort-ui: true
   filter-ui: true
-  fields: [image, date, title, description]
+  fields: [image, date, title, description, categories]
 execute: 
   freeze: auto
 ---

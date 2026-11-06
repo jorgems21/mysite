@@ -17,3 +17,6 @@
 .skills p { margin-bottom: .6rem; }
 .cta { margin: 2rem 0; padding: 1rem 1.5rem; border: 1px solid var(--bs-border-color); border-radius: .5rem; }
 .cta h2 { margin-top: 0; }
+
+/* Consistent project thumbnails on the Work page */
+.quarto-grid-item .card-img-top, .quarto-grid-item img.thumbnail-image { aspect-ratio: 16 / 9; object-fit: cover; width: 100%; }

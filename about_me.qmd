@@ -27,12 +27,6 @@ Alongside my day job, I'm building Munay Works, an AI platform that helps nonpro
 - **Northeastern University:** MS in Analytics (Statistical Modeling)
 - **Northeastern University:** BS in Business Administration (Finance & Entrepreneurship)
 
-## Skills
-
-```{=html}
-<iframe src="figures/interactive_skills_chart.html" title="Interactive chart of technical skills" width="100%" height="600px"></iframe>
-```
-
 ## Outside Work
 
 Cooking, hiking, volunteering, and Liverpool FC and Miami sports. Recent reads: [El secreto del bambú](https://www.amazon.com/secreto-del-Bamb%C3%BA-f%C3%A1bula-Spanish/dp/0829701443) and [Crucial Conversations](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/1469266822).

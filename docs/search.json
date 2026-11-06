@@ -56,13 +56,6 @@
     "text": "Education\n\nNortheastern University: MS in Analytics (Statistical Modeling)\nNortheastern University: BS in Business Administration (Finance & Entrepreneurship)"
   },
   {
-    "objectID": "about_me.html#skills",
-    "href": "about_me.html#skills",
-    "title": "About",
-    "section": "Skills",
-    "text": "Skills"
-  },
-  {
     "objectID": "about_me.html#outside-work",
     "href": "about_me.html#outside-work",
     "title": "About",
@@ -275,8 +268,8 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects",
+    "title": "Work",
     "section": "",
-    "text": "Selected project write-ups, from healthcare analytics to machine learning and AI.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNonprofit Grant Writer AI Assistant\n\n\nSmart, AI-powered assistant helping nonprofits discover opportunities and write winning grant proposals.\n\n\n\nNov 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNashville Housing Purchasing Application\n\n\n\n\n\n\nDec 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCancer Mortality Analysis\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank Personal Loan Analysis\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Selected project write-ups, from healthcare analytics to machine learning and AI.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNonprofit Grant Writer AI Assistant\n\n\n\nAI / LLM\n\n\n\nSmart, AI-powered assistant helping nonprofits discover opportunities and write winning grant proposals.\n\n\n\nNov 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNashville Housing Purchasing Application\n\n\n\nMachine Learning\n\n\n\n\n\n\n\nDec 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCancer Mortality Analysis\n\n\n\nHealthcare / RWE\n\nMachine Learning\n\n\n\n\n\n\n\nDec 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank Personal Loan Analysis\n\n\n\nFinance\n\nMachine Learning\n\n\n\n\n\n\n\nDec 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]

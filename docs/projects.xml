@@ -83,8 +83,7 @@
 </section>
 
  ]]></description>
-  <category>AI</category>
-  <category>Agents</category>
+  <category>AI / LLM</category>
   <guid>https://jorgems21.github.io/mysite/projects/04_nonprofit-grant-writer-ai-assistant/</guid>
   <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
   <media:content url="https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/home_buy.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
@@ -173,8 +172,7 @@
 </section>
 
  ]]></description>
-  <category>r shiny</category>
-  <category>machine learning</category>
+  <category>Machine Learning</category>
   <guid>https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/</guid>
   <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
   <media:content url="https://jorgems21.github.io/mysite/projects/03_nashville-house-purchasing-app/home_buy.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
@@ -255,9 +253,8 @@
 </section>
 
  ]]></description>
-  <category>python</category>
-  <category>statistical testing</category>
-  <category>machine learning</category>
+  <category>Healthcare / RWE</category>
+  <category>Machine Learning</category>
   <guid>https://jorgems21.github.io/mysite/projects/01_cancer-risk-factor-analysis/</guid>
   <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
   <media:content url="https://jorgems21.github.io/mysite/projects/01_cancer-risk-factor-analysis/healthcare.jpg" medium="image" type="image/jpeg" height="93" width="144"/>
@@ -338,9 +335,8 @@
 </section>
 
  ]]></description>
-  <category>python</category>
-  <category>statistical testing</category>
-  <category>machine learning</category>
+  <category>Finance</category>
+  <category>Machine Learning</category>
   <guid>https://jorgems21.github.io/mysite/projects/02_bank-personal-loan-analysis/</guid>
   <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
   <media:content url="https://jorgems21.github.io/mysite/projects/02_bank-personal-loan-analysis/bank_loan.jpg" medium="image" type="image/jpeg" height="96" width="144"/>

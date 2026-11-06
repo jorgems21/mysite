@@ -24,9 +24,9 @@ website:
 
 format:
   html:
-    theme: 
-      light: flatly
-      dark: darkly
+    theme:
+      light: [flatly, theme.scss]
+      dark: [darkly, theme-dark.scss, theme.scss]
     css: styles.css
     toc: true
     code-copy: true
