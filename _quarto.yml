@@ -9,6 +9,13 @@ profile:
 website:
   site-url: https://jorgems21.github.io/mysite
   title: "Jorge Montoya"
+  description: "Jorge Montoya is a data scientist building analytics, machine learning and AI data products, with deep experience in healthcare real-world evidence."
+  favicon: favicon.png
+  image: og-card.png
+  image-alt: "Jorge Montoya: Data Scientist — Data, Analytics & AI Products"
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
   navbar:
     left:
       - href: index.qmd

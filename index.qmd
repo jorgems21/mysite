@@ -1,4 +1,7 @@
 ---
+description: "Jorge Montoya is a data scientist building analytics, machine learning and AI data products, with deep experience in healthcare real-world evidence."
+image: og-card.png
+image-alt: "Jorge Montoya: Data Scientist — Data, Analytics & AI Products"
 pagetitle: "Jorge Montoya | Data Scientist: Data, Analytics & AI Products"
 toc: false
 page-layout: full
@@ -21,7 +24,7 @@ I'm a data scientist who turns messy, real-world data into evidence, models and 
 <a class="btn btn-outline-primary" href="mailto:miraflores97@gmail.com">Email</a>
 </div>
 
-<p class="hero-email">miraflores97@gmail.com <!-- TODO(Jorge): confirm which email to use --></p>
+<p class="hero-email">miraflores97@gmail.com</p>
 :::
 
 ::: {.hero-photo}
@@ -32,7 +35,7 @@ I'm a data scientist who turns messy, real-world data into evidence, models and 
 ::: {.proof-strip}
 ::: {.proof-card}
 <span class="proof-stat">5+ years</span>
-in data & analytics across finance, healthcare and AI products <!-- TODO(Jorge): confirm; Premier alone is Apr 2022 to present (~4.6 yrs), 5+ counts Windrose from Jul 2020 -->
+in data & analytics across finance, healthcare and AI products
 :::
 ::: {.proof-card}
 <span class="proof-stat">Prototype → product</span>

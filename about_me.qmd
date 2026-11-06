@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "About Jorge Montoya: data scientist with healthcare analytics experience at Premier Inc. and an independent AI product build, Munay Works."
 ---
 
 <!-- TODO(Jorge): review bio -->

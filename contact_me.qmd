@@ -1,5 +1,6 @@
 ---
 title: "Contact Me"
+description: "Contact Jorge Montoya by email or LinkedIn."
 ---
 
 #### 📩 Connect with me here:
@@ -8,4 +9,3 @@ title: "Contact Me"
 
 #### 🔹 Email: [miraflores97@gmail.com](mailto:miraflores97@gmail.com)
 
-<!-- TODO(Jorge): confirm which email to use publicly -->

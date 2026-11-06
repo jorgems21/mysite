@@ -8,7 +8,14 @@
 <title>Jorge Montoya</title>
 <link>https://jorgems21.github.io/mysite/projects.html</link>
 <atom:link href="https://jorgems21.github.io/mysite/projects.xml" rel="self" type="application/rss+xml"/>
-<description></description>
+<description>Case studies in healthcare analytics, machine learning, finance and AI by Jorge Montoya.</description>
+<image>
+<url>https://jorgems21.github.io/mysite/og-card.png</url>
+<title>Jorge Montoya</title>
+<link>https://jorgems21.github.io/mysite/projects.html</link>
+<height>76</height>
+<width>144</width>
+</image>
 <generator>quarto-1.11.9</generator>
 <lastBuildDate>Thu, 01 Jan 2026 00:00:00 GMT</lastBuildDate>
 <item>
